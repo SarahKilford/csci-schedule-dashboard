@@ -1,0 +1,2359 @@
+<html lang="en" dir="ltr" class=" js no-flexbox flexbox-legacy flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage no-websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients no-cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths"><head><style>@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style>
+    <title>Dalhousie University: Academic Timetable</title>
+    
+
+    
+    
+
+    
+
+    <meta charset="utf-8">
+    <meta name="dir" content="ltr">
+    <meta name="synchronizerToken" content="1821665e-8377-4082-9a1d-c60e3d355ca9">
+
+    <meta name="logLevel" content="ERROR">
+    <meta name="maxInactiveInterval" content="1800">
+    <meta name="transactionTimeout" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    
+    <link rel="apple-touch-startup-image" href="images/applicationStartup.png">
+    <meta name="keepAliveURL" content="/BannerExtensibility/keepAlive/data">
+    <meta name="ssbMepDesc" content="">
+    <meta name="fullName" content="">
+    <meta name="loginEndpoint" content="https://self-service.dal.ca/BannerExtensibility/customPage/page/pbadm.ssoauth?url=/">
+    <meta name="logoutEndpoint" content="">
+    <meta name="guestLoginEnabled" content="false">
+    <meta name="userLocale" content="en_CA">
+    <meta name="footerFadeAwayTime" content="10000">
+    <meta name="hideSSBHeaderComps" content="false">
+    <meta name="openSSBInExperience" content="false">
+    <meta name="menuEndPoint" content="/BannerExtensibility/ssb/menu">
+    <meta name="menuBaseURL" content="/BannerExtensibility/ssb">
+    
+    
+    <meta name="aboutUrl" content="">
+    <meta name="aboutUrlContextPath" content="/BannerExtensibility/ssb">
+    <meta name="contextPath" content="/BannerExtensibility">
+    <meta name="headerAttributes" content="{&quot;pageTitle&quot;:&quot;Dalhousie University: Academic Timetable&quot;}">
+    <meta name="privacyPolicyUrl" content="https://www.dal.ca/privacy_statement.html">
+    <meta name="requestContext" content="/BannerExtensibility">
+    <meta name="isUsageTrackingEnabled" content="">
+    <meta name="usageTrackingURL" content="/BannerExtensibility/ssb/userPreference/fetchUsageTracking">
+    <meta name="isLanguageSettingRequired" content="false">
+    <meta name="switchTojqueryLegacy" content="false">
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+
+    
+
+    
+        <link rel="stylesheet" href="/BannerExtensibility/assets/modules/pageBuilderLTR-mf.css">
+    
+
+    
+        <script type="text/javascript" src="/BannerExtensibility/assets/modules/pageBuilderJQuery-370-mf.js"></script>
+    
+    <script type="text/javascript" src="/BannerExtensibility/assets/modules/pageBuilderJQuery-mf.js"></script>
+
+    
+
+    <script type="text/javascript">
+
+        var rootWebApp = "\u002fBannerExtensibility\u002f";
+        var resourceBase = "\u002fBannerExtensibility\u002finternalPb\u002f";
+        var templatesLocation = "\u002fBannerExtensibility\u002fassets\u002ftemplate";
+        var user = {
+  "authenticated": false,
+  "loginName": "__grails.anonymous.user__",
+  "fullName": "Anonymous",
+  "oracleUserName": "",
+  "isSuperUser": false
+};
+        var gridLocale = 'en-ca';
+        var params = {
+  "controller": "customPage",
+  "format": "stuweb_academicTimetable",
+  "action": "page",
+  "id": "dal"
+};
+        if (!window.console) {
+            console = {log: function() {}};
+        }
+        // inject services and controller modules to be registered with the global ng-app
+        var myCustomServices = ['ngResource', 'ui.grid', 'ui.grid.i18n','ui.grid.edit','ui.grid.selection','ui.grid.resizeColumns', 'ui.grid.cellNav','ui', 'pbrun.directives', 'ngSanitize', 'xe-ui-components','ui.grid.autoResize'];
+        var pageControllers = {};
+
+        var transactionTimeoutMeta    = $( "meta[name=transactionTimeout]" ),
+            transactionTimeoutSeconds = ( transactionTimeoutMeta.length == 1 ? parseInt( transactionTimeoutMeta.attr( "content" ) ) : 30 ),
+            transactionTimeoutPadding = 10 * 1000,
+            transactionTimeoutMilli   = ( transactionTimeoutSeconds * 1000 ) + transactionTimeoutPadding;
+
+        $.ajaxSetup( { timeout: transactionTimeoutMilli } );
+
+          document.getElementsByName('headerAttributes')[0].content = JSON.stringify({
+            "pageTitle": "Dalhousie University: Academic Timetable"
+        });
+
+        var dateTimeLocale = "en-CA" ;
+    
+</script>
+
+
+
+    
+<!-- sitemesh -->
+<meta name="layout" content="bannerSelfServicePBPage">
+<!-- import custom stylesheets -->
+<link type="text/css" rel="stylesheet" href="/BannerExtensibility/cssRender?name=pbDefault">
+<link type="text/css" rel="stylesheet" href="/BannerExtensibility/cssRender?name=dal_w4a_css">
+<link type="text/css" rel="stylesheet" href="/BannerExtensibility/cssRender?name=dal_stuweb_academicTimetable_css">
+
+<!--meta name="layout" content="simple"/-->
+
+<script type="text/javascript">
+  var pageId = "dalStuwebAcademicTimetable";
+  var controllerId = "CustomPageController_dalStuwebAcademicTimetable"
+  pageControllers[controllerId] =
+function ($scope ,$locale,$q,$templateCache,pbDataSet,pbResource,pbAddCommon,uiGridConstants) {
+    $scope._controllerId = controllerId;
+    $scope._user = user;
+    $scope._params = params;
+    $scope._contextRoot = rootWebApp;
+    $scope._now = new Date();
+    // page specific code
+    $scope.getTimetableInfoTextResource = pbResource('virtualDomains.dal_stuweb_academicTimetable_contents');
+
+    $scope.notesURLDataDS = pbDataSet ( $scope,
+    {
+        componentId: "notesURLData",
+        resource: $scope.getTimetableInfoTextResource,
+        queryParams: '{page_name : \'DAL.STUWEB_ACADEMICTIMETABLE\',label : \'NOTES_URL\'}',
+        autoPopulate: true,
+        selectValueKey: null,
+        selectInitialValue: null
+        ,pageSize: 5
+,postQuery: function(data,response){
+if ($scope.notesURLDataDS.totalCount > 0){
+  
+  if ($scope.notesURLDataDS.data[0].INFO_TEXT){
+    $("#notesURL").children("a").attr("href","JavaScript:windowOpen('"+$scope.notesURLDataDS.data[0].INFO_TEXT+"')");
+  }
+ 
+}
+}
+    });
+
+
+    $scope.pageInfoTextDetailDS = pbDataSet ( $scope,
+    {
+        componentId: "pageInfoTextDetail",
+        resource: $scope.getTimetableInfoTextResource,
+        queryParams: '{label : $scope.infoTextContents}',
+        autoPopulate: false,
+        selectValueKey: null,
+        selectInitialValue: null
+        ,pageSize: 5
+    });
+
+        $scope.$watch('pageInfoTextDetailDS.pagingOptions', function(newVal, oldVal) {
+            if (newVal !== oldVal) {
+                if( newVal.currentPage && oldVal.currentPage ) {
+                    $scope.pageInfoTextDetailDS.load({all:false,paging:true});
+                }
+            }
+        }, true);
+        $scope.$watch('pageInfoTextDetailDS.sortInfo', function(newVal, oldVal) {
+            if ( (newVal.fields.join(',') !== oldVal.fields.join(','))||(newVal.directions.join(',') !== oldVal.directions.join(',')) ) {
+                $scope.pageInfoTextDetailDS.load({all:false,paging:true});
+            }
+        }, true);
+        $scope.sortChanged= function(grid, sortColumns){
+            if(sortColumns.length>0 && sortColumns[0] && sortColumns[0].name){
+                let fields=[];
+                let directions=[];
+                let count=0;
+                sortColumns.forEach(function(it){
+                    fields[count]=it.name;
+                    directions[count]=it.sort?it.sort.direction:'asc';
+                    count++;
+                });
+                grid.options.sortInfo.fields = fields;
+                grid.options.sortInfo.directions = directions;
+            }
+            
+        }
+        $scope.$watch('pageInfoTextDetailDS.selectedRecords[0]', function(newVal, oldVal) {
+                if (newVal !== oldVal ) {
+                    $scope.pageInfoTextDetailDS.setCurrentRecord(newVal);
+                     
+                }
+            });
+            
+$scope.getTimetableResource = pbResource('virtualDomains.dal_stuweb_academicTimetable');
+
+    $scope.timetableDataDS = pbDataSet ( $scope,
+    {
+        componentId: "timetableData",
+        resource: $scope.getTimetableResource,
+        queryParams: '{terms : $scope.terms,subj_code : $scope.subjectCode,districts : $scope.districts,page_num : 1,crse_numb : $scope.crseNumb,page_size : 9999}',
+        autoPopulate: false,
+        selectValueKey: null,
+        selectInitialValue: null
+        ,pageSize: 1000
+,postQuery: function(data,response){
+if ($scope.timetableDataDS.totalCount > 0){
+  
+  $scope.queryTableNumberOfRows = buildTableFilter($scope.timetableDataDS.data, $scope.filterText, $scope.queryTablePageNumber, $scope.queryTablePageSize);
+
+  $scope.queryTablePageUpdate_onClick();
+  
+  if ($scope.queryTableNumberOfRows > 0){
+    $scope.timetableBlock_visible = true;
+
+  } else {
+    closeLoader();
+    $scope.timetableBlock_visible = false;
+ }
+  
+  let serverDate = getServerTime();
+  $('#pbid-timetableTimeDisplay').text(serverDate);
+  $('#pbid-timetableTimeDisplayBottom').text(serverDate);
+
+} else {
+  closeLoader();
+  $scope.timetableBlock_visible = false;
+}
+}
+    });
+
+$scope.getTimetableIsFacultyResource = pbResource('virtualDomains.dal_stuweb_academicTimetable_isFaculty');
+
+    $scope.isFacultyDataDS = pbDataSet ( $scope,
+    {
+        componentId: "isFacultyData",
+        resource: $scope.getTimetableIsFacultyResource,
+        queryParams: '{}',
+        autoPopulate: true,
+        selectValueKey: null,
+        selectInitialValue: null
+        ,pageSize: 5
+,postQuery: function(data,response){
+if ($scope.isFacultyDataDS.totalCount > 0){
+  $scope.inProgressChecked = 'N';
+  
+  if ($scope.isFacultyDataDS.data[0].IS_FACULTY == 'Y'){
+    $scope.exportButtonBlock_visible = true;
+    if ($scope._params.inProgress == 'Y') {
+      $scope.inProgressChecked = 'Y';
+    }
+  }
+  
+  if ($scope.inProgressChecked == 'Y'){
+    $scope.infoTextContents = 'CONTENTS_IN_PROGRESS';
+    $("#pbid-headerBlock-label").text("Academic Timetable in Progress");
+  } else {
+    $scope.infoTextContents = 'CONTENTS';
+    $("#pbid-headerBlock-label").text("Academic Timetable");
+  }
+  
+  $scope.timetableDataCRSEDS.load();
+  
+}
+
+// Only executes at the beginning of the page
+$("#pbid-subjectCode").addClass("js-example-basic-single");
+
+if ($scope.inProgressChecked == 'Y'){
+  $("#pbid-subjectCode").change(function () {
+    $("#pbid-headerBlock-label").text("Academic Timetable in Progress");
+    $('#pbid-crseNumb').val(null);
+    $scope.queryTablePageNumber = 1;
+    $scope.loadTimetableButton_onClick();
+  });
+} else {
+  $("#pbid-subjectCode").change(function () {
+    $("#pbid-headerBlock-label").text("Academic Timetable");
+    $('#pbid-crseNumb').val(null);
+    $scope.queryTablePageNumber = 1;
+    $scope.loadTimetableButton_onClick();
+  });
+}
+
+$(document).ready(function() {
+  $('.js-example-basic-single').select2({
+    placeholder: 'Select a Subject'
+  });
+});
+
+if (!$scope._user.authenticated) {
+  $("#header-main-section-east-part").hide();
+}
+
+// Fix problems with Pagebuilder Javascript
+$("#tbodyTimetable").keydown(function(e) {
+  if (e.keyCode == 38 || e.keyCode == 40) { // up key
+    var start = e.target;
+    var keyCode = e.keyCode ? e.keyCode : e.which;
+		var idx = start.cellIndex;
+		var nextrow;
+    if (e.keyCode == 38) {
+      nextrow = start.parentElement.previousElementSibling;
+    } else if (e.keyCode == 40) {
+     nextrow = start.parentElement.nextElementSibling;
+    }
+		if (nextrow && idx != null) {
+			if (idx > nextrow.cells.length-1){
+				idx = nextrow.cells.length-1;
+			}
+      var sibling = nextrow.cells[idx];
+			$(sibling).attr('tabindex', '0');
+      sibling.focus();
+		}
+    return false;
+  }
+});
+}
+    });
+
+$scope.getTimetableCrseNumbResource = pbResource('virtualDomains.dal_stuweb_academicTimetable_crseTitle');
+
+    $scope.timetableDataCRSEDS = pbDataSet ( $scope,
+    {
+        componentId: "timetableDataCRSE",
+        resource: $scope.getTimetableCrseNumbResource,
+        queryParams: '{subj_code : $scope._params.subjectCode,term_code : $scope._params.termCode,crse_numb : $scope._params.crseNumb}',
+        autoPopulate: false,
+        selectValueKey: null,
+        selectInitialValue: null
+        ,pageSize: 100
+,postQuery: function(data,response){
+if ($scope.timetableDataCRSEDS.totalCount > 0){
+  $scope.terms = $scope._params.termCode;
+  $scope.districts = $scope._params.districts;
+  $scope.currentSelectedSubject = $scope._params.subjectCode;
+  $scope.crseNumb = $scope._params.crseNumb;
+}
+
+$scope.pageInfoTextDetailDS.load();
+$scope.termSelectDetailDS.load();
+}
+    });
+
+$scope.getTimetableTermsResource = pbResource('virtualDomains.dal_stuweb_academicTimetable_terms');
+
+    $scope.termSelectDetailDS = pbDataSet ( $scope,
+    {
+        componentId: "termSelectDetail",
+        resource: $scope.getTimetableTermsResource,
+        queryParams: '{in_progress : $scope.inProgressChecked}',
+        autoPopulate: false,
+        selectValueKey: null,
+        selectInitialValue: null
+        ,pageSize: 5
+,postQuery: function(data,response){
+if ($scope.termSelectDetailDS.totalCount > 0){
+  $scope.noTermSelectBlock_visible = false;
+} else {
+  $scope.noTermSelectBlock_visible = true;
+}
+
+let paramsTermCode = $scope.terms;
+
+for (let i = 0; i < $scope.termSelectDetailDS.data.length; i++) {
+  if (paramsTermCode) {
+    if ($scope.termSelectDetailDS.data[i].CODE.localeCompare(paramsTermCode) == 0) {
+      $scope.terms += ";";
+      $scope.termSelectDetailDS.data[i].SELECTED = 'Y';
+      
+      let headerText = "Academic Timetable";
+      
+      if ($scope.inProgressChecked == 'Y'){
+        headerText += " in Progress "
+      }
+      
+      headerText += " for ";
+      headerText += $scope.termSelectDetailDS.data[i].DESCR + " (";
+      headerText += $scope.currentSelectedSubject + " ";
+      headerText += $scope.crseNumb + ") ";
+      headerText += $scope.timetableDataCRSEDS.data[0].DESCR;
+
+      $("#pbid-headerBlock-label").text(headerText);
+    } else {
+      $scope.termSelectDetailDS.data[i].SELECTED = 'N';
+    }
+  } else { 
+    if ($scope.termSelectDetailDS.data[i].SELECTED.localeCompare('Y') == 0) {
+      $scope.terms = nvl($scope.terms,"") + $scope.termSelectDetailDS.data[i].CODE + ";";
+    }
+  }
+}
+
+$scope.districtSelectDetailDS.load();
+}
+    });
+
+        $scope.$watch('termSelectDetailDS.pagingOptions', function(newVal, oldVal) {
+            if (newVal !== oldVal) {
+                if( newVal.currentPage && oldVal.currentPage ) {
+                    $scope.termSelectDetailDS.load({all:false,paging:true});
+                }
+            }
+        }, true);
+        $scope.$watch('termSelectDetailDS.sortInfo', function(newVal, oldVal) {
+            if ( (newVal.fields.join(',') !== oldVal.fields.join(','))||(newVal.directions.join(',') !== oldVal.directions.join(',')) ) {
+                $scope.termSelectDetailDS.load({all:false,paging:true});
+            }
+        }, true);
+        $scope.sortChanged= function(grid, sortColumns){
+            if(sortColumns.length>0 && sortColumns[0] && sortColumns[0].name){
+                let fields=[];
+                let directions=[];
+                let count=0;
+                sortColumns.forEach(function(it){
+                    fields[count]=it.name;
+                    directions[count]=it.sort?it.sort.direction:'asc';
+                    count++;
+                });
+                grid.options.sortInfo.fields = fields;
+                grid.options.sortInfo.directions = directions;
+            }
+            
+        }
+        $scope.$watch('termSelectDetailDS.selectedRecords[0]', function(newVal, oldVal) {
+                if (newVal !== oldVal ) {
+                    $scope.termSelectDetailDS.setCurrentRecord(newVal);
+                     
+                }
+            });
+            
+$scope.getTimetableDistrictsResource = pbResource('virtualDomains.dal_stuweb_academicTimetable_districts');
+
+    $scope.districtSelectDetailDS = pbDataSet ( $scope,
+    {
+        componentId: "districtSelectDetail",
+        resource: $scope.getTimetableDistrictsResource,
+        queryParams: '{}',
+        autoPopulate: false,
+        selectValueKey: null,
+        selectInitialValue: null
+        ,pageSize: 5
+,postQuery: function(data,response){
+if ($scope.districtSelectDetailDS.totalCount > 0){
+  $scope.districtSelectAllBlock_visible = true;
+  $scope.noDistrictSelectBlock_visible = false;
+} else {
+  $scope.districtSelectAllBlock_visible = false;
+  $scope.noDistrictSelectBlock_visible = true;
+}
+
+let paramsDistricts = $scope.districts;
+
+for (let i = 0; i < $scope.districtSelectDetailDS.data.length; i++) {
+  if (paramsDistricts) {
+    if (paramsDistricts.includes($scope.districtSelectDetailDS.data[i].CODE)){
+      $scope.districtSelectDetailDS.data[i].SELECTED = 'Y';
+    } else {
+      $scope.districtSelectAllCheckbox = 'N';
+      $scope.districtSelectDetailDS.data[i].SELECTED = 'N';
+    }
+  } else { 
+    $scope.districts = nvl($scope.districts,"") + $scope.districtSelectDetailDS.data[i].CODE + ";";
+  }
+}
+
+$scope.loadSubjectButton_onClick();
+}
+    });
+
+        $scope.$watch('districtSelectDetailDS.pagingOptions', function(newVal, oldVal) {
+            if (newVal !== oldVal) {
+                if( newVal.currentPage && oldVal.currentPage ) {
+                    $scope.districtSelectDetailDS.load({all:false,paging:true});
+                }
+            }
+        }, true);
+        $scope.$watch('districtSelectDetailDS.sortInfo', function(newVal, oldVal) {
+            if ( (newVal.fields.join(',') !== oldVal.fields.join(','))||(newVal.directions.join(',') !== oldVal.directions.join(',')) ) {
+                $scope.districtSelectDetailDS.load({all:false,paging:true});
+            }
+        }, true);
+        $scope.sortChanged= function(grid, sortColumns){
+            if(sortColumns.length>0 && sortColumns[0] && sortColumns[0].name){
+                let fields=[];
+                let directions=[];
+                let count=0;
+                sortColumns.forEach(function(it){
+                    fields[count]=it.name;
+                    directions[count]=it.sort?it.sort.direction:'asc';
+                    count++;
+                });
+                grid.options.sortInfo.fields = fields;
+                grid.options.sortInfo.directions = directions;
+            }
+            
+        }
+        $scope.$watch('districtSelectDetailDS.selectedRecords[0]', function(newVal, oldVal) {
+                if (newVal !== oldVal ) {
+                    $scope.districtSelectDetailDS.setCurrentRecord(newVal);
+                     
+                }
+            });
+            
+$scope.getTimetableSubjectsResource = pbResource('virtualDomains.dal_stuweb_academicTimetable_subjects');
+
+    $scope.subjectCodeDS = pbDataSet ( $scope,
+    {
+        componentId: "subjectCode",
+        resource: $scope.getTimetableSubjectsResource,
+        queryParams: '{terms : $scope.terms,districts : $scope.districts}',
+        autoPopulate: false,
+        selectValueKey: "CODE",
+        selectInitialValue: null
+        
+,postQuery: function(data,response){
+$scope.loaderIconHolderBlock_visible = false;
+if ($scope.subjectCodeDS.totalCount > 0){
+  $scope.subjectSelectBlock_visible = true;
+  $scope.noSubjectSelectBlock_visible = false;
+} else {
+  $scope.subjectSelectBlock_visible = false;
+  $scope.noSubjectSelectBlock_visible = true;
+}
+
+if ($scope.currentSelectedSubject){
+
+  let existsSubject = false;
+  let selectedSubjectText;
+  var i;
+  for (i = 0; i < $scope.subjectCodeDS.totalCount; i++) {
+    if ($scope.subjectCodeDS.data[i].CODE == $scope.currentSelectedSubject) {
+      existsSubject = true;
+      selectedSubjectText = $scope.subjectCodeDS.data[i].DESCR;
+      i = $scope.subjectCodeDS.totalCount;
+    }
+  }
+  
+  if (existsSubject) {
+    $scope.loaderIconHolderBlock_visible = true;
+    $scope.subjectCode = $scope.currentSelectedSubject;
+    $("#pbid-subjectCode").val($scope.currentSelectedSubject);
+    $('#select2-chosen-1').text(selectedSubjectText);
+    $scope.loadTimetableButton_onClick();
+  } 
+
+}
+
+// wait 0.1 sec to remove the invalid option
+setTimeout(function (){$("#pbid-subjectCode option[value='?']").remove();},100);
+}
+    });
+
+$scope.getTimetableRestrictionsResource = pbResource('virtualDomains.dal_stuweb_academicTimetable_restrictions');
+
+    $scope.restrictionsIncludeTableDS = pbDataSet ( $scope,
+    {
+        componentId: "restrictionsIncludeTable",
+        resource: $scope.getTimetableRestrictionsResource,
+        queryParams: '{term_code : $scope.modalTerm,restr_ind : \'I\',crn : $scope.modalCRN}',
+        autoPopulate: false,
+        selectValueKey: null,
+        selectInitialValue: null
+        ,pageSize: 100
+,postQuery: function(data,response){
+if ($scope.restrictionsIncludeTableDS.totalCount > 0) {
+  
+  for (var i = 0; i < $scope.restrictionsIncludeTableDS.data.length; i++){
+    let restrRow = $scope.restrictionsIncludeTableDS.data[i];
+    restrRow.RESTR_FORMATED = "<b>" + restrRow.RESTR_TYPE + ":</b> " + restrRow.RESTR_DESCR_LIST;
+  }
+
+  $scope.restrictionsIncludeBlock_visible = true;
+} else {
+  $scope.restrictionsIncludeBlock_visible = false;
+}
+}
+    });
+
+        $scope.$watch('restrictionsIncludeTableDS.pagingOptions', function(newVal, oldVal) {
+            if (newVal !== oldVal) {
+                if( newVal.currentPage && oldVal.currentPage ) {
+                    $scope.restrictionsIncludeTableDS.load({all:false,paging:true});
+                }
+            }
+        }, true);
+        $scope.$watch('restrictionsIncludeTableDS.sortInfo', function(newVal, oldVal) {
+            if ( (newVal.fields.join(',') !== oldVal.fields.join(','))||(newVal.directions.join(',') !== oldVal.directions.join(',')) ) {
+                $scope.restrictionsIncludeTableDS.load({all:false,paging:true});
+            }
+        }, true);
+        $scope.sortChanged= function(grid, sortColumns){
+            if(sortColumns.length>0 && sortColumns[0] && sortColumns[0].name){
+                let fields=[];
+                let directions=[];
+                let count=0;
+                sortColumns.forEach(function(it){
+                    fields[count]=it.name;
+                    directions[count]=it.sort?it.sort.direction:'asc';
+                    count++;
+                });
+                grid.options.sortInfo.fields = fields;
+                grid.options.sortInfo.directions = directions;
+            }
+            
+        }
+        $scope.$watch('restrictionsIncludeTableDS.selectedRecords[0]', function(newVal, oldVal) {
+                if (newVal !== oldVal ) {
+                    $scope.restrictionsIncludeTableDS.setCurrentRecord(newVal);
+                     
+                }
+            });
+            
+
+    $scope.restrictionsExcludeTableDS = pbDataSet ( $scope,
+    {
+        componentId: "restrictionsExcludeTable",
+        resource: $scope.getTimetableRestrictionsResource,
+        queryParams: '{term_code : $scope.modalTerm,restr_ind : \'E\',crn : $scope.modalCRN}',
+        autoPopulate: false,
+        selectValueKey: null,
+        selectInitialValue: null
+        ,pageSize: 100
+,postQuery: function(data,response){
+if ($scope.restrictionsExcludeTableDS.totalCount > 0) {
+  
+  for (var i = 0; i < $scope.restrictionsExcludeTableDS.data.length; i++){
+    let restrRow = $scope.restrictionsExcludeTableDS.data[i];
+    restrRow.RESTR_FORMATED = "<b>" + restrRow.RESTR_TYPE + ":</b> " + restrRow.RESTR_DESCR_LIST;
+  }
+
+  $scope.restrictionsExcludeBlock_visible = true;
+} else {
+  $scope.restrictionsExcludeBlock_visible = false;
+}
+}
+    });
+
+        $scope.$watch('restrictionsExcludeTableDS.pagingOptions', function(newVal, oldVal) {
+            if (newVal !== oldVal) {
+                if( newVal.currentPage && oldVal.currentPage ) {
+                    $scope.restrictionsExcludeTableDS.load({all:false,paging:true});
+                }
+            }
+        }, true);
+        $scope.$watch('restrictionsExcludeTableDS.sortInfo', function(newVal, oldVal) {
+            if ( (newVal.fields.join(',') !== oldVal.fields.join(','))||(newVal.directions.join(',') !== oldVal.directions.join(',')) ) {
+                $scope.restrictionsExcludeTableDS.load({all:false,paging:true});
+            }
+        }, true);
+        $scope.sortChanged= function(grid, sortColumns){
+            if(sortColumns.length>0 && sortColumns[0] && sortColumns[0].name){
+                let fields=[];
+                let directions=[];
+                let count=0;
+                sortColumns.forEach(function(it){
+                    fields[count]=it.name;
+                    directions[count]=it.sort?it.sort.direction:'asc';
+                    count++;
+                });
+                grid.options.sortInfo.fields = fields;
+                grid.options.sortInfo.directions = directions;
+            }
+            
+        }
+        $scope.$watch('restrictionsExcludeTableDS.selectedRecords[0]', function(newVal, oldVal) {
+                if (newVal !== oldVal ) {
+                    $scope.restrictionsExcludeTableDS.setCurrentRecord(newVal);
+                     
+                }
+            });
+            
+$scope.getTimetableInstructorsResource = pbResource('virtualDomains.dal_stuweb_academicTimetable_instructors');
+
+    $scope.instructorsDetailDS = pbDataSet ( $scope,
+    {
+        componentId: "instructorsDetail",
+        resource: $scope.getTimetableInstructorsResource,
+        queryParams: '{term_code : $scope.modalTerm,crn : $scope.modalCRN}',
+        autoPopulate: false,
+        selectValueKey: null,
+        selectInitialValue: null
+        ,pageSize: 10
+,postQuery: function(data,response){
+if ($scope.instructorsDetailDS.totalCount > 0) {
+    
+  for (var i = 0; i < $scope.instructorsDetailDS.data.length; i++){
+    let instrRow = $scope.instructorsDetailDS.data[i];
+    
+    instrRow.NAME_LINK = "<a href=\"https://directory.dal.ca/?q=" + instrRow.INSTR_NAME + "\" target=\"_blank\">"+instrRow.INSTR_NAME+"</a>";
+
+    if (instrRow.INSTR_PRIM == "Y") {
+      instrRow.INSTR_PRIMARY = "Yes";
+    } else {
+      instrRow.INSTR_PRIMARY = "No";
+    }
+  }
+  
+  elementCreated("pbid-instructorsDetail-td-instructorName-0").then(
+    function (value) {
+      $(document).ready(function() {
+        $("#pbid-instructorsDetail-td-instructorName-0").keydown(function(e) {
+          if (e.shiftKey && e.keyCode == 9) { //shift tab key
+            $("#pbid-modalOk").focus();
+            return false;
+          }
+        });
+      });
+    }
+  )
+  
+  $scope.instructorsExistBlock_visible = true;
+  $scope.instructorsNotExistBlock_visible = false;
+
+} else {
+  $scope.instructorsExistBlock_visible = false;
+  $scope.instructorsNotExistBlock_visible = true;
+}
+}
+    });
+
+        $scope.$watch('instructorsDetailDS.pagingOptions', function(newVal, oldVal) {
+            if (newVal !== oldVal) {
+                if( newVal.currentPage && oldVal.currentPage ) {
+                    $scope.instructorsDetailDS.load({all:false,paging:true});
+                }
+            }
+        }, true);
+        $scope.$watch('instructorsDetailDS.sortInfo', function(newVal, oldVal) {
+            if ( (newVal.fields.join(',') !== oldVal.fields.join(','))||(newVal.directions.join(',') !== oldVal.directions.join(',')) ) {
+                $scope.instructorsDetailDS.load({all:false,paging:true});
+            }
+        }, true);
+        $scope.sortChanged= function(grid, sortColumns){
+            if(sortColumns.length>0 && sortColumns[0] && sortColumns[0].name){
+                let fields=[];
+                let directions=[];
+                let count=0;
+                sortColumns.forEach(function(it){
+                    fields[count]=it.name;
+                    directions[count]=it.sort?it.sort.direction:'asc';
+                    count++;
+                });
+                grid.options.sortInfo.fields = fields;
+                grid.options.sortInfo.directions = directions;
+            }
+            
+        }
+        $scope.$watch('instructorsDetailDS.selectedRecords[0]', function(newVal, oldVal) {
+                if (newVal !== oldVal ) {
+                    $scope.instructorsDetailDS.setCurrentRecord(newVal);
+                     
+                }
+            });
+            
+
+    $scope.queryTablePageSizeDS = pbDataSet ( $scope,
+    {
+        componentId: "queryTablePageSize",
+        data: [{"NUMB":"20","DESC":"20"},{"NUMB":"40","DESC":"40"},{"NUMB":"80","DESC":"80"},{"NUMB":"9999","DESC":"All"}],
+        queryParams: null,
+        autoPopulate: false,
+        selectValueKey: "NUMB",
+        selectInitialValue: "20"
+        
+,onUpdate: function(item){
+$scope.queryTablePageSizeBottom = $scope.queryTablePageSize;
+
+$scope.queryTablePageNumber = 1;
+
+$scope.queryTableNumberOfRows = buildTableFilter($scope.timetableDataDS.data, $scope.filterText, $scope.queryTablePageNumber, $scope.queryTablePageSize);
+
+$scope.queryTablePageUpdate_onClick();
+}
+    });
+
+
+    $scope.queryTablePageSizeBottomDS = pbDataSet ( $scope,
+    {
+        componentId: "queryTablePageSizeBottom",
+        data: [{"NUMB":"20","DESC":"20"},{"NUMB":"40","DESC":"40"},{"NUMB":"80","DESC":"80"},{"NUMB":"9999","DESC":"All"}],
+        queryParams: null,
+        autoPopulate: false,
+        selectValueKey: "NUMB",
+        selectInitialValue: "20"
+        
+,onUpdate: function(item){
+$scope.queryTablePageSize = $scope.queryTablePageSizeBottom;
+
+$scope.queryTablePageNumber = 1;
+
+$scope.queryTableNumberOfRows = buildTableFilter($scope.timetableDataDS.data, $scope.filterText, $scope.queryTablePageNumber, $scope.queryTablePageSize);
+
+$scope.queryTablePageUpdate_onClick();
+}
+    });
+
+$scope.infoTextResource = pbResource('virtualDomains.dal_GURINFO_select');
+
+    $scope.termSelectDetail_termCheckbox_onUpdate = function(currentSelection) {
+         if (currentSelection.SELECTED.localeCompare("Y") == 0){
+  $scope.terms = nvl($scope.terms ,"") + currentSelection.CODE + ";";
+} else {
+  $scope.terms = $scope.terms.replace(currentSelection.CODE + ";","");
+}
+
+if ($scope.inProgressChecked == 'Y'){
+  $("#pbid-headerBlock-label").text("Academic Timetable in Progress");
+} else { 
+  $("#pbid-headerBlock-label").text("Academic Timetable");
+}
+
+$scope.crseNumb = null;
+$scope.loadSubjectButton_onClick();
+    };
+
+    $scope.districtSelectAllCheckbox_onUpdate = function() {
+         
+         if ($scope.districtSelectAllCheckbox.localeCompare("Y") == 0){
+  for (let i = 0; i < $scope.districtSelectDetailDS.data.length; i++) {
+    if (nvl($scope.districtSelectDetailDS.data[i].SELECTED,"N") == "N"){
+      $scope.districtSelectDetailDS.data[i].SELECTED = "Y";
+      $scope.districts = nvl($scope.districts,"") + $scope.districtSelectDetailDS.data[i].CODE + ";";
+    }
+  }
+} else if ($scope.districtSelectAllCheckbox.localeCompare("Y") != 0){
+  for (let i = 0; i < $scope.districtSelectDetailDS.data.length; i++) {
+    if (nvl($scope.districtSelectDetailDS.data[i].SELECTED,"Y") == "Y"){
+      $scope.districtSelectDetailDS.data[i].SELECTED = "N";
+    }
+  }
+  $scope.districts = "";
+}
+
+if ($scope.inProgressChecked == 'Y'){
+  $("#pbid-headerBlock-label").text("Academic Timetable in Progress");
+} else { 
+  $("#pbid-headerBlock-label").text("Academic Timetable");
+}
+
+$scope.crseNumb = null;
+$scope.loadSubjectButton_onClick();
+    };
+
+    $scope.districtSelectDetail_districtCheckbox_onUpdate = function(currentSelection) {
+         if (currentSelection.SELECTED.localeCompare("Y") == 0){
+  $scope.districts = nvl($scope.districts,"") + currentSelection.CODE + ";";
+} else {
+  $scope.districts = $scope.districts.replace(currentSelection.CODE + ";","");
+  $scope.districtSelectAllCheckbox = "N";
+}
+
+if ($scope.inProgressChecked == 'Y'){
+  $("#pbid-headerBlock-label").text("Academic Timetable in Progress");
+} else { 
+  $("#pbid-headerBlock-label").text("Academic Timetable");
+}
+
+$scope.crseNumb = null;
+
+$scope.loadSubjectButton_onClick();
+    };
+
+    $scope.filterText_onUpdate = function() {
+         
+         $scope.queryTableNumberOfRows = buildTableFilter($scope.timetableDataDS.data, $scope.filterText, $scope.queryTablePageNumber, $scope.queryTablePageSize);
+
+$scope.queryTablePageNumber = 1;
+$scope.queryTablePageUpdate_onClick();
+
+if ($scope.queryTableNumberOfRows > 0){
+  $scope.timetableBlock_visible = true;
+} else {
+  $scope.timetableBlock_visible = false;
+}
+    };
+    $scope.loadSubjectButton_onClick = function() {
+    $(".updateable").remove();
+$scope.timetableBlock_visible = false;
+$scope.loaderIconHolderBlock_visible = true;
+
+if ($scope.subjectCode) {
+  $scope.currentSelectedSubject = $scope.subjectCode;
+  $scope.currentSelectedSubjectText = $('#select2-chosen-1').text();
+}
+$('#select2-chosen-1').text("Select a Subject"); // required to clean
+$scope.queryTablePageNumber = 1;
+$scope.subjectCodeDS.load({clearCache:true},true);
+    };
+    $scope.closeLoaderButton_onClick = function() {
+    $scope.timetableBlock_visible = true;
+$scope.loaderIconHolderBlock_visible = false;
+    };
+    $scope.loadTimetableButton_onClick = function() {
+    $(".updateable").remove();
+$scope.timetableBlock_visible = false;
+$scope.loaderIconHolderBlock_visible = true;
+
+// If the change came from the select2 component
+if ($('#pbid-subjectCode').val()){
+  $scope.subjectCode = $('#pbid-subjectCode').val().replace("string:","");
+}
+
+if (!$('#pbid-crseNumb').val()){
+  $scope.crseNumb = null;
+}
+
+$scope.timetableDataDS.load({clearCache:true},true);
+    };
+    $scope.exportButton_onClick = function() {
+    // Javascript from Marco D'Orazio at Ellucian, posted in https://ecommunities.ellucian.com/thread/70026
+// for exporting to .csv file
+//
+
+//This section is just to add the sysdate to the filename
+var today = new Date();
+var dd = String(today.getDate()).padStart(2, '0');
+var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+var yyyy = today.getFullYear();
+today = dd + mm +  yyyy;
+
+// This is the header row for the .csv file
+var csvConfig = [{"fieldName": "TERM_CODE", "header": "Term Code"},
+ 	          	   {"fieldName": "SUBJ_CODE", "header": "Subject Code"},
+ 	          	   {"fieldName": "CRSE_NUMB", "header": "Course Number"},
+ 	          	   {"fieldName": "CRSE_TITLE", "header": "Course Title"},
+ 	          	   {"fieldName": "CRSE_EQUIV", "header": "Course Equivalence"},
+ 	          	   {"fieldName": "CRSE_TEXT", "header": "Course Text"},
+ 	          	   {"fieldName": "NOTE_ROW", "header": "Restr./Spec. Approv."},
+ 	          	   {"fieldName": "CRN", "header": "CRN"},
+ 	          	   {"fieldName": "PTRM_CODE", "header": "Part-of-Term"},
+ 	          	   {"fieldName": "SEQ_NUMB", "header": "Seq Number"},
+ 	          	   {"fieldName": "SCHD_CODE", "header": "Schedule Code"},
+ 	          	   {"fieldName": "SCHD_TYPE", "header": "Schedule Type"},
+ 	          	   {"fieldName": "SCHD_SORT", "header": "Schedule Sort"},
+ 	          	   {"fieldName": "CREDIT_HRS", "header": "Credit Hours"},
+ 	          	   {"fieldName": "LINK_CONN", "header": "Link"},
+ 	          	   {"fieldName": "START_DATE", "header": "Start Date"},
+ 	          	   {"fieldName": "END_DATE", "header": "End Date"},
+ 	          	   {"fieldName": "SUNDAYS", "header": "Sunday"},
+ 	          	   {"fieldName": "MONDAYS", "header": "Monday"},
+ 	          	   {"fieldName": "TUESDAYS", "header": "Tuesday"},
+ 	          	   {"fieldName": "WEDNESDAYS", "header": "Wednesday"},
+ 	          	   {"fieldName": "THURSDAYS", "header": "Thursday"},
+ 	          	   {"fieldName": "FRIDAYS", "header": "Friday"},
+ 	          	   {"fieldName": "SATURDAYS", "header": "Saturday"},
+ 	          	   {"fieldName": "TIMES", "header": "Time"},
+ 	          	   {"fieldName": "LOCATIONS", "header": "Location"},
+ 	          	   {"fieldName": "MAX_ENRL", "header": "Max Enrol."},
+ 	          	   {"fieldName": "ENRL", "header": "Enrl."},
+ 	          	   {"fieldName": "SEATS", "header": "Seats"},
+ 	          	   {"fieldName": "WLIST", "header": "Waitlist"},
+ 	          	   {"fieldName": "PERC_FULL", "header": "Perc. Full"},
+ 	          	   {"fieldName": "XLIST_MAX", "header": "XList Max"},
+ 	          	   {"fieldName": "XLIST_CUR", "header": "Xlist Curr."},
+ 	          	   {"fieldName": "INSTRUCTORS", "header": "Instructors"},
+ 	          	   {"fieldName": "TUITION_CODE", "header": "Tuittion Code"},
+ 	          	   {"fieldName": "TUITION_DESC", "header": "Tuittion Descr."},
+ 	          	   {"fieldName": "BILL_HRS", "header": "Bill Hours"},
+ 	          	   {"fieldName": "NOTE_BOTTOM", "header": "Notes"},
+ 	          	   {"fieldName": "NOTES_SKILL", "header": "Notes Skill"}
+               ];
+
+// This section is only needed if the grid has input parameters. The function will convert an array of parameters in a query string that will be added to the Virtual Domain url.
+function objectToQueryString(obj) {
+  return Object.keys(obj).map(key => key + '=' + obj[key]).join('&');
+};
+
+var recs = $scope.timetableDataDS.data;
+var currRowFields = [];
+
+// Add Header Row to CSV
+$.map(csvConfig, function(currRec, i) {
+   currRowFields.push('"' + (currRec.header ? (currRec.header.replaceAll('"','""')) : '') + '"');
+});
+
+var csv = currRowFields.join(',') + '\n';
+var currField;
+// Add data rows to CSV
+$.each(recs, function(i, currRow) {
+   currRowFields = [];
+
+   // Loop through fields
+   $.map(csvConfig, function(currRec, i) {
+      currField = currRow[currRec.fieldName];
+      if (currField != undefined) {
+         currRowFields.push('"' + currField.toString().replaceAll('"','""').replaceAll('<br>','\n').replaceAll('<b>','').replaceAll('</b>','').replaceAll('&nbsp;',' ') + '"');
+      } else {
+         currRowFields.push('""');
+      }
+   });
+
+   csv += currRowFields.join(',') + '\n';
+});
+
+var blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
+var filename = 'AcademicTimetable_'+$scope.subjectCode+'_'+today+'.csv';
+if (navigator.msSaveOrOpenBlob) {
+   navigator.msSaveOrOpenBlob(blob, filename );
+} else {
+   var link = document.createElement('a');
+   var url = URL.createObjectURL(blob);
+   link.setAttribute('href', url);
+   link.setAttribute('download', filename);
+   link.style.visibility = 'hidden';
+   document.body.appendChild(link);
+   link.click();
+   document.body.removeChild(link);
+}
+    };
+    $scope.queryTablePageUpdate_onClick = function() {
+    let maxNumOfPages = Math.floor(($scope.queryTableNumberOfRows-1)/$scope.queryTablePageSize) + 1;
+if (maxNumOfPages == 1){
+  
+  if ($scope.queryTableNumberOfRows <= 20){
+      $scope.queryTablePagingPageSizeBlock_visible = false;
+      $scope.queryTablePagingPageSizeBlockBottom_visible = false;
+  } else {
+      $scope.queryTablePagingPageSizeBlock_visible = true;
+      $scope.queryTablePagingPageSizeBlockBottom_visible = true;
+  }
+
+  $scope.queryTablePagingControlsBlock_visible = false;
+  $scope.queryTablePagingControlsBlockBottom_visible = false;
+
+} else {
+  let pagingText = $scope.queryTablePageNumber + '/' + maxNumOfPages;
+  $('#pbid-queryTablePageCount').text(pagingText);
+  $('#pbid-queryTablePageCountBottom').text(pagingText);
+  
+  $scope.queryTablePagingPageSizeBlock_visible = true;
+  $scope.queryTablePagingPageSizeBlockBottom_visible = true;
+  $scope.queryTablePagingControlsBlock_visible = true;
+  $scope.queryTablePagingControlsBlockBottom_visible = true;
+  
+  // Disable Paging Buttons
+  if ($scope.queryTablePageNumber == 1){
+    $("#pbid-queryTablePrevButton").prop("disabled",true);
+    $("#pbid-queryTablePrevButtonBottom").prop("disabled",true);
+  } else {
+    $("#pbid-queryTablePrevButton").prop("disabled",false);
+    $("#pbid-queryTablePrevButtonBottom").prop("disabled",false);
+  }
+
+  if ($scope.queryTablePageNumber == maxNumOfPages) {
+    $("#pbid-queryTableNextButton").prop("disabled",true);
+    $("#pbid-queryTableNextButtonBottom").prop("disabled",true);
+  } else {
+    $("#pbid-queryTableNextButton").prop("disabled",false);
+    $("#pbid-queryTableNextButtonBottom").prop("disabled",false);
+  }
+
+}
+    };
+    $scope.queryTablePrevButton_onClick = function() {
+    $scope.queryTablePageNumber--;
+
+$scope.queryTableNumberOfRows = buildTableFilter($scope.timetableDataDS.data, $scope.filterText, $scope.queryTablePageNumber, $scope.queryTablePageSize);
+
+$scope.queryTablePageUpdate_onClick();
+    };
+    $scope.queryTableNextButton_onClick = function() {
+    $scope.queryTablePageNumber++;
+
+$scope.queryTableNumberOfRows = buildTableFilter($scope.timetableDataDS.data, $scope.filterText, $scope.queryTablePageNumber, $scope.queryTablePageSize);
+
+$scope.queryTablePageUpdate_onClick();
+    };
+    $scope.queryTablePrevButtonBottom_onClick = function() {
+    $scope.queryTablePageNumber--;
+
+$scope.queryTableNumberOfRows = buildTableFilter($scope.timetableDataDS.data, $scope.filterText, $scope.queryTablePageNumber, $scope.queryTablePageSize);
+
+$scope.queryTablePageUpdate_onClick();
+    };
+    $scope.queryTableNextButtonBottom_onClick = function() {
+    $scope.queryTablePageNumber++;
+
+$scope.queryTableNumberOfRows = buildTableFilter($scope.timetableDataDS.data, $scope.filterText, $scope.queryTablePageNumber, $scope.queryTablePageSize);
+
+$scope.queryTablePageUpdate_onClick();
+    };
+    $scope.modalOk_onClick = function() {
+    closeModal();
+    };
+    $scope.testButton_onClick = function() {
+    alert("$scope._contextRoot: "+$scope._contextRoot);
+    };
+
+
+    $scope.parametersBlock_visible = false;
+    $scope.headerBlock_visible = true;
+    $scope.infoTextBlock_visible = true;
+    $scope.filterBlock_visible = true;
+    $scope.termSelectBlock_visible = true;
+    $scope.noTermSelectBlock_visible = false;
+    $scope.districtSelectBlock_visible = true;
+    $scope.districtSelectAllBlock_visible = true;
+    $scope.noDistrictSelectBlock_visible = false;
+    $scope.subjectSelectBlock_visible = false;
+    $scope.noSubjectSelectBlock_visible = false;
+    $scope.filterHiddenBlock_visible = false;
+    $scope.timetableDataBlock_visible = false;
+    $scope.timetableBlock_visible = false;
+    $scope.queryTablePagingContainer_visible = true;
+    $scope.exportButtonBlock_visible = false;
+    $scope.queryTablePagingControls_visible = true;
+    $scope.queryTablePagingControlsHidden_visible = false;
+    $scope.queryTablePagingControlsBlock_visible = true;
+    $scope.queryTablePagingPageSizeBlock_visible = true;
+    $scope.timetableTimeBlock_visible = true;
+    $scope.timetableTimeBlockBottom_visible = true;
+    $scope.queryTablePagingContainerBottom_visible = true;
+    $scope.queryTablePagingControlsBottom_visible = true;
+    $scope.queryTablePagingControlsBlockBottom_visible = true;
+    $scope.queryTablePagingPageSizeBlockBottom_visible = true;
+    $scope.loaderIconHolderBlock_visible = true;
+    $scope.loaderIconBlock_visible = true;
+    $scope.modalBlock_visible = true;
+    $scope.modalDialogBlock_visible = true;
+    $scope.modalContentBlock_visible = true;
+    $scope.modalContainer_visible = true;
+    $scope.modalHeader_visible = true;
+    $scope.openModalBlock_visible = false;
+    $scope.modalHeaderTable_visible = true;
+    $scope.modalTermBlock_visible = false;
+    $scope.restrictionsBlock_visible = true;
+    $scope.restrictionsIncludeBlock_visible = true;
+    $scope.restrictionsExcludeBlock_visible = true;
+    $scope.instructorsBlock_visible = true;
+    $scope.instructorsExistBlock_visible = true;
+    $scope.instructorsNotExistBlock_visible = true;
+    $scope.queryButtonBlock_visible = true;
+    $scope.testBlock_visible = false;
+  $scope.dalStuwebAcademicTimetable_style='';
+  $scope.internalImportScript_style='';
+  $scope.pageScriptBuildTable_style='';
+  $scope.pageScriptOthers_style='';
+  $scope.parametersBlock_style='';
+  $scope.inProgressChecked_style='';
+  $scope.infoTextContents_style='';
+  $scope.headerBlock_style='';
+  $scope.infoTextBlock_style='';
+  $scope.pageInfoTextDetail_style='';
+  $scope.displayText_style='text-justify';
+  $scope.filterBlock_style='';
+  $scope.termSelectBlock_style='';
+  $scope.termSelectDetail_style='display-flex-row';
+  $scope.termCheckbox_style='';
+  $scope.noTermSelectBlock_style='';
+  $scope.noTermSelectBlockLabel_style='';
+  $scope.districtSelectBlock_style='padding-bottom-20px';
+  $scope.districtSelectAllBlock_style='display-flex-row';
+  $scope.districtSelectAllCheckbox_style='';
+  $scope.districtSelectDetail_style='display-flex-row';
+  $scope.districtCheckbox_style='';
+  $scope.noDistrictSelectBlock_style='';
+  $scope.noDistrictSelectBlockLabel_style='';
+  $scope.subjectSelectBlock_style='';
+  $scope.subjectCode_style='padding-bottom-20px';
+  $scope.filterText_style='';
+  $scope.noSubjectSelectBlock_style='';
+  $scope.noSubjectSelectBlockLabel_style='padding-bottom-20px';
+  $scope.filterHiddenBlock_style='';
+  $scope.loadSubjectButton_style='padding-bottom-20px';
+  $scope.terms_style='padding-top-50px';
+  $scope.districts_style='';
+  $scope.currentSelectedSubject_style='';
+  $scope.currentSelectedSubjectText_style='';
+  $scope.crseNumb_style='';
+  $scope.closeLoaderButton_style='';
+  $scope.timetableDataBlock_style='';
+  $scope.timetableBlock_style='padding-bottom-50px padding-top-10px';
+  $scope.queryTablePagingContainer_style='pagination-container';
+  $scope.loadTimetableButton_style='refresh-button-div';
+  $scope.exportButtonBlock_style='export-button-div';
+  $scope.exportButton_style='';
+  $scope.queryTablePagingControls_style='pagination-controls display-inline-block-local';
+  $scope.queryTablePagingControlsHidden_style='display-inline-block-local';
+  $scope.queryTablePageNumber_style='display-inline-block-local';
+  $scope.queryTableNumberOfRows_style='display-inline-block-local';
+  $scope.queryTablePageUpdate_style='display-inline-block-local';
+  $scope.queryTablePagingControlsBlock_style='display-inline-block-local';
+  $scope.queryTablePrevButton_style='display-inline-block-local';
+  $scope.queryTablePageCount_style='display-inline-block-local';
+  $scope.queryTableNextButton_style='display-inline-block-local';
+  $scope.queryTablePagingPageSizeBlock_style='display-inline-block-local';
+  $scope.queryTablePageSize_style='display-inline-block-local';
+  $scope.timetableTimeBlock_style='';
+  $scope.timetableTimeDisplay_style='time-display';
+  $scope.timetable_style='';
+  $scope.timetableTimeBlockBottom_style='';
+  $scope.timetableTimeDisplayBottom_style='time-display';
+  $scope.queryTablePagingContainerBottom_style='pagination-container';
+  $scope.queryTablePagingControlsBottom_style='pagination-controls display-inline-block-local';
+  $scope.queryTablePagingControlsBlockBottom_style='display-inline-block-local';
+  $scope.queryTablePrevButtonBottom_style='display-inline-block-local';
+  $scope.queryTablePageCountBottom_style='display-inline-block-local';
+  $scope.queryTableNextButtonBottom_style='display-inline-block-local';
+  $scope.queryTablePagingPageSizeBlockBottom_style='display-inline-block-local';
+  $scope.queryTablePageSizeBottom_style='display-inline-block-local';
+  $scope.loaderIconHolderBlock_style='padding-top-20px';
+  $scope.loaderIconBlock_style='progressLoader';
+  $scope.modalBlock_style='modal fade in';
+  $scope.modalDialogBlock_style='modal-dialog';
+  $scope.modalContentBlock_style='modal-content';
+  $scope.modalContainer_style='';
+  $scope.modalHeaderTitle_style='col-sm-12';
+  $scope.modalHeader_style='';
+  $scope.openModalBlock_style='';
+  $scope.modalHeaderTitle2_style='col-sm-12';
+  $scope.modalHeaderTable_style='display-flex-row';
+  $scope.modalTermBlock_style='';
+  $scope.modalTerm_style='';
+  $scope.modalCRN_style='col-sm-3';
+  $scope.modalSubject_style='col-sm-3';
+  $scope.modalCourse_style='col-sm-3';
+  $scope.modalSection_style='col-sm-3';
+  $scope.modalCourseTitle_style='col-sm-12 padding-col-sm';
+  $scope.restrictionsBlock_style='';
+  $scope.restrictionsIncludeBlock_style='padding-col-sm';
+  $scope.restrictionsIncludeTable_style='';
+  $scope.restrictionsIncludeFormated_style='';
+  $scope.restrictionsExcludeBlock_style='padding-col-sm';
+  $scope.restrictionsExcludeTable_style='';
+  $scope.restrictionsExcludeFormated_style='';
+  $scope.instructorsBlock_style='';
+  $scope.instructorsExistBlock_style='padding-col-sm';
+  $scope.instructorsDetail_style='w4a_table';
+  $scope.instructorName_style='';
+  $scope.instructorsPrimary_style='';
+  $scope.instructorsNotExistBlock_style='padding-col-sm';
+  $scope.instructorsNotExist_style='pb-label';
+  $scope.queryButtonBlock_style='';
+  $scope.modalOk_style='padding-col-sm';
+  $scope.testBlock_style='';
+  $scope.testButton_style='';
+
+    // Copyright 2013-2016 Ellucian Company L.P. and its affiliates.
+pbAddCommon($scope);
+    $scope.externalScope=$scope
+}/* End Controller */
+;
+</script>
+
+
+    <link rel="stylesheet" type="text/css" href="https://theme.elluciancloud.com/001G000000iHnjLIAS/theme/getTheme?name=prod&amp;template=dal-logo-2022-template">
+    
+    
+        
+<link class="favicon" rel="shortcut icon" type="image/x-icon" id="dynamic-favicon" href="https://dalonline.dal.ca/favicon.ico"></head><body><header id="header-main-section" class="aurora-theme" role="banner"><div id="header-main-section-west-part"><div id="bannerMenuDiv" tabindex="-1" xe-section="bannerMenuDiv" title="Banner Menu Alt+M"><a id="bannerMenu" href="javascript:void(0);" alt="Banner Menu" role="menu" aria-label="Banner Menu. Short cut key is Alt+M"></a><div id="menuContainer"><nav id="menu" class="menu-wrapper hide menu-common"><ul id="menuList" class="menu-common" role="tree"><li id="list_Banner" class="scrollableListFolder menu-common origin-menu" tabindex="0" role="treeitem" aria-expanded="false" aria-level="1"><div class="menu-item menu-common"><div class="menu-text menu-common"><span class="menu-common">Banner</span></div><div class="menu-icon menu-common"></div></div></li></ul></nav></div></div><div id="brandingDiv" tabindex="-1" title="Home Alt+Q"><a id="branding" href="/BannerExtensibility/" class="institutionalBranding" aria-label="Home. Short cut key is Alt+Q"></a></div></div><div id="header-main-section-east-part" style="display: none;"><div id="header-east-part-user-controls"><div id="toolsButton" class="non-hierarchical-menu" title="Tools Alt+L" xe-section="extzToolIcon"><a href="javascript:void(0);" id="tools" aria-expanded="false" role="menu" class="menu-icon" aria-label="Tools. Short cut is Alt+L"></a><div id="toolsCanvas"><div id="toolsMenu" role="menu"><div id="toolsList" class="tools-list" xe-section="extzToolList"><div class="canvas-section" role="menuitem" aria-haspopup="true" id="privacySetting_title" xe-for="privacySetting"><span>Privacy Setting</span></div><div class="canvas-section-content" role="menu" id="privacySetting" aria-label="Privacy Setting" xe-section="privacySetting" aria-activedescendant="privacyPolicy"><div class="canvas-item pointer" role="menuitem" id="privacyPolicy" xe-field="privacyPolicy" tabindex="0"><span>Privacy Policy</span></div></div></div></div></div></div><div id="signInButton" class="non-hierarchical-menu"><a class="signIn-mobile menu-icon" aria-expanded="false" href="javascript:void(0);"></a><div id="signInCanvas"><div id="signInMenu"><div id="signList" class="signIn-list"><div class="canvas-item pointer" role="link" id="signIn" xe-field="signIn" tabindex="0" aria-label="Sign In. Short cut is Ctrl+Shift+F"><span tabindex="-1" title="Sign In Ctrl+Shift+F" id="signInTitle">Sign In</span></div></div></div></div></div></div><div id="notification-center" title="Notifications Alt+N" class="notification-center notification-center-hidden"><a tabindex="0" class="notification-center-anchor notification-center-anchor-hidden" aria-describedby="screen-reader-label-1"><div class="notification-center-count vertical-align"><span>0<b class="offscreen">Notifications</b></span></div></a><div class="notification-center-flyout notification-center-flyout-hidden" tabindex="0"><ul class="flash-container" role="alert" aria-live="assertive"><ul class="prompt-container"><ul class="error-container"></ul></ul></ul></div></div></div></header><nav id="breadcrumb-panel" role="navigation" class="aurora-theme"></nav><div ng-cloak="" id="enhanceUserExpDiv" dir="auto">
+    <xe-popup-modal show-close-button="modalcloseButtonShownEnhanceUserExp" show="modalEnhanceUserExpShown" focusbackelement="tools" pageheader="Enhance your Experience" aria-live="assertive">
+        <popup-content ng-if="showEnhanceUserExpDiv">
+            <div class="xe-modal-footer" id="enhanceUserExpPopupContentId">
+                <p class="xe-modal-footer-copyright-info">
+                    Please indicate whether we may use 3rd party analytics and non-essential cookies to improve your experience and our applications.<br><br>
+                    If you agree, the data we collect through these tools may be stored and processed in any country in which Ellucian or its sub-processors maintain facilities or personnel, including the United States.<br><br>
+                    Read the Ellucian privacy notice for more on cookies and analytics <a target="_blank" href="https://www.ellucian.com/privacy" role="link">Ellucian Privacy Notice</a></p>
+            </div>
+            <div class="enhanceUserExpButtonContainer" id="buttonContainer">
+                <xe-button ng-click="saveUsageTracking(false)" xe-id="noThanksBtn" xe-field="noThanksBtn" xe-disabled="disableNoThanksButton" xe-type="secondary" xe-label="No Thanks"></xe-button>
+                <xe-button ng-click="saveUsageTracking(true)" xe-id="acceptBtn" xe-field="acceptBtn" xe-disabled="disableAcceptButton" xe-type="primary" xe-label="Accept"></xe-button>
+            </div>
+            <footer class="enhanceUserExpFooter" role="contentinfo">
+                <p>© 2013-2024 Ellucian Company L.P. and its affiliates. All rights reserved.
+                </p>
+            </footer>
+        </popup-content>
+    </xe-popup-modal>
+</div>
+    
+
+
+    
+        <div id="dialogAppDiv"></div>
+        <div id="popupContainerDiv"></div>
+        <div ng-app="BannerOnAngular">
+            
+            <div id="spinner" class="spinner spinner-img" style="display:none;">
+        </div>
+
+        <script type="text/javascript" src="/BannerExtensibility/assets/modules/pageBuilder-mf.js"></script>
+
+        
+            <script type="text/javascript">
+                var mepcodeChanged='';
+                if(null !== mepcodeChanged && undefined !== mepcodeChanged && mepcodeChanged == "true"){
+                    $(document).bind('notification-use-ready', function (e) {
+                        mepcodeNotificationAddition(window.mepCode)
+                    });
+                }
+            </script>
+        
+   <div id="content" role="main" ng-controller="CustomPageController_dalStuwebAcademicTimetable" class="customPage container-fluid" style="top: 87px; margin-bottom: 54.2667px;">
+   
+         <div id="pbid-internalImportScript-container" ng-class="internalImportScript_style" class="pb-page-item-container pb-literal" role="application">
+  <span id="pbid-internalImportScript" class="pb-page pb-literal pb-item " tabindex="-1"><script src="/BannerExtensibility/assets/select2/select2.js"></script>
+<link href="/BannerExtensibility/assets/select2/select2.css" rel="stylesheet"></span>
+
+</div> <div id="pbid-pageScriptBuildTable-container" ng-class="pageScriptBuildTable_style" class="pb-page-item-container pb-literal" role="application">
+  <span id="pbid-pageScriptBuildTable" class="pb-page pb-literal pb-item " tabindex="-1"><!-- Start copy from here / Copy into pageScriptBuildTable literal PB object / v1.2 -->
+<script>
+
+//  Function to open a window
+function windowOpen(window_url) {
+   helpWin = window.open(window_url,'','toolbar=yes,status=no,scrollbars=yes,menubar=yes,resizable=yes,directories=no,location=no,width=350,height=400');
+   if (document.images) {
+       if (helpWin) helpWin.focus()
+   }
+}
+
+function nvl(value1,value2){
+   if (value1 == null)
+      return value2;
+
+   return value1;
+}
+
+function getCouseLink (subj, numb) {
+
+  let calRootUrl = "http://academiccalendar.dal.ca/Catalog/";
+  let callLink = calRootUrl;
+  let theDept;
+
+  if (subj.localeCompare("SCIE") == 0 && numb.substring(0, 4).localeCompare("1500") == 0){
+    callLink += 'ugrad/disp';
+  } else {
+    callLink += 'ViewCatalog.aspx?pageid=viewcatalog&entitytype=CID&entitycode='+subj.replace("&","%26")+'+'+numb.substring(0, 4);
+  }
+
+  return callLink;
+
+}
+
+function checkExistsSunOrSat (data){
+  let existsSunOrSat = false;
+  for (let i = 0; i < data.length; i++) {
+      if ((data[i].SUNDAYS && data[i].SUNDAYS.indexOf("U") > -1) || (data[i].SATURDAYS && data[i].SATURDAYS.indexOf("S") > -1)) {
+        existsSunOrSat = true;
+        break;
+      }
+  }
+
+  $(".weekSun").remove();
+  $(".weekMon").remove();
+  $(".weekFri").remove();
+  $(".weekSat").remove();
+
+  if (existsSunOrSat){
+    $(".weekTue").before('<td class="delabelsml weekSun">Su</td><td class="delabelsml weekMon">Mo</td>');
+    $(".weekThu").after('<td class="delabelsml weekFri">Fr</td><td class="delabelsml weekSat">Sa</td>');
+  } else {
+    $(".weekTue").before('<td class="delabelsml weekMon" colspan="2">Mo</td>');
+    $(".weekThu").after('<td class="delabelsml weekFri" colspan="2">Fr</td>');
+  }
+
+  return existsSunOrSat;
+
+}
+
+function replacerCaseMark (match, offset, string){
+  // Ignore exceptions
+  if ((string.includes("&amp") && "&amp".includes(match)) ||
+      (string.includes("&nbsp;") && "&nbsp;".includes(match)) ||
+      (string.includes("<b>") && "<b>".includes(match)) ||
+      (string.includes("</b>") && "</b>".includes(match)) ||
+      (string.includes("<br>") && "<br>".includes(match))){
+    return match;
+  } else {
+    return match.replace(match,"<mark>"+match+"</mark>");
+  }
+}
+
+//https://stackoverflow.com/questions/8746882
+jQuery.expr[':'].containsCase = function(a, i, m) {
+  return jQuery(a).text().toUpperCase()
+      .indexOf(m[3].toUpperCase()) >= 0;
+};
+
+function buildTableFilter (data, filterString, pageNum, pageSize){
+
+  // https://stackoverflow.com/questions/44312924/
+  let filteredData = data.filter(o => Object.keys(o).some(k => String(nvl(o[k],"")).toLowerCase().includes(nvl(filterString,"").toLowerCase())));
+
+  // Total number of rows
+  let numberOfRows = buildTablePage(filteredData, pageNum, pageSize);
+
+  $('mark').contents().unwrap();
+  if (filterString){
+    $(".updateable td:containsCase('"+filterString+"')").not('.ignoreFind').each(function(){
+       $(this).html($(this).html().replace(RegExp(filterString,'gi'),replacerCaseMark));
+    });
+    $(".filterFind:containsCase('"+filterString+"')").each(function(){
+       $(this).html($(this).html().replace(RegExp(filterString,'gi'),replacerCaseMark));
+    });
+  }
+
+  return numberOfRows;
+
+}
+
+function buildTablePage (data, pageNum, pageSize){
+  let pagedData = [];
+
+  let currentCRSERowNum = 0;
+  let currentCRSE;
+  let currentTerm;
+  let currentStartDate;
+  let currentEndDate;
+
+  // loop through classes
+  for (var i = 0; i < data.length; i++){
+
+    let classRow = data[i];
+
+    if (   (!currentCRSE || currentCRSE.localeCompare(classRow.CRSE_NUMB) != 0)
+        || (!currentTerm || currentTerm.localeCompare(classRow.TERM_CODE) != 0)
+        || (!currentStartDate || currentStartDate.localeCompare(classRow.START_DATE) != 0)
+        || (!currentEndDate || currentEndDate.localeCompare(classRow.END_DATE) != 0)){
+
+      currentCRSERowNum++;
+      currentCRSE = classRow.CRSE_NUMB;
+      currentTerm = classRow.TERM_CODE;
+      currentStartDate = classRow.START_DATE;
+      currentEndDate = classRow.END_DATE;
+
+    }
+
+    if (currentCRSERowNum > ((pageNum - 1) * pageSize) &&
+    currentCRSERowNum <= pageNum * pageSize){
+      pagedData.push(classRow);
+    }
+
+  }
+
+  buildTable(pagedData);
+
+  return currentCRSERowNum;
+
+}
+
+
+function buildTable(data) {
+
+  $(".updateable").remove();
+
+  if (data == null || data.length == 0 || data[0] == null){
+    return;
+  }
+
+  let existsSunOrSat = checkExistsSunOrSat(data);
+
+  let currentCRSE;
+  let currentTerm;
+  let currentStartDate;
+  let currentEndDate;
+
+  // loop through classes
+  for (var i = 0; i < data.length; i++){
+
+    let classRow = data[i];
+    let CRSERow = "";
+    let CRNRow = "";
+    let NoteRows = "";
+
+    // Insert course row
+    if (   (!currentCRSE || currentCRSE.localeCompare(classRow.CRSE_NUMB) != 0)
+        || (!currentTerm || currentTerm.localeCompare(classRow.TERM_CODE) != 0)
+        || (!currentStartDate || currentStartDate.localeCompare(classRow.START_DATE) != 0)
+        || (!currentEndDate || currentEndDate.localeCompare(classRow.END_DATE) != 0)){
+
+      currentCRSE = classRow.CRSE_NUMB;
+      currentTerm = classRow.TERM_CODE;
+      currentStartDate = classRow.START_DATE;
+      currentEndDate = classRow.END_DATE;
+
+      let termName;
+      switch (classRow.TERM_CODE.substring(4,6)){
+        case "00":
+          termName = "MED/DENT";
+          break;
+        case "30":
+          termName = "SUMMER";
+          break;
+        case "20":
+          termName = "WINTER";
+          break;
+        case "10":
+          termName = "FALL";
+          break;
+        default:
+          termName = "?";
+      }
+
+      if (classRow.PTRM_CODE){
+        termName += ' (<b>'+classRow.PTRM_CODE+'</b>)' ;
+      }
+
+      let equivRow = "";
+
+      if (classRow.CRSE_EQUIV) {
+
+        equivRow = '<br>'+
+                   '<span style="font-size:80%">Course equivalent with ';
+
+        let equivs = classRow.CRSE_EQUIV.split(",");
+        for (var j = 0; j < equivs.length; j++){
+          let equiv = equivs[j].split("-");
+          equivRow = equivRow +
+                     '<a class="filterFind" href="'+getEquivLink(equiv[0], equiv[1], equiv[2])+'" target="_blank">' +
+                       equiv[1]+' '+equiv[2]+
+                     '</a>';
+          if (j != equivs.length - 1) {
+            equivRow = equivRow + ", ";
+          }
+        }
+
+        equivRow = equivRow + '</span>';
+
+      }
+
+      CRSERow = '<tr valign="middle" class="updateable">'+
+        '  <td colspan="17" class="detthdr ignoreFind" >'+
+        '    <b class="filterFind">'+classRow.SUBJ_CODE+' '+classRow.CRSE_NUMB+' '+classRow.CRSE_TITLE+'</b>'+
+        '    <a href="'+getCouseLink(classRow.SUBJ_CODE, classRow.CRSE_NUMB)+'" target="_blank">'+
+        '      <img src="https://dalonlinedevl.dal.ca/bangifs/hyggfor2.gif" align="top" alt="Course Description" class="headerImg" title="Course Description" name="ForwardArrow" hspace="0" vspace="0" border="0">'+
+        '    </a>'+
+             equivRow +
+        '  </td>'+
+        '  <td colspan="8" class="dewhitesml ignoreFind">'+
+        '    <span class="filterFind" style="color=#009900"> ('+classRow.TERM_CODE+') '+termName+': '+classRow.START_DATE+' - '+classRow.END_DATE+'</span>'+
+        '  </td>'+
+        '</tr>';
+
+    }  // end insert course row
+
+    let rowClass = 'dett'+classRow.SCHD_CODE.toLowerCase();
+
+    let notesRS = '';
+
+    if (classRow.NOTE_ROW) {
+      if (classRow.NOTE_ROW.includes('R')) {
+        notesRS = "<b><a class='filterFind' href=\"JavaScript:openModalRestrictions('"+classRow.TERM_CODE+"',"+classRow.CRN+",'"+classRow.SUBJ_CODE+"','"+classRow.CRSE_NUMB+"','"+classRow.SEQ_NUMB+"','"+classRow.CRSE_TITLE.replace("'","\\'")+"')\">"+classRow.NOTE_ROW+"</a></b>";
+      } else {
+        notesRS = classRow.NOTE_ROW;
+      }
+    }
+
+    let weekStart;
+    let weekEnd;
+
+    if (existsSunOrSat){
+      weekStart = '<td class="'+rowClass+'" nowrap=""><p class="center-align-text">'+nvl(classRow.SUNDAYS,"")+'</p></td>'+
+                  '<td class="'+rowClass+'" nowrap=""><p class="center-align-text">'+nvl(classRow.MONDAYS,"")+'</p></td>';
+      weekEnd = '<td class="'+rowClass+'" nowrap=""><p class="center-align-text">'+nvl(classRow.FRIDAYS,"")+'</p></td>'+
+                '<td class="'+rowClass+'" nowrap=""><p class="center-align-text">'+nvl(classRow.SATURDAYS,"")+'</p></td>';
+    } else {
+      weekStart = '<td class="'+rowClass+'" nowrap="" colspan="2"><p class="center-align-text">'+nvl(classRow.MONDAYS,"")+'</p></td>';
+      weekEnd = '<td class="'+rowClass+'" nowrap="" colspan="2"><p class="center-align-text">'+nvl(classRow.FRIDAYS,"")+'</p></td>'
+    }
+
+    let percFull;
+
+    if (classRow.PERC_FULL){
+      if (classRow.PERC_FULL.localeCompare("OPEN") == 0) {
+        percFull = "<font class='filterFind' color=green>OPEN</font>";
+      } else if (classRow.PERC_FULL.localeCompare("WL FULL") == 0 || classRow.PERC_FULL.localeCompare("FULL") == 0){
+        percFull = "<font class='filterFind' color=darkred>"+classRow.PERC_FULL+"</font>";
+      } else if (classRow.PERC_FULL.localeCompare("WLIST") == 0){
+        percFull = "<font class='filterFind' color=red>WLIST</font>";
+      }else if (classRow.PERC_FULL.localeCompare("  80.0%") >= 0){
+        percFull = "<font class='filterFind' color=red>"+classRow.PERC_FULL+"</font>";
+      }else if (classRow.PERC_FULL.localeCompare("  50.0%") >= 0){
+        percFull = "<font class='filterFind' color=#999900>"+classRow.PERC_FULL+"</font>";
+      } else {
+        percFull = "<font class='filterFind' color=green>"+classRow.PERC_FULL+"</font>";
+      }
+    }
+
+    let instructorsLink = "<a class='filterFind' href=\"JavaScript:openModalInstructors('"+classRow.TERM_CODE+"',"+classRow.CRN+",'"+classRow.SUBJ_CODE+"','"+classRow.CRSE_NUMB+"','"+classRow.SEQ_NUMB+"','"+classRow.CRSE_TITLE.replace("'","\\'")+"')\">"+classRow.INSTRUCTORS+"</a>";
+
+    if (classRow.NOTE_BOTTOM){
+      NoteRows = '<tr class="updateable">'+
+        '  <td class="'+rowClass+'"><b>NOTE</b></td>'+
+        '  <td colspan="24" class="'+rowClass+'">'+classRow.NOTE_BOTTOM+'</td>'
+        '</tr>';
+    }
+
+    if (classRow.NOTES_SKILL.localeCompare("[]") != 0){
+      let noteSkillList = JSON.parse(classRow.NOTES_SKILL);
+
+      for (var j = 0; j < noteSkillList.length; j++) {
+        NoteRows = NoteRows+'<tr class="updateable">'+
+          '  <td class="'+rowClass+'"><b>NOTE</b></td>'+
+          '  <td colspan="22" class="'+rowClass+'">'+noteSkillList[j]+'</td>'
+          '</tr>';
+      }
+    }
+
+    let tuition_desc = "";
+
+    if (classRow.TUITION_CODE) {
+      tuition_desc = classRow.TUITION_CODE + " - " + classRow.TUITION_DESC;
+    } else {
+      tuition_desc = "";
+    }
+
+    // Insert the Class rows
+    CRNRow = '<tr class="updateable">'+
+      '  <td class="'+rowClass+' ignoreFind">'+notesRS+'</td>'+ // note
+      '  <td class="'+rowClass+'"><b>'+classRow.CRN+'</b></td>'+
+      '  <td class="'+rowClass+'">'+classRow.SEQ_NUMB+'</td>'+
+      '  <td class="'+rowClass+'">'+classRow.SCHD_TYPE+'</td>'+
+      '  <td class="'+rowClass+'">'+nvl(classRow.CREDIT_HRS,'-')+'</td>'+
+      '  <td class="'+rowClass+'">'+nvl(classRow.LINK_CONN,"")+'</td>'+
+      weekStart+
+      '  <td class="'+rowClass+'" nowrap=""><p class="center-align-text">'+nvl(classRow.TUESDAYS,"")+'</p></td>'+
+      '  <td class="'+rowClass+'" nowrap=""><p class="center-align-text">'+nvl(classRow.WEDNESDAYS,"")+'</p></td>'+
+      '  <td class="'+rowClass+'" nowrap=""><p class="center-align-text">'+nvl(classRow.THURSDAYS,"")+'</p></td>'+
+      weekEnd+
+      '  <td class="'+rowClass+'" nowrap="">'+nvl(classRow.TIMES,"")+'</td>'+
+      '  <td class="'+rowClass+'" nowrap="">'+nvl(classRow.LOCATIONS,"").replace('*** ','&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*** ')+'</td>'+
+      '  <td class="'+rowClass+'" nowrap=""><p class="right-align-text">'+classRow.MAX_ENRL+'</p></td>'+ // Max
+      '  <td class="'+rowClass+'" nowrap=""><p class="right-align-text">'+classRow.ENRL+'</p></td>'+ // Curr
+      '  <td class="'+rowClass+'" nowrap=""><p class="right-align-text">'+classRow.SEATS+'</p></td>'+ // Avail
+      '  <td class="'+rowClass+'" nowrap=""><p class="right-align-text">'+nvl(classRow.WLIST,"")+'</p></td>'+ // WtLst
+      '  <td class="'+rowClass+' ignoreFind" nowrap=""><p class="right-align-text">'+percFull+'</p></td>'+ //%Full
+      '  <td class="'+rowClass+'" nowrap=""><p class="right-align-text">'+nvl(classRow.XLIST_MAX,"")+'</p></td>'+ // Max
+      '  <td class="'+rowClass+'" nowrap=""><p class="right-align-text">'+nvl(classRow.XLIST_CUR,"")+'</p></td>'+ // Curr
+      '  <td class="'+rowClass+' ignoreFind">'+instructorsLink+'</td>'+
+      '  <td class="'+rowClass+'" title="'+tuition_desc+'">'+nvl(classRow.TUITION_CODE,"")+'</td>'+ // Tuition
+      '  <td class="'+rowClass+' ignoreFind"><p class="right-align-text filterFind">'+nvl(classRow.BILL_HRS,"-")+'</p></td>'+
+      '</tr>';
+
+    $("#tbodyTimetable").append(CRSERow);
+    $("#tbodyTimetable").append(CRNRow);
+    $("#tbodyTimetable").append(NoteRows);
+
+  } // end loop through classes
+
+  closeLoader();
+
+} // end buildTable
+
+</script>
+<!-- Copy until here / Copy into pageScriptBuildTable literal PB object--></span>
+
+</div> <div id="pbid-pageScriptOthers-container" ng-class="pageScriptOthers_style" class="pb-page-item-container pb-literal" role="application">
+  <span id="pbid-pageScriptOthers" class="pb-page pb-literal pb-item " tabindex="-1"><script>
+
+function getServerTime() {
+  let serverDate = $.ajax({async: false}).getResponseHeader( 'Date' );
+  let opt = {month: 'short',day: 'numeric', year: 'numeric', hour:'2-digit', minute:'2-digit', second:'2-digit', timeZoneName: 'short'};
+  let serverDateString = new Date(serverDate).toLocaleString("en-US",opt);
+  return serverDateString;
+}
+
+function getEquivLink (termCode, subjectCode, crseNumb) {
+
+  let calRootUrl = window.location.origin;
+  let callLink = calRootUrl + "/BannerExtensibility/customPage/page/dal.stuweb_academicTimetable?";
+
+  if ($("#pbid-inProgressChecked").val() == "Y"){
+    callLink += "inProgress=Y&";
+  }
+
+  callLink += "termCode="+termCode;
+  callLink += "&districts="+$("#pbid-districts").val();
+  callLink += "&subjectCode="+subjectCode.replace("&","%26");
+  callLink += "&crseNumb="+crseNumb;
+
+  return callLink;
+
+}
+
+function callCRSETimeTable (subj, numb) {
+
+  let calRootUrl = window.location.origin;
+  let callLink = calRootUrl + "/BannerExtensibility/customPage/page/dal.stuweb_academicTimetable";
+
+}
+
+function openModal (term, CRN, subject, course, section, courseTitle) {
+
+  var scope = getControllerScopeById(controllerId);
+
+  scope.modalTerm = term;
+  scope.modalCRN= CRN;
+  scope.modalSubject = subject;
+  scope.modalCourse = course;
+  scope.modalSection = section;
+  scope.modalCourseTitle = courseTitle;
+
+  // Display Items does not get updated
+  $("#pbid-modalTerm").text(term);
+  $("#pbid-modalCRN").text(CRN);
+  $("#pbid-modalSubject").text(subject);
+  $("#pbid-modalCourse").text(course);
+  $("#pbid-modalSection").text(section);
+  $("#pbid-modalCourseTitle").text(courseTitle);
+
+  scope.restrictionsIncludeBlock_visible = false;
+  scope.restrictionsExcludeBlock_visible = false;
+
+  scope.instructorsBlock_visible = false;
+
+  $("#pbid-modalCRN").addClass("display-block");
+  $("#pbid-modalSubject").addClass("display-block");
+  $("#pbid-modalCourse").addClass("display-block");
+  $("#pbid-modalSection").addClass("display-block");
+
+  $("#pbid-modalBlock").show();
+  
+  $("#pbid-modalBlock").attr('onClick', 'closeModal();');
+  $("#pbid-modalDialogBlock").attr('onClick', 'event.stopPropagation();');
+  $("#pbid-modalOk").focus();
+  
+  $("#pbid-modalBlock").keydown(function(e) {
+    if (e.keyCode == 27) { // Esc key
+      closeModal();
+      return true;
+    }
+  });
+  
+  $("#pbid-instructorsDetaildata-header-instructorName").removeAttr("tabindex");
+  $("#pbid-instructorsDetaildata-header-instructorsPrimary").removeAttr("tabindex");
+
+  $("#pbid-modalOk").keydown(function(e) {
+    if (e.keyCode == 9) { //shift tab key
+      if ($("#pbid-instructorsDetail-td-instructorName-0").is(":visible")){
+        if (e.shiftKey) {
+          return true;
+        } else {
+          $("#pbid-instructorsDetail-td-instructorName-0").focus();
+          return false;
+        }
+      }
+      return false;
+    }
+  });
+  
+}
+
+function openModalRestrictions (term, CRN, subject, course, section, courseTitle){
+
+  var scope = getControllerScopeById(controllerId);
+
+  // Set the modal variables
+  openModal (term, CRN, subject, course, section, courseTitle);
+
+  $("#pbid-modalHeaderTitle").html("<h3>Class Restrictions</h3>");
+
+  scope.restrictionsIncludeTableDS.load({clearCache:true},true);
+  scope.restrictionsExcludeTableDS.load({clearCache:true},true);
+
+}
+
+function openModalInstructors (term, CRN, subject, course, section, courseTitle){
+
+  var scope = getControllerScopeById(controllerId);
+
+  // Set the modal variables
+  openModal (term, CRN, subject, course, section, courseTitle);
+
+  $("#pbid-modalHeaderTitle").html("<h3>Class Instructors</h3>");
+
+  scope.instructorsDetailDS.load({clearCache:true},true);
+
+  scope.instructorsBlock_visible = true;
+
+}
+
+
+function closeModal() {
+  $("#pbid-modalBlock").hide();
+  
+  // Return to the item that called the modal
+  var scope = getControllerScopeById(controllerId);
+
+  let hrefText = scope.modalTerm +"',"+ scope.modalCRN +",'"+ scope.modalSubject +"','"
+    + scope.modalCourse +"','"+ scope.modalSection;
+  
+  if ($("#pbid-modalHeaderTitle").html().includes("Restrictions")){
+    hrefText = "Restrictions('" + hrefText;
+  } else if ($("#pbid-modalHeaderTitle").html().includes("Instructors")){
+    hrefText = "Instructors('" + hrefText;
+  }
+  
+  $('a[href*="' + hrefText  + '"]').focus();
+  
+}
+
+function closeLoader(){
+  $("#pbid-closeLoaderButton").click();
+}
+
+function elementCreated(elementName) {
+  return new Promise((resolve, reject) => {
+    new MutationObserver((mutationRecords, observer) => {
+      if ($('#'+elementName).length > 0){
+        resolve();
+        observer.disconnect();
+      }
+    })
+    .observe(document.documentElement, {
+      childList: true,
+      subtree: true
+    });
+  });
+}
+
+</script></span>
+
+</div> 
+<div id="pbid-parametersBlock" ng-class="parametersBlock_style" class="pb-block ng-hide" ng-show="parametersBlock_visible" null="" aria-hidden="true">  
+<div id="pbid-inProgressChecked-container" ng-class="inProgressChecked_style" class="pb-block-item-container pb-text" role="application">
+  <input tabindex="0" id="pbid-inProgressChecked" type="text" class="pb-block pb-text pb-item ng-pristine ng-untouched ng-valid ng-not-empty" name="inProgressChecked" aria-label="  " ng-model="inProgressChecked" aria-invalid="false">
+
+</div> <div id="pbid-infoTextContents-container" ng-class="infoTextContents_style" class="pb-block-item-container pb-text" role="application">
+  <input tabindex="0" id="pbid-infoTextContents" type="text" class="pb-block pb-text pb-item ng-pristine ng-untouched ng-valid ng-not-empty" name="infoTextContents" aria-label="  " ng-model="infoTextContents" aria-invalid="false">
+
+</div> </div>
+
+<div id="pbid-headerBlock" ng-class="headerBlock_style" class="pb-block" ng-show="headerBlock_visible" null="" aria-hidden="false"> <h2 class="pb-block-label" id="pbid-headerBlock-label" tabindex="0">Academic Timetable</h2> 
+
+<div id="pbid-infoTextBlock" ng-class="infoTextBlock_style" class="pb-block" ng-show="infoTextBlock_visible" null="" aria-hidden="false">  
+<div ng-class="pageInfoTextDetail_style" id="pbid-pageInfoTextDetail" class="pb-detail-container"><!----><div id="pbid-pageInfoTextDetailcontainer-0" class="pb-detail-record" ng-repeat="item in pageInfoTextDetailDS.data">
+
+<div id="pbid-displayText-container-0" ng-class="displayText_style" class="pb-detail-item-container pb-display text-justify">
+    
+    <span id="pbid-displayText-0" class="pb-detail pb-display pb-item" ng-bind-html="item.INFO_TEXT | to_trusted"><br><font color="#FF0000" size="4"> <b>Please read the following information carefully before using the Academic Timetable:</b></font><b> </b><br><br><b>  Timetable formats to watch for:</b><br><br><b>In Person</b> courses will be noted on the academic timetable with time and location of the course.<br><br><b>  Synchronous (live)</b> courses offer the class online at a specific time/day every week. Courses that are delivered synchronously are scheduled in Atlantic Time. Check this timetable for notes offering additional options for accessing course content.<br><br><b>  Asynchronous (recorded)</b> courses do not require you to be online at a regular, specific time/day each week. Carefully review any notes on the timetable, and the course syllabus when circulated by the course instructor, on or before the first day of class, to see if there are time-specific individual events (like exams, office hours, workshops, etc.)<br><br>Some courses have both in-person and online components (e.g. asynchronous lecture, in-person lab/tutorial). The format is noted on the timetable for each component.<br><br><b>Make up days</b> are additional instances of a course delivery to account for holidays. These are scheduled at the end of the term and will be added to the course delivery information before the start of the fall term.<br><br><b>Cross listed Courses:</b> Courses are cross listed based upon course content that deals with more than one subject area in a substantive way, and they are held together.<br><br><br><b>Navigating the Timetable:</b><br> To navigate this tool, use the buttons below to select a term and location. The best way to ensure you are seeing all courses within a department is to select “ALL” under Location.<br><br>Please continue to check the timetable for the most up to date information.<br><br>Need help selecting your courses? Contact <a href="https://www.dal.ca/campus_life/academic-support/advising.html">an academic advisor.</a></span>
+</div>
+</div><!---->
+ <div id="pbid-pageInfoTextDetail-record-control-container" class="pb-record-control"> 
+<!-- pagination -->
+<div class="pagination-container">
+    <div id="pbid-pageInfoTextDetail-pagination-container" class="pagination-controls ng-hide" ng-show="pageInfoTextDetailDS.totalCount > pageInfoTextDetailDS.pagingOptions.pageSize" aria-hidden="true">
+        <button id="pbid-pageInfoTextDetail-pagination-prev-button" class="secondary previous" ng-disabled="pageInfoTextDetailDS.pagingOptions.currentPage == 1" ng-click="pageInfoTextDetailDS.pagingOptions.currentPage=pageInfoTextDetailDS.pagingOptions.currentPage - 1" type="button" aria-label="Previous Page" title="Previous Page" disabled="disabled">
+        </button>
+        <span id="pbid-pageInfoTextDetail-pagination-page-count">
+        1/1
+        </span>
+        <button id="pbid-pageInfoTextDetail-pagination-next-button" class="secondary next" ng-disabled="pageInfoTextDetailDS.pagingOptions.currentPage >= pageInfoTextDetailDS.totalCount/pageInfoTextDetailDS.pagingOptions.pageSize " ng-click="pageInfoTextDetailDS.pagingOptions.currentPage=pageInfoTextDetailDS.pagingOptions.currentPage + 1" type="button" aria-label="Next Page" title="Next Page" disabled="disabled">
+        </button>
+    </div>
+</div>
+ </div></div></div>
+</div>
+
+<div id="pbid-filterBlock" ng-class="filterBlock_style" class="pb-block" ng-show="filterBlock_visible" null="" aria-hidden="false">  
+
+<div id="pbid-termSelectBlock" ng-class="termSelectBlock_style" class="pb-block" ng-show="termSelectBlock_visible" null="" aria-hidden="false"> <h3 class="pb-block-label" id="pbid-termSelectBlock-label" tabindex="0">Terms:</h3> 
+<div ng-class="termSelectDetail_style" id="pbid-termSelectDetail" class="pb-detail-container display-flex-row"><!----><div id="pbid-termSelectDetailcontainer-0" class="pb-detail-record" ng-repeat="item in termSelectDetailDS.data">
+<div id="pbid-termCheckbox-container-0" ng-class="termCheckbox_style" class="pb-detail-item-container pb-boolean">
+ <div class="xe-container"><input id="pbid-termCheckbox-0" class="pb-detail pb-boolean pb-item ng-pristine ng-untouched ng-valid ng-not-empty" type="checkbox" tabindex="-1" name="termCheckbox" ng-true-value="'Y'" ng-false-value="'N'" ng-change="$parent.termSelectDetail_termCheckbox_onUpdate(item);$parent.termSelectDetailDS.setModified(item)  " ng-click="$parent.termSelectDetailDS.setCurrentRecord(item)" readonly="" ng-model="item.SELECTED" aria-invalid="false"><span class="xe-checkmark" tabindex="-1" aria-label="Checkbox" role="checkbox" onclick="checkboxClick(this)"></span> <label class="pb-detail pb-boolean pb-item pb-label  " id="pbid-termCheckbox-label-0" null="" tabindex="0" onkeypress="clickEvent('pbid-termCheckbox',this)" role="checkbox" ng-true-value=" 'Y' " aria-checked="false" for="pbid-termCheckbox-0" *aria-labelledby="pbid-termCheckbox" *="">(202520) 2024/2025 Winter</label> </div>
+</div>
+</div><!----><div id="pbid-termSelectDetailcontainer-1" class="pb-detail-record" ng-repeat="item in termSelectDetailDS.data">
+<div id="pbid-termCheckbox-container-1" ng-class="termCheckbox_style" class="pb-detail-item-container pb-boolean">
+ <div class="xe-container"><input id="pbid-termCheckbox-1" class="pb-detail pb-boolean pb-item ng-pristine ng-untouched ng-valid ng-empty" type="checkbox" tabindex="-1" name="termCheckbox" ng-true-value="'Y'" ng-false-value="'N'" ng-change="$parent.termSelectDetail_termCheckbox_onUpdate(item);$parent.termSelectDetailDS.setModified(item)  " ng-click="$parent.termSelectDetailDS.setCurrentRecord(item)" readonly="" ng-model="item.SELECTED" aria-invalid="false"><span class="xe-checkmark" tabindex="-1" aria-label="Checkbox" role="checkbox" onclick="checkboxClick(this)"></span> <label class="pb-detail pb-boolean pb-item pb-label  " id="pbid-termCheckbox-label-1" null="" tabindex="0" onkeypress="clickEvent('pbid-termCheckbox',this)" role="checkbox" ng-true-value=" 'Y' " aria-checked="false" for="pbid-termCheckbox-1" *aria-labelledby="pbid-termCheckbox" *="">(202530) 2024/2025 Summer</label> </div>
+</div>
+</div><!----><div id="pbid-termSelectDetailcontainer-2" class="pb-detail-record" ng-repeat="item in termSelectDetailDS.data">
+<div id="pbid-termCheckbox-container-2" ng-class="termCheckbox_style" class="pb-detail-item-container pb-boolean">
+ <div class="xe-container"><input id="pbid-termCheckbox-2" class="pb-detail pb-boolean pb-item ng-pristine ng-untouched ng-valid ng-empty" type="checkbox" tabindex="-1" name="termCheckbox" ng-true-value="'Y'" ng-false-value="'N'" ng-change="$parent.termSelectDetail_termCheckbox_onUpdate(item);$parent.termSelectDetailDS.setModified(item)  " ng-click="$parent.termSelectDetailDS.setCurrentRecord(item)" readonly="" ng-model="item.SELECTED" aria-invalid="false"><span class="xe-checkmark" tabindex="-1" aria-label="Checkbox" role="checkbox" onclick="checkboxClick(this)"></span> <label class="pb-detail pb-boolean pb-item pb-label  " id="pbid-termCheckbox-label-2" null="" tabindex="0" onkeypress="clickEvent('pbid-termCheckbox',this)" role="checkbox" ng-true-value=" 'Y' " aria-checked="false" for="pbid-termCheckbox-2" *aria-labelledby="pbid-termCheckbox" *="">(202600) 2025/2026 Medicine/Dentistry</label> </div>
+</div>
+</div><!----><div id="pbid-termSelectDetailcontainer-3" class="pb-detail-record" ng-repeat="item in termSelectDetailDS.data">
+<div id="pbid-termCheckbox-container-3" ng-class="termCheckbox_style" class="pb-detail-item-container pb-boolean">
+ <div class="xe-container"><input id="pbid-termCheckbox-3" class="pb-detail pb-boolean pb-item ng-pristine ng-untouched ng-valid ng-empty" type="checkbox" tabindex="-1" name="termCheckbox" ng-true-value="'Y'" ng-false-value="'N'" ng-change="$parent.termSelectDetail_termCheckbox_onUpdate(item);$parent.termSelectDetailDS.setModified(item)  " ng-click="$parent.termSelectDetailDS.setCurrentRecord(item)" readonly="" ng-model="item.SELECTED" aria-invalid="false"><span class="xe-checkmark" tabindex="-1" aria-label="Checkbox" role="checkbox" onclick="checkboxClick(this)"></span> <label class="pb-detail pb-boolean pb-item pb-label  " id="pbid-termCheckbox-label-3" null="" tabindex="0" onkeypress="clickEvent('pbid-termCheckbox',this)" role="checkbox" ng-true-value=" 'Y' " aria-checked="false" for="pbid-termCheckbox-3" *aria-labelledby="pbid-termCheckbox" *="">(202610) 2025/2026 Fall</label> </div>
+</div>
+</div><!----><div id="pbid-termSelectDetailcontainer-4" class="pb-detail-record" ng-repeat="item in termSelectDetailDS.data">
+<div id="pbid-termCheckbox-container-4" ng-class="termCheckbox_style" class="pb-detail-item-container pb-boolean">
+ <div class="xe-container"><input id="pbid-termCheckbox-4" class="pb-detail pb-boolean pb-item ng-pristine ng-untouched ng-valid ng-empty" type="checkbox" tabindex="-1" name="termCheckbox" ng-true-value="'Y'" ng-false-value="'N'" ng-change="$parent.termSelectDetail_termCheckbox_onUpdate(item);$parent.termSelectDetailDS.setModified(item)  " ng-click="$parent.termSelectDetailDS.setCurrentRecord(item)" readonly="" ng-model="item.SELECTED" aria-invalid="false"><span class="xe-checkmark" tabindex="-1" aria-label="Checkbox" role="checkbox" onclick="checkboxClick(this)"></span> <label class="pb-detail pb-boolean pb-item pb-label  " id="pbid-termCheckbox-label-4" null="" tabindex="0" onkeypress="clickEvent('pbid-termCheckbox',this)" role="checkbox" ng-true-value=" 'Y' " aria-checked="false" for="pbid-termCheckbox-4" *aria-labelledby="pbid-termCheckbox" *="">(202620) 2025/2026 Winter</label> </div>
+</div>
+</div><!---->
+ <div id="pbid-termSelectDetail-record-control-container" class="pb-record-control"> 
+<!-- pagination -->
+<div class="pagination-container">
+    <div id="pbid-termSelectDetail-pagination-container" class="pagination-controls ng-hide" ng-show="termSelectDetailDS.totalCount > termSelectDetailDS.pagingOptions.pageSize" aria-hidden="true">
+        <button id="pbid-termSelectDetail-pagination-prev-button" class="secondary previous" ng-disabled="termSelectDetailDS.pagingOptions.currentPage == 1" ng-click="termSelectDetailDS.pagingOptions.currentPage=termSelectDetailDS.pagingOptions.currentPage - 1" type="button" aria-label="Previous Page" title="Previous Page" disabled="disabled">
+        </button>
+        <span id="pbid-termSelectDetail-pagination-page-count">
+        1/1
+        </span>
+        <button id="pbid-termSelectDetail-pagination-next-button" class="secondary next" ng-disabled="termSelectDetailDS.pagingOptions.currentPage >= termSelectDetailDS.totalCount/termSelectDetailDS.pagingOptions.pageSize " ng-click="termSelectDetailDS.pagingOptions.currentPage=termSelectDetailDS.pagingOptions.currentPage + 1" type="button" aria-label="Next Page" title="Next Page" disabled="disabled">
+        </button>
+    </div>
+</div>
+ </div></div></div>
+
+<div id="pbid-noTermSelectBlock" ng-class="noTermSelectBlock_style" class="pb-block ng-hide" ng-show="noTermSelectBlock_visible" null="" aria-hidden="true">  
+
+<div id="pbid-noTermSelectBlockLabel-container" ng-class="noTermSelectBlockLabel_style" class="pb-block-item-container pb-display">
+    
+    <span id="pbid-noTermSelectBlockLabel" class="pb-block pb-display pb-item"> No terms available to view. </span>
+</div></div>
+
+<div id="pbid-districtSelectBlock" ng-class="districtSelectBlock_style" class="pb-block padding-bottom-20px" ng-show="districtSelectBlock_visible" null="" aria-hidden="false"> <h3 class="pb-block-label" id="pbid-districtSelectBlock-label" tabindex="0">Locations:</h3> 
+
+<div id="pbid-districtSelectAllBlock" ng-class="districtSelectAllBlock_style" class="pb-block display-flex-row" ng-show="districtSelectAllBlock_visible" null="" aria-hidden="false">  
+<div id="pbid-districtSelectAllCheckbox-container" ng-class="districtSelectAllCheckbox_style" class="pb-block-item-container pb-boolean" role="application">
+  <div class="xe-container"><input id="pbid-districtSelectAllCheckbox" class="pb-block pb-boolean pb-item ng-pristine ng-untouched ng-valid ng-not-empty" type="checkbox" tabindex="-1" name="districtSelectAllCheckbox" ng-true-value="'Y'" ng-false-value="'N'" ng-change="districtSelectAllCheckbox_onUpdate()" ng-model="districtSelectAllCheckbox" ng-init="setDefault(this,'districtSelectAllCheckbox','Y')" checked="checked" aria-invalid="false"><span class="xe-checkmark" tabindex="-1" aria-label="Checkbox" role="checkbox" onclick="checkboxClick(this)"></span> <label class="pb-block pb-boolean pb-item pb-label  " id="pbid-districtSelectAllCheckbox-label" null="" tabindex="0" onkeypress="clickEvent('pbid-districtSelectAllCheckbox',this)" role="checkbox" ng-true-value=" 'Y' " aria-checked="true" for="pbid-districtSelectAllCheckbox" *aria-labelledby="pbid-districtSelectAllCheckbox" *="">All</label> </div>
+</div> <div ng-class="districtSelectDetail_style" id="pbid-districtSelectDetail" class="pb-detail-container display-flex-row"><!----><div id="pbid-districtSelectDetailcontainer-0" class="pb-detail-record" ng-repeat="item in districtSelectDetailDS.data">
+<div id="pbid-districtCheckbox-container-0" ng-class="districtCheckbox_style" class="pb-detail-item-container pb-boolean">
+ <div class="xe-container"><input id="pbid-districtCheckbox-0" class="pb-detail pb-boolean pb-item ng-pristine ng-untouched ng-valid ng-not-empty" type="checkbox" tabindex="-1" name="districtCheckbox" ng-true-value="'Y'" ng-false-value="'N'" ng-change="$parent.districtSelectDetail_districtCheckbox_onUpdate(item);$parent.districtSelectDetailDS.setModified(item)  " ng-click="$parent.districtSelectDetailDS.setCurrentRecord(item)" readonly="" ng-model="item.SELECTED" aria-invalid="false"><span class="xe-checkmark" tabindex="-1" aria-label="Checkbox" role="checkbox" onclick="checkboxClick(this)"></span> <label class="pb-detail pb-boolean pb-item pb-label  " id="pbid-districtCheckbox-label-0" null="" tabindex="0" onkeypress="clickEvent('pbid-districtCheckbox',this)" role="checkbox" ng-true-value=" 'Y' " aria-checked="false" for="pbid-districtCheckbox-0" *aria-labelledby="pbid-districtCheckbox" *="">Halifax</label> </div>
+</div>
+</div><!----><div id="pbid-districtSelectDetailcontainer-1" class="pb-detail-record" ng-repeat="item in districtSelectDetailDS.data">
+<div id="pbid-districtCheckbox-container-1" ng-class="districtCheckbox_style" class="pb-detail-item-container pb-boolean">
+ <div class="xe-container"><input id="pbid-districtCheckbox-1" class="pb-detail pb-boolean pb-item ng-pristine ng-untouched ng-valid ng-not-empty" type="checkbox" tabindex="-1" name="districtCheckbox" ng-true-value="'Y'" ng-false-value="'N'" ng-change="$parent.districtSelectDetail_districtCheckbox_onUpdate(item);$parent.districtSelectDetailDS.setModified(item)  " ng-click="$parent.districtSelectDetailDS.setCurrentRecord(item)" readonly="" ng-model="item.SELECTED" aria-invalid="false"><span class="xe-checkmark" tabindex="-1" aria-label="Checkbox" role="checkbox" onclick="checkboxClick(this)"></span> <label class="pb-detail pb-boolean pb-item pb-label  " id="pbid-districtCheckbox-label-1" null="" tabindex="0" onkeypress="clickEvent('pbid-districtCheckbox',this)" role="checkbox" ng-true-value=" 'Y' " aria-checked="false" for="pbid-districtCheckbox-1" *aria-labelledby="pbid-districtCheckbox" *="">Truro</label> </div>
+</div>
+</div><!----><div id="pbid-districtSelectDetailcontainer-2" class="pb-detail-record" ng-repeat="item in districtSelectDetailDS.data">
+<div id="pbid-districtCheckbox-container-2" ng-class="districtCheckbox_style" class="pb-detail-item-container pb-boolean">
+ <div class="xe-container"><input id="pbid-districtCheckbox-2" class="pb-detail pb-boolean pb-item ng-pristine ng-untouched ng-valid ng-not-empty" type="checkbox" tabindex="-1" name="districtCheckbox" ng-true-value="'Y'" ng-false-value="'N'" ng-change="$parent.districtSelectDetail_districtCheckbox_onUpdate(item);$parent.districtSelectDetailDS.setModified(item)  " ng-click="$parent.districtSelectDetailDS.setCurrentRecord(item)" readonly="" ng-model="item.SELECTED" aria-invalid="false"><span class="xe-checkmark" tabindex="-1" aria-label="Checkbox" role="checkbox" onclick="checkboxClick(this)"></span> <label class="pb-detail pb-boolean pb-item pb-label  " id="pbid-districtCheckbox-label-2" null="" tabindex="0" onkeypress="clickEvent('pbid-districtCheckbox',this)" role="checkbox" ng-true-value=" 'Y' " aria-checked="false" for="pbid-districtCheckbox-2" *aria-labelledby="pbid-districtCheckbox" *="">Online</label> </div>
+</div>
+</div><!----><div id="pbid-districtSelectDetailcontainer-3" class="pb-detail-record" ng-repeat="item in districtSelectDetailDS.data">
+<div id="pbid-districtCheckbox-container-3" ng-class="districtCheckbox_style" class="pb-detail-item-container pb-boolean">
+ <div class="xe-container"><input id="pbid-districtCheckbox-3" class="pb-detail pb-boolean pb-item ng-pristine ng-untouched ng-valid ng-not-empty" type="checkbox" tabindex="-1" name="districtCheckbox" ng-true-value="'Y'" ng-false-value="'N'" ng-change="$parent.districtSelectDetail_districtCheckbox_onUpdate(item);$parent.districtSelectDetailDS.setModified(item)  " ng-click="$parent.districtSelectDetailDS.setCurrentRecord(item)" readonly="" ng-model="item.SELECTED" aria-invalid="false"><span class="xe-checkmark" tabindex="-1" aria-label="Checkbox" role="checkbox" onclick="checkboxClick(this)"></span> <label class="pb-detail pb-boolean pb-item pb-label  " id="pbid-districtCheckbox-label-3" null="" tabindex="0" onkeypress="clickEvent('pbid-districtCheckbox',this)" role="checkbox" ng-true-value=" 'Y' " aria-checked="false" for="pbid-districtCheckbox-3" *aria-labelledby="pbid-districtCheckbox" *="">Others</label> </div>
+</div>
+</div><!---->
+ <div id="pbid-districtSelectDetail-record-control-container" class="pb-record-control"> 
+<!-- pagination -->
+<div class="pagination-container">
+    <div id="pbid-districtSelectDetail-pagination-container" class="pagination-controls ng-hide" ng-show="districtSelectDetailDS.totalCount > districtSelectDetailDS.pagingOptions.pageSize" aria-hidden="true">
+        <button id="pbid-districtSelectDetail-pagination-prev-button" class="secondary previous" ng-disabled="districtSelectDetailDS.pagingOptions.currentPage == 1" ng-click="districtSelectDetailDS.pagingOptions.currentPage=districtSelectDetailDS.pagingOptions.currentPage - 1" type="button" aria-label="Previous Page" title="Previous Page" disabled="disabled">
+        </button>
+        <span id="pbid-districtSelectDetail-pagination-page-count">
+        1/1
+        </span>
+        <button id="pbid-districtSelectDetail-pagination-next-button" class="secondary next" ng-disabled="districtSelectDetailDS.pagingOptions.currentPage >= districtSelectDetailDS.totalCount/districtSelectDetailDS.pagingOptions.pageSize " ng-click="districtSelectDetailDS.pagingOptions.currentPage=districtSelectDetailDS.pagingOptions.currentPage + 1" type="button" aria-label="Next Page" title="Next Page" disabled="disabled">
+        </button>
+    </div>
+</div>
+ </div></div></div>
+
+<div id="pbid-noDistrictSelectBlock" ng-class="noDistrictSelectBlock_style" class="pb-block ng-hide" ng-show="noDistrictSelectBlock_visible" null="" aria-hidden="true">  
+
+<div id="pbid-noDistrictSelectBlockLabel-container" ng-class="noDistrictSelectBlockLabel_style" class="pb-block-item-container pb-display">
+    
+    <span id="pbid-noDistrictSelectBlockLabel" class="pb-block pb-display pb-item"> No districts available to view. </span>
+</div></div>
+</div>
+
+<div id="pbid-subjectSelectBlock" ng-class="subjectSelectBlock_style" class="pb-block" ng-show="subjectSelectBlock_visible" null="" aria-hidden="false">  
+<div id="pbid-subjectCode-container" ng-class="subjectCode_style" class="pb-block-item-container pb-select padding-bottom-20px" role="application">
+ <label class="pb-block pb-select pb-item pb-label label-style-local " id="pbid-subjectCode-label" null="" for="pbid-subjectCode" *aria-labelledby="pbid-subjectCode" *="">Subject:</label> 
+<div class="select2-container pb-block pb-select pb-item select-width-320px ng-pristine ng-untouched ng-valid ng-empty js-example-basic-single" id="s2id_pbid-subjectCode"><a href="javascript:void(0)" class="select2-choice select2-default" tabindex="-1">   <span class="select2-chosen" id="select2-chosen-1">Select a Subject</span><abbr class="select2-search-choice-close"></abbr>   <span class="select2-arrow" role="presentation"><b role="presentation"></b></span></a><label for="s2id_autogen1" class="select2-offscreen">Subject:</label><input class="select2-focusser select2-offscreen" type="text" aria-haspopup="true" role="combobox" aria-expanded="true" aria-describedby="screen-reader-label-2" aria-labelledby="select2-chosen-1" id="s2id_autogen1" aria-controls="select2-chosen-1" tabindex="0"><div class="select2-drop select2-display-none select2-with-searchbox">   <div class="select2-search">       <label for="s2id_autogen1_search" class="select2-offscreen">Subject:</label>       <input type="text" sanitize="true" autocomplete="off" autocorrect="off" autocapitalize="none" spellcheck="false" class="select2-input" role="combobox" aria-expanded="true" aria-autocomplete="list" aria-owns="select2-results-1" id="s2id_autogen1_search" placeholder="">   </div>   <ul class="select2-results" role="listbox" id="select2-results-1">   </ul></div></div><select id="pbid-subjectCode" ng-keypress="subjectCodeDS.openDropDown(&quot;pbid-subjectCode-Option&quot;,$event);" class="pb-block pb-select pb-item select-width-320px ng-pristine ng-untouched ng-valid ng-empty js-example-basic-single" ng-model="subjectCode" ng-change="subjectCodeDS.setCurrentRecord(subjectCode);" ng-options="item.CODE as item.DESCR for item in subjectCodeDS.data" tabindex="-1" aria-invalid="false" title="Subject:" style="display: none;"><option id="pbid-subjectCode-Option" style="display:none" value="" selected="selected"></option><option label="(ACSC) Actuarial Science" value="string:ACSC">(ACSC) Actuarial Science</option><option label="(AGRI) Agriculture-Agricultural Camp" value="string:AGRI">(AGRI) Agriculture-Agricultural Camp</option><option label="(AGRN) Agronomy-Agricultural Campus" value="string:AGRN">(AGRN) Agronomy-Agricultural Campus</option><option label="(ANAT) Anatomy" value="string:ANAT">(ANAT) Anatomy</option><option label="(ANSC) Animal Sci-Agricultural Campus" value="string:ANSC">(ANSC) Animal Sci-Agricultural Campus</option><option label="(APSC) Applied Science-Agri Campus" value="string:APSC">(APSC) Applied Science-Agri Campus</option><option label="(AQUA) Aquaculture-Agricultural Camp" value="string:AQUA">(AQUA) Aquaculture-Agricultural Camp</option><option label="(ARBC) Arabic" value="string:ARBC">(ARBC) Arabic</option><option label="(ARCH) Architecture" value="string:ARCH">(ARCH) Architecture</option><option label="(ASSC) Arts &amp; Social Sciences" value="string:ASSC">(ASSC) Arts &amp; Social Sciences</option><option label="(BIOC) Biochem &amp; Molecular Biology" value="string:BIOC">(BIOC) Biochem &amp; Molecular Biology</option><option label="(BIOE) Biological Engineering" value="string:BIOE">(BIOE) Biological Engineering</option><option label="(BIOL) Biology" value="string:BIOL">(BIOL) Biology</option><option label="(BIOA) Biology-Agricultural Campus" value="string:BIOA">(BIOA) Biology-Agricultural Campus</option><option label="(BMNG) Biomedical Engineering" value="string:BMNG">(BMNG) Biomedical Engineering</option><option label="(BVSC) Bioveterinary Science - AGR" value="string:BVSC">(BVSC) Bioveterinary Science - AGR</option><option label="(BAFD) Black and African Diaspora Stu" value="string:BAFD">(BAFD) Black and African Diaspora Stu</option><option label="(BUSS) Business" value="string:BUSS">(BUSS) Business</option><option label="(BUSI) Business Admin" value="string:BUSI">(BUSI) Business Admin</option><option label="(CANA) Canadian Studies" value="string:CANA">(CANA) Canadian Studies</option><option label="(CNLT) Centre for Learning &amp; Teaching" value="string:CNLT">(CNLT) Centre for Learning &amp; Teaching</option><option label="(CHEE) Chemical Engineering" value="string:CHEE">(CHEE) Chemical Engineering</option><option label="(CHEM) Chemistry" value="string:CHEM">(CHEM) Chemistry</option><option label="(CHMA) Chemistry-Agricultural Campus" value="string:CHMA">(CHMA) Chemistry-Agricultural Campus</option><option label="(CHIN) Chinese" value="string:CHIN">(CHIN) Chinese</option><option label="(CIVL) Civil Engineering" value="string:CIVL">(CIVL) Civil Engineering</option><option label="(CLAS) Classics" value="string:CLAS">(CLAS) Classics</option><option label="(COMM) Commerce" value="string:COMM">(COMM) Commerce</option><option label="(CMSD) Communication Sci &amp; Disorders" value="string:CMSD">(CMSD) Communication Sci &amp; Disorders</option><option label="(CMMT) Communications-Agri Campus" value="string:CMMT">(CMMT) Communications-Agri Campus</option><option label="(CPST) Complementary Studies" value="string:CPST">(CPST) Complementary Studies</option><option label="(CSCA) Computer Sci-Agricultural Camp" value="string:CSCA">(CSCA) Computer Sci-Agricultural Camp</option><option label="(CSCI) Computer Science" value="string:CSCI">(CSCI) Computer Science</option><option label="(CTMP) Contemporary Studies" value="string:CTMP">(CTMP) Contemporary Studies</option><option label="(CRWR) Creative Writing" value="string:CRWR">(CRWR) Creative Writing</option><option label="(DEHY) Dental Hygiene" value="string:DEHY">(DEHY) Dental Hygiene</option><option label="(DMUT) Diag Med Ultrasound Tech" value="string:DMUT">(DMUT) Diag Med Ultrasound Tech</option><option label="(DGIN) Digital Innovation" value="string:DGIN">(DGIN) Digital Innovation</option><option label="(DISM) Disability Management" value="string:DISM">(DISM) Disability Management</option><option label="(EMSP) Early Modern Studies" value="string:EMSP">(EMSP) Early Modern Studies</option><option label="(EESC) Earth &amp; Envi Science" value="string:EESC">(EESC) Earth &amp; Envi Science</option><option label="(ERTH) Earth Sciences" value="string:ERTH">(ERTH) Earth Sciences</option><option label="(ECON) Economics" value="string:ECON">(ECON) Economics</option><option label="(ECOA) Economics-Agricultural Campus" value="string:ECOA">(ECOA) Economics-Agricultural Campus</option><option label="(ECED) Electrical &amp; Computer Engineer" value="string:ECED">(ECED) Electrical &amp; Computer Engineer</option><option label="(ECMM) Electronic Commerce" value="string:ECMM">(ECMM) Electronic Commerce</option><option label="(ENGI) Engineering" value="string:ENGI">(ENGI) Engineering</option><option label="(INWK) Engineering Internetworking" value="string:INWK">(INWK) Engineering Internetworking</option><option label="(ENGM) Engineering Mathematics" value="string:ENGM">(ENGM) Engineering Mathematics</option><option label="(ENGN) Engineering-Agri Campus" value="string:ENGN">(ENGN) Engineering-Agri Campus</option><option label="(ENGL) English" value="string:ENGL">(ENGL) English</option><option label="(ENSL) English Language (CE)" value="string:ENSL">(ENSL) English Language (CE)</option><option label="(EGLA) English-Agricultural Campus" value="string:EGLA">(EGLA) English-Agricultural Campus</option><option label="(ENVA) Environ Sciences-Agri Campus" value="string:ENVA">(ENVA) Environ Sciences-Agri Campus</option><option label="(ENVE) Environmental Engineering" value="string:ENVE">(ENVE) Environmental Engineering</option><option label="(ENVS) Environmental Science" value="string:ENVS">(ENVS) Environmental Science</option><option label="(ENVI) Environmental Studies" value="string:ENVI">(ENVI) Environmental Studies</option><option label="(EPAH) Epidemiology &amp; Appl Hlth Res" value="string:EPAH">(EPAH) Epidemiology &amp; Appl Hlth Res</option><option label="(EURO) European Studies" value="string:EURO">(EURO) European Studies</option><option label="(FILM) Film Studies" value="string:FILM">(FILM) Film Studies</option><option label="(FIGS) First Year Interest Groups-Sci" value="string:FIGS">(FIGS) First Year Interest Groups-Sci</option><option label="(FOSC) Food Science" value="string:FOSC">(FOSC) Food Science</option><option label="(FOOD) Food Science-Agricultural Camp" value="string:FOOD">(FOOD) Food Science-Agricultural Camp</option><option label="(FREN) French" value="string:FREN">(FREN) French</option><option label="(GWST) Gender &amp; Women's Studies" value="string:GWST">(GWST) Gender &amp; Women's Studies</option><option label="(GENE) Genetics-Agricultural Campus" value="string:GENE">(GENE) Genetics-Agricultural Campus</option><option label="(GEOG) Geography" value="string:GEOG">(GEOG) Geography</option><option label="(GEOA) Geography-Agricultural Campus" value="string:GEOA">(GEOA) Geography-Agricultural Campus</option><option label="(GELA) Geology-Agricultural Campus" value="string:GELA">(GELA) Geology-Agricultural Campus</option><option label="(GERM) German" value="string:GERM">(GERM) German</option><option label="(HESA) Health Administration" value="string:HESA">(HESA) Health Administration</option><option label="(HINF) Health Informatics" value="string:HINF">(HINF) Health Informatics</option><option label="(HLTH) Health Professions" value="string:HLTH">(HLTH) Health Professions</option><option label="(HPRO) Health Promotion" value="string:HPRO">(HPRO) Health Promotion</option><option label="(HSCE) Health Sciences Education" value="string:HSCE">(HSCE) Health Sciences Education</option><option label="(HAHP) Health and Human Performance" value="string:HAHP">(HAHP) Health and Human Performance</option><option label="(HSTC) Hist of Science &amp; Technology" value="string:HSTC">(HSTC) Hist of Science &amp; Technology</option><option label="(HIST) History" value="string:HIST">(HIST) History</option><option label="(HORT) Horticulture-Agricultural Camp" value="string:HORT">(HORT) Horticulture-Agricultural Camp</option><option label="(INDG) Indigenous Studies" value="string:INDG">(INDG) Indigenous Studies</option><option label="(IENG) Industrial Engineering" value="string:IENG">(IENG) Industrial Engineering</option><option label="(INFO) Information Management" value="string:INFO">(INFO) Information Management</option><option label="(INFB) Int'l Food Business-Agri Camp" value="string:INFB">(INFB) Int'l Food Business-Agri Camp</option><option label="(INTE) Interdisc Studies (Graduate)" value="string:INTE">(INTE) Interdisc Studies (Graduate)</option><option label="(INTD) International Develop Studies" value="string:INTD">(INTD) International Develop Studies</option><option label="(INTA) Internship-Agricultural Camp" value="string:INTA">(INTA) Internship-Agricultural Camp</option><option label="(IPHE) Interprofessional Health Educ" value="string:IPHE">(IPHE) Interprofessional Health Educ</option><option label="(ITAL) Italian" value="string:ITAL">(ITAL) Italian</option><option label="(JPHD) Joint PhD" value="string:JPHD">(JPHD) Joint PhD</option><option label="(JOUR) Journalism" value="string:JOUR">(JOUR) Journalism</option><option label="(KINE) Kinesiology" value="string:KINE">(KINE) Kinesiology</option><option label="(KING) King's Foundation Year Program" value="string:KING">(KING) King's Foundation Year Program</option><option label="(LARC) Landscape Architecture - AGR" value="string:LARC">(LARC) Landscape Architecture - AGR</option><option label="(LAWS) Law" value="string:LAWS">(LAWS) Law</option><option label="(LJSO) Law, Justice, and Society" value="string:LJSO">(LJSO) Law, Justice, and Society</option><option label="(LEIS) Leisure Studies" value="string:LEIS">(LEIS) Leisure Studies</option><option label="(MRIT) Magnetic Resonance Imag Tech" value="string:MRIT">(MRIT) Magnetic Resonance Imag Tech</option><option label="(MGMT) Management" value="string:MGMT">(MGMT) Management</option><option label="(MGTA) Management-Agricultural Campus" value="string:MGTA">(MGTA) Management-Agricultural Campus</option><option label="(MARA) Marine Affairs" value="string:MARA">(MARA) Marine Affairs</option><option label="(MARI) Marine Biology" value="string:MARI">(MARI) Marine Biology</option><option label="(MATL) Materials Engineering" value="string:MATL">(MATL) Materials Engineering</option><option label="(MATH) Mathematics" value="string:MATH">(MATH) Mathematics</option><option label="(MTHA) Mathematics-Agricultural Camp" value="string:MTHA">(MTHA) Mathematics-Agricultural Camp</option><option label="(MECH) Mechanical Engineering" value="string:MECH">(MECH) Mechanical Engineering</option><option label="(MNSC) Medical Neuroscience" value="string:MNSC">(MNSC) Medical Neuroscience</option><option label="(MEDP) Medical Physics" value="string:MEDP">(MEDP) Medical Physics</option><option label="(MEDR) Medical Research" value="string:MEDR">(MEDR) Medical Research</option><option label="(MICI) Microbiology &amp; Immunology" value="string:MICI">(MICI) Microbiology &amp; Immunology</option><option label="(MCRA) Microbiology-Agricultural Camp" value="string:MCRA">(MCRA) Microbiology-Agricultural Camp</option><option label="(MINE) Mineral Resource Engineering" value="string:MINE">(MINE) Mineral Resource Engineering</option><option label="(MUSC) Music" value="string:MUSC">(MUSC) Music</option><option label="(NESC) Neuroscience" value="string:NESC">(NESC) Neuroscience</option><option label="(NUMT) Nuclear Medicine Technology" value="string:NUMT">(NUMT) Nuclear Medicine Technology</option><option label="(NURS) Nursing" value="string:NURS">(NURS) Nursing</option><option label="(NUTR) Nutrition-Agricultural Campus" value="string:NUTR">(NUTR) Nutrition-Agricultural Campus</option><option label="(OCCU) Occupational Therapy/Science" value="string:OCCU">(OCCU) Occupational Therapy/Science</option><option label="(OCEA) Oceanography" value="string:OCEA">(OCEA) Oceanography</option><option label="(ORAL) Oral Surgery" value="string:ORAL">(ORAL) Oral Surgery</option><option label="(PHDP) PHD Program" value="string:PHDP">(PHDP) PHD Program</option><option label="(PATH) Pathology" value="string:PATH">(PATH) Pathology</option><option label="(PERF) Performance Studies" value="string:PERF">(PERF) Performance Studies</option><option label="(PERI) Periodontics" value="string:PERI">(PERI) Periodontics</option><option label="(PHAC) Pharmacology" value="string:PHAC">(PHAC) Pharmacology</option><option label="(PHAR) Pharmacy" value="string:PHAR">(PHAR) Pharmacy</option><option label="(PHIL) Philosophy" value="string:PHIL">(PHIL) Philosophy</option><option label="(MPAS) Physician Assistant Studies" value="string:MPAS">(MPAS) Physician Assistant Studies</option><option label="(PHYC) Physics &amp; Atmospheric Science" value="string:PHYC">(PHYC) Physics &amp; Atmospheric Science</option><option label="(PHYS) Physics-Agricultural Campus" value="string:PHYS">(PHYS) Physics-Agricultural Campus</option><option label="(PHYL) Physiology" value="string:PHYL">(PHYL) Physiology</option><option label="(PHYT) Physiotherapy" value="string:PHYT">(PHYT) Physiotherapy</option><option label="(PLAN) Planning" value="string:PLAN">(PLAN) Planning</option><option label="(PLSC) Plant Science-Agri Campus" value="string:PLSC">(PLSC) Plant Science-Agri Campus</option><option label="(POLI) Political Science" value="string:POLI">(POLI) Political Science</option><option label="(POLS) Political Science-Agri Campus" value="string:POLS">(POLS) Political Science-Agri Campus</option><option label="(PGPH) Post-Graduate Pharmacy" value="string:PGPH">(PGPH) Post-Graduate Pharmacy</option><option label="(PEAS) Process Engineering &amp; App Scie" value="string:PEAS">(PEAS) Process Engineering &amp; App Scie</option><option label="(PSYR) Psychiatry" value="string:PSYR">(PSYR) Psychiatry</option><option label="(PSYO) Psychology" value="string:PSYO">(PSYO) Psychology</option><option label="(PSYC) Psychology-Agricultural Campus" value="string:PSYC">(PSYC) Psychology-Agricultural Campus</option><option label="(PUAD) Public Administration" value="string:PUAD">(PUAD) Public Administration</option><option label="(RADT) Radiological Technology" value="string:RADT">(RADT) Radiological Technology</option><option label="(REGN) Registration Course-Graduate" value="string:REGN">(REGN) Registration Course-Graduate</option><option label="(RELS) Religious Studies" value="string:RELS">(RELS) Religious Studies</option><option label="(RESM) Res Methods/Proj Sem-Agri Camp" value="string:RESM">(RESM) Res Methods/Proj Sem-Agri Camp</option><option label="(RSPT) Respiratory Therapy" value="string:RSPT">(RSPT) Respiratory Therapy</option><option label="(RUSN) Russian Studies" value="string:RUSN">(RUSN) Russian Studies</option><option label="(SCIE) Science" value="string:SCIE">(SCIE) Science</option><option label="(SLWK) Social Work" value="string:SLWK">(SLWK) Social Work</option><option label="(SOSA) Sociol &amp; Social Anthropology" value="string:SOSA">(SOSA) Sociol &amp; Social Anthropology</option><option label="(SOCI) Sociology-Agricultural Campus" value="string:SOCI">(SOCI) Sociology-Agricultural Campus</option><option label="(SOIL) Soils-Agricultural Campus" value="string:SOIL">(SOIL) Soils-Agricultural Campus</option><option label="(SPAN) Spanish &amp; Latin American Stud" value="string:SPAN">(SPAN) Spanish &amp; Latin American Stud</option><option label="(SPEC) Special Topics-Agri Campus" value="string:SPEC">(SPEC) Special Topics-Agri Campus</option><option label="(STAT) Statistics" value="string:STAT">(STAT) Statistics</option><option label="(STAA) Statistics-Agricultural Campus" value="string:STAA">(STAA) Statistics-Agricultural Campus</option><option label="(SUST) Sustainability" value="string:SUST">(SUST) Sustainability</option><option label="(THEA) Theatre" value="string:THEA">(THEA) Theatre</option><option label="(TYPR) Transition Year Program" value="string:TYPR">(TYPR) Transition Year Program</option><option label="(VTEC) Veterinary Tech-Agri Campus" value="string:VTEC">(VTEC) Veterinary Tech-Agri Campus</option><option label="(VISC) Vision Science" value="string:VISC">(VISC) Vision Science</option><option label="(WPUB) Writing and Publishing" value="string:WPUB">(WPUB) Writing and Publishing</option></select>
+</div> <div id="pbid-filterText-container" ng-class="filterText_style" class="pb-block-item-container pb-text" role="application">
+ <label class="pb-block pb-text pb-item pb-label label-style-local " id="pbid-filterText-label" null="" for="pbid-filterText" *aria-labelledby="pbid-filterText" *="">Filter:</label> <input tabindex="0" id="pbid-filterText" type="text" class="pb-block pb-text pb-item ng-pristine ng-untouched ng-valid ng-empty" name="filterText" ng-change="filterText_onUpdate()" aria-label="Filter:" ng-model="filterText" aria-invalid="false">
+
+</div> </div>
+
+<div id="pbid-noSubjectSelectBlock" ng-class="noSubjectSelectBlock_style" class="pb-block ng-hide" ng-show="noSubjectSelectBlock_visible" null="" aria-hidden="true">  
+<div id="pbid-noSubjectSelectBlockLabel-container" ng-class="noSubjectSelectBlockLabel_style" class="pb-block-item-container pb-literal padding-bottom-20px" role="application">
+ <label class="pb-block pb-literal pb-item pb-label label-style-local " id="pbid-noSubjectSelectBlockLabel-label" null="" for="pbid-noSubjectSelectBlockLabel" *aria-labelledby="pbid-noSubjectSelectBlockLabel" *="">Subject:</label> <span id="pbid-noSubjectSelectBlockLabel" class="pb-block pb-literal pb-item " tabindex="-1">No subjects available to view.</span>
+
+</div> </div>
+
+<div id="pbid-filterHiddenBlock" ng-class="filterHiddenBlock_style" class="pb-block ng-hide" ng-show="filterHiddenBlock_visible" null="" aria-hidden="true">  
+<div id="pbid-loadSubjectButton-container" ng-class="loadSubjectButton_style" class="pb-block-item-container pb-button padding-bottom-20px" role="application">
+  <button id="pbid-loadSubjectButton" class="pb-block pb-button pb-item primary btn-sm" ng-click="loadSubjectButton_onClick()" type="button">Load Subject</button>
+
+</div> <div id="pbid-terms-container" ng-class="terms_style" class="pb-block-item-container pb-text padding-top-50px" role="application">
+ <label class="pb-block pb-text pb-item pb-label  " id="pbid-terms-label" null="" for="pbid-terms" *aria-labelledby="pbid-terms" *="">Terms:</label> <input tabindex="0" id="pbid-terms" type="text" class="pb-block pb-text pb-item ng-pristine ng-untouched ng-valid ng-not-empty" name="terms" aria-label="Terms:" ng-model="terms" aria-invalid="false">
+
+</div> <div id="pbid-districts-container" ng-class="districts_style" class="pb-block-item-container pb-text" role="application">
+ <label class="pb-block pb-text pb-item pb-label  " id="pbid-districts-label" null="" for="pbid-districts" *aria-labelledby="pbid-districts" *="">Districts:</label> <input tabindex="0" id="pbid-districts" type="text" class="pb-block pb-text pb-item ng-pristine ng-untouched ng-valid ng-not-empty" name="districts" aria-label="Districts:" ng-model="districts" aria-invalid="false">
+
+</div> <div id="pbid-currentSelectedSubject-container" ng-class="currentSelectedSubject_style" class="pb-block-item-container pb-text" role="application">
+ <label class="pb-block pb-text pb-item pb-label  " id="pbid-currentSelectedSubject-label" null="" for="pbid-currentSelectedSubject" *aria-labelledby="pbid-currentSelectedSubject" *="">Selected Subject:</label> <input tabindex="0" id="pbid-currentSelectedSubject" type="text" class="pb-block pb-text pb-item ng-pristine ng-untouched ng-valid ng-empty" name="currentSelectedSubject" aria-label="Selected Subject:" ng-model="currentSelectedSubject" aria-invalid="false">
+
+</div> <div id="pbid-currentSelectedSubjectText-container" ng-class="currentSelectedSubjectText_style" class="pb-block-item-container pb-text" role="application">
+ <label class="pb-block pb-text pb-item pb-label  " id="pbid-currentSelectedSubjectText-label" null="" for="pbid-currentSelectedSubjectText" *aria-labelledby="pbid-currentSelectedSubjectText" *="">Selected Subject Text:</label> <input tabindex="0" id="pbid-currentSelectedSubjectText" type="text" class="pb-block pb-text pb-item ng-pristine ng-untouched ng-valid ng-empty" name="currentSelectedSubjectText" aria-label="Selected Subject Text:" ng-model="currentSelectedSubjectText" aria-invalid="false">
+
+</div> <div id="pbid-crseNumb-container" ng-class="crseNumb_style" class="pb-block-item-container pb-text" role="application">
+  <input tabindex="0" id="pbid-crseNumb" type="text" class="pb-block pb-text pb-item ng-pristine ng-untouched ng-valid ng-empty" name="crseNumb" aria-label="  " ng-model="crseNumb" aria-invalid="false">
+
+</div> <div id="pbid-closeLoaderButton-container" ng-class="closeLoaderButton_style" class="pb-block-item-container pb-button" role="application">
+  <button id="pbid-closeLoaderButton" class="pb-block pb-button pb-item " ng-click="closeLoaderButton_onClick()" type="button">Close Loader</button>
+
+</div> </div>
+</div>
+
+<div id="pbid-timetableDataBlock" ng-class="timetableDataBlock_style" class="pb-block ng-hide" ng-show="timetableDataBlock_visible" null="" aria-hidden="true">  
+</div>
+
+<div id="pbid-timetableBlock" ng-class="timetableBlock_style" class="pb-block ng-hide padding-bottom-50px padding-top-10px" ng-show="timetableBlock_visible" null="" aria-hidden="true">  
+
+<div id="pbid-queryTablePagingContainer" ng-class="queryTablePagingContainer_style" class="pb-block pagination-container" ng-show="queryTablePagingContainer_visible" null="" aria-hidden="false">  
+<div id="pbid-loadTimetableButton-container" ng-class="loadTimetableButton_style" class="pb-block-item-container pb-button refresh-button-div" role="application">
+  <button id="pbid-loadTimetableButton" class="pb-block pb-button pb-item primary btn-sm" ng-click="loadTimetableButton_onClick()" type="button">Refresh</button>
+
+</div> 
+<div id="pbid-exportButtonBlock" ng-class="exportButtonBlock_style" class="pb-block ng-hide export-button-div" ng-show="exportButtonBlock_visible" null="" aria-hidden="true">  
+<div id="pbid-exportButton-container" ng-class="exportButton_style" class="pb-block-item-container pb-button" role="application">
+  <button id="pbid-exportButton" class="pb-block pb-button pb-item primary btn-sm" ng-click="exportButton_onClick()" type="button">Export</button>
+
+</div> </div>
+
+<div id="pbid-queryTablePagingControls" ng-class="queryTablePagingControls_style" class="pb-block pagination-controls display-inline-block-local" ng-show="queryTablePagingControls_visible" null="" aria-hidden="false">  
+
+<div id="pbid-queryTablePagingControlsHidden" ng-class="queryTablePagingControlsHidden_style" class="pb-block ng-hide display-inline-block-local" ng-show="queryTablePagingControlsHidden_visible" null="" aria-hidden="true">  
+<div id="pbid-queryTablePageNumber-container" ng-class="queryTablePageNumber_style" class="pb-block-item-container pb-text display-inline-block-local" role="application">
+  <input tabindex="0" id="pbid-queryTablePageNumber" type="text" class="pb-block pb-text pb-item ng-pristine ng-untouched ng-valid ng-not-empty" name="queryTablePageNumber" ng-init="setDefault(this,'queryTablePageNumber',1)" aria-label="  " ng-model="queryTablePageNumber" aria-invalid="false">
+
+</div> <div id="pbid-queryTableNumberOfRows-container" ng-class="queryTableNumberOfRows_style" class="pb-block-item-container pb-text display-inline-block-local" role="application">
+  <input tabindex="0" id="pbid-queryTableNumberOfRows" type="text" class="pb-block pb-text pb-item ng-pristine ng-untouched ng-valid ng-empty" name="queryTableNumberOfRows" aria-label="  " ng-model="queryTableNumberOfRows" aria-invalid="false">
+
+</div> <div id="pbid-queryTablePageUpdate-container" ng-class="queryTablePageUpdate_style" class="pb-block-item-container pb-button display-inline-block-local" role="application">
+  <button id="pbid-queryTablePageUpdate" class="pb-block pb-button pb-item secondary" ng-click="queryTablePageUpdate_onClick()" type="button">Update</button>
+
+</div> </div>
+
+<div id="pbid-queryTablePagingControlsBlock" ng-class="queryTablePagingControlsBlock_style" class="pb-block display-inline-block-local" ng-show="queryTablePagingControlsBlock_visible" null="" aria-hidden="false">  
+<div id="pbid-queryTablePrevButton-container" ng-class="queryTablePrevButton_style" class="pb-block-item-container pb-button display-inline-block-local" role="application">
+  <button id="pbid-queryTablePrevButton" class="pb-block pb-button pb-item secondary previous" ng-click="queryTablePrevButton_onClick()" type="button">&lt;</button>
+
+</div> 
+<div id="pbid-queryTablePageCount-container" ng-class="queryTablePageCount_style" class="pb-block-item-container pb-display display-inline-block-local">
+    
+    <span id="pbid-queryTablePageCount" class="pb-block pb-display pb-item"> null </span>
+</div><div id="pbid-queryTableNextButton-container" ng-class="queryTableNextButton_style" class="pb-block-item-container pb-button display-inline-block-local" role="application">
+  <button id="pbid-queryTableNextButton" class="pb-block pb-button pb-item secondary next" ng-click="queryTableNextButton_onClick()" type="button">&gt;</button>
+
+</div> </div>
+
+<div id="pbid-queryTablePagingPageSizeBlock" ng-class="queryTablePagingPageSizeBlock_style" class="pb-block display-inline-block-local" ng-show="queryTablePagingPageSizeBlock_visible" null="" aria-hidden="false">  
+<div id="pbid-queryTablePageSize-container" ng-class="queryTablePageSize_style" class="pb-block-item-container pb-select display-inline-block-local" role="application">
+ <label class="pb-block pb-select pb-item pb-label  " id="pbid-queryTablePageSize-label" null="" for="pbid-queryTablePageSize" *aria-labelledby="pbid-queryTablePageSize" *="">Per Page</label> 
+<select id="pbid-queryTablePageSize" ng-keypress="queryTablePageSizeDS.openDropDown(&quot;pbid-queryTablePageSize-Option&quot;,$event);" class="pb-block pb-select pb-item per-page-select ng-pristine ng-untouched ng-valid ng-not-empty" ng-model="queryTablePageSize" ng-change="queryTablePageSizeDS.setCurrentRecord(queryTablePageSize);queryTablePageSizeDS.onUpdate(item);" ng-init="setDefault(this,'queryTablePageSize',20)" ng-options="item.NUMB as item.DESC for item in queryTablePageSizeDS.data" tabindex="0" aria-invalid="false"><option id="pbid-queryTablePageSize-Option" style="display:none" value=""></option><option label="20" value="string:20" selected="selected">20</option><option label="40" value="string:40">40</option><option label="80" value="string:80">80</option><option label="All" value="string:9999">All</option></select>
+</div> </div>
+</div>
+</div>
+
+<div id="pbid-timetableTimeBlock" ng-class="timetableTimeBlock_style" class="pb-block" ng-show="timetableTimeBlock_visible" null="" aria-hidden="false">  
+<div id="pbid-timetableTimeDisplay-container" ng-class="timetableTimeDisplay_style" class="pb-block-item-container pb-literal time-display" role="application">
+  <span id="pbid-timetableTimeDisplay" class="pb-block pb-literal pb-item " tabindex="-1">.</span>
+
+</div> </div>
+<div id="pbid-timetable-container" ng-class="timetable_style" class="pb-block-item-container pb-literal" role="application">
+  <span id="pbid-timetable" class="pb-block pb-literal pb-item " tabindex="-1"><!-- Start copy from here / Copy into timetable literal PB object -->
+  <table class="dataentrytable" width="100%">
+    <tbody id="tbodyTimetable">
+      <tr>
+        <td id="notesURL" rowspan="2" class="detitle"><a href="JavaScript:windowOpen('https://www.dal.ca/campus_life/academic-support/register-for-courses/create-your-schedule/timetable.html')">Notes</a></td>
+        <td rowspan="2" class="detitle"><b>CRN</b></td>
+        <td rowspan="2" colspan="2" class="detitle">Section</td>
+        <td rowspan="2" class="detitle">Cr<br>Hrs</td>
+        <td rowspan="2" class="detitle">Link</td>
+        <td colspan="7" class="detitle"><p class="center-align-text">Days</p></td>
+        <td rowspan="2" class="detitle">Times</td>
+        <td rowspan="2" class="detitle" nowrap="">Location(s)</td>
+        <td colspan="5" class="detitle"><p class="center-align-text">Enrolment Info</p></td>
+        <td colspan="2" class="detitle"><p class="center-align-text">XList Info</p></td>
+        <td rowspan="2" class="detitle" nowrap="">Instructor(s)</td>
+        <td colspan="2" class="detitle"><p class="center-align-text">Tuition</p></td>
+      </tr>
+      <tr>
+        <td class="delabelsml weekMon" colspan="2">Mo</td>
+        <td class="delabelsml weekTue">Tu</td>
+        <td class="delabelsml">We</td>
+        <td class="delabelsml weekThu">Th</td>
+        <td class="delabelsml weekFri" colspan="2">Fr</td>
+        <td class="delabelsml"><p class="right-align-text">Max</p></td>
+        <td class="delabelsml"><p class="right-align-text">Cur</p></td>
+        <td class="delabelsml"><p class="right-align-text">Avail</p></td>
+        <td class="delabelsml"><p class="right-align-text">WtLst</p></td>
+        <td class="delabelsml" nowrap=""><p class="right-align-text">%Full</p></td>
+        <td class="delabelsml"><p class="right-align-text">Max</p></td>
+        <td class="delabelsml"><p class="right-align-text">Cur</p></td>
+        <td class="delabelsml">Code</td>
+        <td class="delabelsml">BHrs</td>
+      </tr>
+    </tbody>
+  </table>
+  <!-- Copy until here / Copy into timetable literal PB object --></span>
+
+</div> 
+<div id="pbid-timetableTimeBlockBottom" ng-class="timetableTimeBlockBottom_style" class="pb-block" ng-show="timetableTimeBlockBottom_visible" null="" aria-hidden="false">  
+<div id="pbid-timetableTimeDisplayBottom-container" ng-class="timetableTimeDisplayBottom_style" class="pb-block-item-container pb-literal time-display" role="application">
+  <span id="pbid-timetableTimeDisplayBottom" class="pb-block pb-literal pb-item " tabindex="-1">.</span>
+
+</div> </div>
+
+<div id="pbid-queryTablePagingContainerBottom" ng-class="queryTablePagingContainerBottom_style" class="pb-block pagination-container" ng-show="queryTablePagingContainerBottom_visible" null="" aria-hidden="false">  
+
+<div id="pbid-queryTablePagingControlsBottom" ng-class="queryTablePagingControlsBottom_style" class="pb-block pagination-controls display-inline-block-local" ng-show="queryTablePagingControlsBottom_visible" null="" aria-hidden="false">  
+
+<div id="pbid-queryTablePagingControlsBlockBottom" ng-class="queryTablePagingControlsBlockBottom_style" class="pb-block display-inline-block-local" ng-show="queryTablePagingControlsBlockBottom_visible" null="" aria-hidden="false">  
+<div id="pbid-queryTablePrevButtonBottom-container" ng-class="queryTablePrevButtonBottom_style" class="pb-block-item-container pb-button display-inline-block-local" role="application">
+  <button id="pbid-queryTablePrevButtonBottom" class="pb-block pb-button pb-item secondary previous" ng-click="queryTablePrevButtonBottom_onClick()" type="button">&lt;</button>
+
+</div> 
+<div id="pbid-queryTablePageCountBottom-container" ng-class="queryTablePageCountBottom_style" class="pb-block-item-container pb-display display-inline-block-local">
+    
+    <span id="pbid-queryTablePageCountBottom" class="pb-block pb-display pb-item"> null </span>
+</div><div id="pbid-queryTableNextButtonBottom-container" ng-class="queryTableNextButtonBottom_style" class="pb-block-item-container pb-button display-inline-block-local" role="application">
+  <button id="pbid-queryTableNextButtonBottom" class="pb-block pb-button pb-item secondary next" ng-click="queryTableNextButtonBottom_onClick()" type="button">&gt;</button>
+
+</div> </div>
+
+<div id="pbid-queryTablePagingPageSizeBlockBottom" ng-class="queryTablePagingPageSizeBlockBottom_style" class="pb-block display-inline-block-local" ng-show="queryTablePagingPageSizeBlockBottom_visible" null="" aria-hidden="false">  
+<div id="pbid-queryTablePageSizeBottom-container" ng-class="queryTablePageSizeBottom_style" class="pb-block-item-container pb-select display-inline-block-local" role="application">
+ <label class="pb-block pb-select pb-item pb-label  " id="pbid-queryTablePageSizeBottom-label" null="" for="pbid-queryTablePageSizeBottom" *aria-labelledby="pbid-queryTablePageSizeBottom" *="">Per Page</label> 
+<select id="pbid-queryTablePageSizeBottom" ng-keypress="queryTablePageSizeBottomDS.openDropDown(&quot;pbid-queryTablePageSizeBottom-Option&quot;,$event);" class="pb-block pb-select pb-item per-page-select ng-pristine ng-untouched ng-valid ng-not-empty" ng-model="queryTablePageSizeBottom" ng-change="queryTablePageSizeBottomDS.setCurrentRecord(queryTablePageSizeBottom);queryTablePageSizeBottomDS.onUpdate(item);" ng-init="setDefault(this,'queryTablePageSizeBottom',20)" ng-options="item.NUMB as item.DESC for item in queryTablePageSizeBottomDS.data" tabindex="0" aria-invalid="false"><option id="pbid-queryTablePageSizeBottom-Option" style="display:none" value=""></option><option label="20" value="string:20" selected="selected">20</option><option label="40" value="string:40">40</option><option label="80" value="string:80">80</option><option label="All" value="string:9999">All</option></select>
+</div> </div>
+</div>
+</div>
+</div>
+
+<div id="pbid-loaderIconHolderBlock" ng-class="loaderIconHolderBlock_style" class="pb-block padding-top-20px ng-hide" ng-show="loaderIconHolderBlock_visible" null="" aria-hidden="true"> <h2 class="pb-block-label" id="pbid-loaderIconHolderBlock-label" tabindex="0">Loading, please wait.</h2> 
+
+<div id="pbid-loaderIconBlock" ng-class="loaderIconBlock_style" class="pb-block progressLoader" ng-show="loaderIconBlock_visible" null="" aria-hidden="false">  
+</div>
+</div>
+
+<div id="pbid-modalBlock" ng-class="modalBlock_style" class="pb-block modal fade in" ng-show="modalBlock_visible" null="" aria-hidden="false">  
+
+<div id="pbid-modalDialogBlock" ng-class="modalDialogBlock_style" class="pb-block modal-dialog" ng-show="modalDialogBlock_visible" null="" aria-hidden="false">  
+
+<div id="pbid-modalContentBlock" ng-class="modalContentBlock_style" class="pb-block modal-content" ng-show="modalContentBlock_visible" null="" aria-hidden="false">  
+
+<div id="pbid-modalContainer" ng-class="modalContainer_style" class="pb-block" ng-show="modalContainer_visible" null="" aria-hidden="false">  
+
+<div id="pbid-modalHeaderTitle-container" ng-class="modalHeaderTitle_style" class="pb-block-item-container pb-display col-sm-12">
+    
+    <span id="pbid-modalHeaderTitle" class="pb-block pb-display pb-item" ng-bind-html="Class | to_trusted"></span>
+</div>
+<div id="pbid-modalHeader" ng-class="modalHeader_style" class="pb-block" ng-show="modalHeader_visible" null="" aria-hidden="false">  
+
+<div id="pbid-openModalBlock" ng-class="openModalBlock_style" class="pb-block ng-hide" ng-show="openModalBlock_visible" null="" aria-hidden="true">  
+</div>
+
+<div id="pbid-modalHeaderTitle2-container" ng-class="modalHeaderTitle2_style" class="pb-block-item-container pb-display col-sm-12">
+    
+    <span id="pbid-modalHeaderTitle2" class="pb-block pb-display pb-item" ng-bind-html="Class | to_trusted"></span>
+</div>
+<div id="pbid-modalHeaderTable" ng-class="modalHeaderTable_style" class="pb-block display-flex-row" ng-show="modalHeaderTable_visible" null="" aria-hidden="false">  
+
+<div id="pbid-modalTermBlock" ng-class="modalTermBlock_style" class="pb-block ng-hide" ng-show="modalTermBlock_visible" null="" aria-hidden="true">  
+
+<div id="pbid-modalTerm-container" ng-class="modalTerm_style" class="pb-block-item-container pb-display">
+    
+    <label class="pb-block  pb-display pb-item pb-label" id="pbid-modalTerm-label" for="pbid-modalTerm">
+        Term
+    </label>
+    
+    <span id="pbid-modalTerm" class="pb-block pb-display pb-item"> null </span>
+</div></div>
+
+<div id="pbid-modalCRN-container" ng-class="modalCRN_style" class="pb-block-item-container pb-display col-sm-3">
+    
+    <label class="pb-block  pb-display pb-item pb-label" id="pbid-modalCRN-label" for="pbid-modalCRN">
+        CRN
+    </label>
+    
+    <span id="pbid-modalCRN" class="pb-block pb-display pb-item">  </span>
+</div>
+<div id="pbid-modalSubject-container" ng-class="modalSubject_style" class="pb-block-item-container pb-display col-sm-3">
+    
+    <label class="pb-block  pb-display pb-item pb-label" id="pbid-modalSubject-label" for="pbid-modalSubject">
+        Subject
+    </label>
+    
+    <span id="pbid-modalSubject" class="pb-block pb-display pb-item">  </span>
+</div>
+<div id="pbid-modalCourse-container" ng-class="modalCourse_style" class="pb-block-item-container pb-display col-sm-3">
+    
+    <label class="pb-block  pb-display pb-item pb-label" id="pbid-modalCourse-label" for="pbid-modalCourse">
+        Course
+    </label>
+    
+    <span id="pbid-modalCourse" class="pb-block pb-display pb-item">  </span>
+</div>
+<div id="pbid-modalSection-container" ng-class="modalSection_style" class="pb-block-item-container pb-display col-sm-3">
+    
+    <label class="pb-block  pb-display pb-item pb-label" id="pbid-modalSection-label" for="pbid-modalSection">
+        Section
+    </label>
+    
+    <span id="pbid-modalSection" class="pb-block pb-display pb-item"> null </span>
+</div></div>
+
+<div id="pbid-modalCourseTitle-container" ng-class="modalCourseTitle_style" class="pb-block-item-container pb-display col-sm-12 padding-col-sm">
+    
+    <label class="pb-block  pb-display pb-item pb-label" id="pbid-modalCourseTitle-label" for="pbid-modalCourseTitle">
+        Course Title:
+    </label>
+    
+    <span id="pbid-modalCourseTitle" class="pb-block pb-display pb-item"> null </span>
+</div></div>
+
+<div id="pbid-restrictionsBlock" ng-class="restrictionsBlock_style" class="pb-block" ng-show="restrictionsBlock_visible" null="" aria-hidden="false">  
+
+<div id="pbid-restrictionsIncludeBlock" ng-class="restrictionsIncludeBlock_style" class="pb-block padding-col-sm" ng-show="restrictionsIncludeBlock_visible" null="" aria-hidden="false">  
+<div ng-class="restrictionsIncludeTable_style" id="pbid-restrictionsIncludeTable" class="pb-detail-container"><label class="pb-detail pb-label" id="pbid-restrictionsIncludeTablelabel" tabindex="0"><b>Restricted to students in:</b></label>
+<!---->
+ <div id="pbid-restrictionsIncludeTable-record-control-container" class="pb-record-control"> 
+<!-- pagination -->
+<div class="pagination-container">
+    <div id="pbid-restrictionsIncludeTable-pagination-container" class="pagination-controls ng-hide" ng-show="restrictionsIncludeTableDS.totalCount > restrictionsIncludeTableDS.pagingOptions.pageSize" aria-hidden="true">
+        <button id="pbid-restrictionsIncludeTable-pagination-prev-button" class="secondary previous" ng-disabled="restrictionsIncludeTableDS.pagingOptions.currentPage == 1" ng-click="restrictionsIncludeTableDS.pagingOptions.currentPage=restrictionsIncludeTableDS.pagingOptions.currentPage - 1" type="button" aria-label="Previous Page" title="Previous Page">
+        </button>
+        <span id="pbid-restrictionsIncludeTable-pagination-page-count">
+        /NaN
+        </span>
+        <button id="pbid-restrictionsIncludeTable-pagination-next-button" class="secondary next" ng-disabled="restrictionsIncludeTableDS.pagingOptions.currentPage >= restrictionsIncludeTableDS.totalCount/restrictionsIncludeTableDS.pagingOptions.pageSize " ng-click="restrictionsIncludeTableDS.pagingOptions.currentPage=restrictionsIncludeTableDS.pagingOptions.currentPage + 1" type="button" aria-label="Next Page" title="Next Page">
+        </button>
+    </div>
+</div>
+ </div></div></div>
+
+<div id="pbid-restrictionsExcludeBlock" ng-class="restrictionsExcludeBlock_style" class="pb-block padding-col-sm" ng-show="restrictionsExcludeBlock_visible" null="" aria-hidden="false">  
+<div ng-class="restrictionsExcludeTable_style" id="pbid-restrictionsExcludeTable" class="pb-detail-container"><label class="pb-detail pb-label" id="pbid-restrictionsExcludeTablelabel" tabindex="0"><b>Restricted from students in:</b></label>
+<!---->
+ <div id="pbid-restrictionsExcludeTable-record-control-container" class="pb-record-control"> 
+<!-- pagination -->
+<div class="pagination-container">
+    <div id="pbid-restrictionsExcludeTable-pagination-container" class="pagination-controls ng-hide" ng-show="restrictionsExcludeTableDS.totalCount > restrictionsExcludeTableDS.pagingOptions.pageSize" aria-hidden="true">
+        <button id="pbid-restrictionsExcludeTable-pagination-prev-button" class="secondary previous" ng-disabled="restrictionsExcludeTableDS.pagingOptions.currentPage == 1" ng-click="restrictionsExcludeTableDS.pagingOptions.currentPage=restrictionsExcludeTableDS.pagingOptions.currentPage - 1" type="button" aria-label="Previous Page" title="Previous Page">
+        </button>
+        <span id="pbid-restrictionsExcludeTable-pagination-page-count">
+        /NaN
+        </span>
+        <button id="pbid-restrictionsExcludeTable-pagination-next-button" class="secondary next" ng-disabled="restrictionsExcludeTableDS.pagingOptions.currentPage >= restrictionsExcludeTableDS.totalCount/restrictionsExcludeTableDS.pagingOptions.pageSize " ng-click="restrictionsExcludeTableDS.pagingOptions.currentPage=restrictionsExcludeTableDS.pagingOptions.currentPage + 1" type="button" aria-label="Next Page" title="Next Page">
+        </button>
+    </div>
+</div>
+ </div></div></div>
+</div>
+
+<div id="pbid-instructorsBlock" ng-class="instructorsBlock_style" class="pb-block" ng-show="instructorsBlock_visible" null="" aria-hidden="false">  
+
+<div id="pbid-instructorsExistBlock" ng-class="instructorsExistBlock_style" class="pb-block padding-col-sm" ng-show="instructorsExistBlock_visible" null="" aria-hidden="false">  
+
+  <table id="pbid-instructorsDetail" ng-class="instructorsDetail_style" role="table" aria-labelledby="pbid-instructorsDetail-label" class="w4a_table">
+    <caption></caption>
+    <thead id="pbid-instructorsDetail-th"><tr id="pbid-instructorsDetail-thr" role="row"><th id="pbid-instructorsDetaildata-header-instructorName" role="columnheader" tabindex="0">Instructor</th><th id="pbid-instructorsDetaildata-header-instructorsPrimary" role="columnheader" tabindex="0">Primary</th></tr></thead>
+    <tbody id="pbid-instructorsDetail-tb">
+      <!-- Do this for every object in objects -->
+      <!---->
+    </tbody>
+  </table>
+ <div id="pbid-instructorsDetail-record-control-container" class="pb-record-control"> 
+<!-- pagination -->
+<div class="pagination-container">
+    <div id="pbid-instructorsDetail-pagination-container" class="pagination-controls ng-hide" ng-show="instructorsDetailDS.totalCount > instructorsDetailDS.pagingOptions.pageSize" aria-hidden="true">
+        <button id="pbid-instructorsDetail-pagination-prev-button" class="secondary previous" ng-disabled="instructorsDetailDS.pagingOptions.currentPage == 1" ng-click="instructorsDetailDS.pagingOptions.currentPage=instructorsDetailDS.pagingOptions.currentPage - 1" type="button" aria-label="Previous Page" title="Previous Page">
+        </button>
+        <span id="pbid-instructorsDetail-pagination-page-count">
+        /NaN
+        </span>
+        <button id="pbid-instructorsDetail-pagination-next-button" class="secondary next" ng-disabled="instructorsDetailDS.pagingOptions.currentPage >= instructorsDetailDS.totalCount/instructorsDetailDS.pagingOptions.pageSize " ng-click="instructorsDetailDS.pagingOptions.currentPage=instructorsDetailDS.pagingOptions.currentPage + 1" type="button" aria-label="Next Page" title="Next Page">
+        </button>
+    </div>
+</div>
+ </div></div>
+
+<div id="pbid-instructorsNotExistBlock" ng-class="instructorsNotExistBlock_style" class="pb-block padding-col-sm" ng-show="instructorsNotExistBlock_visible" null="" aria-hidden="false">  
+<div id="pbid-instructorsNotExist-container" ng-class="instructorsNotExist_style" class="pb-block-item-container pb-literal pb-label" role="application">
+  <span id="pbid-instructorsNotExist" class="pb-block pb-literal pb-item " tabindex="-1">Consult Department</span>
+
+</div> </div>
+</div>
+
+<div id="pbid-queryButtonBlock" ng-class="queryButtonBlock_style" class="pb-block" ng-show="queryButtonBlock_visible" null="" aria-hidden="false">  
+<div id="pbid-modalOk-container" ng-class="modalOk_style" class="pb-block-item-container pb-button padding-col-sm" role="application">
+  <button id="pbid-modalOk" class="pb-block pb-button pb-item primary" ng-click="modalOk_onClick()" type="button">Ok</button>
+
+</div> </div>
+</div>
+</div>
+</div>
+</div>
+
+<div id="pbid-testBlock" ng-class="testBlock_style" class="pb-block ng-hide" ng-show="testBlock_visible" null="" aria-hidden="true">  
+<div id="pbid-testButton-container" ng-class="testButton_style" class="pb-block-item-container pb-button" role="application">
+  <button id="pbid-testButton" class="pb-block pb-button pb-item " ng-click="testButton_onClick()" type="button">Test</button>
+
+</div> </div>
+</div>
+<div ng-controller="homePageUrlCtr"><div ng-view=""></div>
+   <input name="pageURL" value="dal.stuweb_academicTimetable" id="homeURL" hidden="true"></div>
+
+        <script>
+        var extensibilityInfo = {
+  "application": "BannerExtensibility",
+  "page": "customPage",
+  "url": "/BannerExtensibility/",
+  "pluginUrl": "/BannerExtensibility/plugins/web-app-extensibility-10.5/static/html/",
+  "admin": false,
+  "extensions": {},
+  "resources": null
+}
+        window.mepCode='';
+    </script><script type="text/javascript">
+            window.uiGridI18n={}
+            window.uiGridI18n = {
+                ngAggregateLabel:          'items',
+                ngGroupPanelDescription:   'Drag a column header here and drop it to group by that column.',
+                ngSearchPlaceHolder:       'Search...',
+                ngMenuText:                'Choose Columns:',
+                ngShowingItemsLabel:       'Showing Records:',
+                ngTotalItemsLabel:         'Records Found:',
+                ngSelectedItemsLabel:      'Selected Records:',
+                ngPageSizeLabel:           'Per Page',
+                ngPagerFirstTitle:         'First Page',
+                ngPesheetInclude:          'Next Page',
+                ngPagerPrevTitle:          'Previous Page',
+                ngPagerLastTitle:          'Last Page',
+                direction:                 'ltr',
+                styleLeft:                 'left',
+                styleRight:                'right',
+                maxPageLabel:              'of',
+                pageLabel:                 'Page',
+                next:                      'Next page',
+                last:                      'Last page',
+                previous:                  'Previous page',
+                first:                     'First page'
+            };
+            yepnope({
+                test : window.JSON,
+                nope : '/BannerExtensibility/assets/json2.js'
+            });
+
+            $(window).on('load',function() {
+                _.defer( function() {
+                    $( "#splash" ).remove();
+                });
+                $('#content').find('button, a, input:not([class~="pb-boolean"]), select, textarea, label, [tabindex]:not([tabindex="-1"])').not(':header').eq(0).focus();
+            });
+            $.i18n.map = {"aurora.areas_label_about_title": "About","aurora.areas_label_browse_description": "Banner Menu. Short cut key is Alt+M","aurora.areas_label_browse_title": "Banner Menu Alt+M","aurora.areas_label_home_description": "Home. Short cut key is Alt+Q","aurora.areas_label_home_title": "Home Alt+Q","aurora.areas_label_profile_description": "Profile. Short cut is Alt+P","aurora.areas_label_profile_title": "Profile Alt+P","aurora.areas_label_tools_description": "Tools. Short cut is Alt+L","aurora.areas_label_tools_title": "Tools Alt+L","aurora.guestuserdetails_signin": "Guest Sign In","aurora.openitems_label_closeAll": "Close All","aurora.openitems_label_closeSelected": "Close Selected","aurora.preferences_label": "Preferences","aurora.privacypolicy_label": "Privacy Policy","aurora.toolsmenu.keyboard.shortcuts.heading": "Keyboard shortcuts","aurora.userdetails_help": "Help","aurora.userdetails_signin": "Sign In","aurora.userdetails_signin_description": "Sign In. Short cut is Ctrl+Shift+F","aurora.userdetails_signin_title": "Sign In Ctrl+Shift+F","aurora.userdetails_signout": "Sign Out","backbone.paging.controls.count.per.page": "{0} per page","backbone.paging.controls.first": "First","backbone.paging.controls.last": "Last","backbone.paging.controls.next": "Next","backbone.paging.controls.of": "of","backbone.paging.controls.oneof": "1 of","backbone.paging.controls.page": "Page","backbone.paging.controls.page.of.pages": "Page {0} of {1}","backbone.paging.controls.per.page": "Per Page","backbone.paging.controls.previous": "Previous","barchart.viewmore.help.label": "Drag mouse to the left/right or use left/right arrow keys to see more data","changeExpiredPassword.password.match.error": "Passwords did not match","changeExpiredPassword.password.required.error": "All Password Fields are required.","dataTable.columnFilter.label": "Show/Hide Column","dataTable.columnFilter.selectAll": "Select All","dataTable.sort.ascending.label": "ascending","dataTable.sort.descending.label": "descending","dataTable.sortable.label": "Sortable","datepicker.toggle.text": "Show Hijri","default.calendar": "gregorian","default.calendar.gregorian.translation": "en_US@calendar=gregorian","default.calendar.gregorian.ulocale": "en_US@calendar=gregorian","default.calendar1": "gregorian","default.century.above.pivot": "1900","default.century.below.pivot": "2000","default.century.pivot": "50","default.copyright.endyear": "2024","default.copyright.startyear": "2013","default.date.format": "MM/dd/yyyy","default.date.time.error": "Invalid date time. Format: {0}","default.dateEntry.format": "MM/dd/yy","default.firstDayOfTheWeek": "0","default.gregorian.amPm": "AM,PM","default.gregorian.dayNames": "Sunday,Monday,Tuesday,Wednesday,Thursday,Friday,Saturday","default.gregorian.dayNamesMin": "Su,Mo,Tu,We,Th,Fr,Sa","default.gregorian.dayNamesShort": "Sun,Mon,Tue,Wed,Thu,Fri,Sat","default.gregorian.monthNames": "January,February,March,April,May,June,July,August,September,October,November,December","default.gregorian.monthNamesShort": "Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec","default.language.direction": "ltr","default.none": "None","default.percent": "%","default.time.am": "AM","default.time.decrement": "Decrement","default.time.format": "HH:mm","default.time.increment": "Increment","default.time.pm": "PM","default.time.watermark.format": "HH:mm","default.timepicker.time.format": "HH:mm","footer.company_name": "{0}-{1} Ellucian Company L.P. and its affiliates.","footer.other_info": "All rights reserved.","js.banner.general.aip.notification.prompt.dismiss": "Dismiss","js.banner.general.aip.notification.prompt.message": "You have active action item(s) available for your review.","js.banner.general.aip.notification.prompt.view.actionitems": "View Action Item(s)","js.dataTable.page": "Page","js.dataTable.pageOf": "of","js.dataTable.pageOfOne": "1 of","js.dataTable.sEmptyTable": "No data available in table","js.dataTable.sInfo": "Records found: _TOTAL_","js.dataTable.sInfoEmpty": "Records found: 0","js.dataTable.sInfoFiltered": "(filtered from _MAX_ total records)","js.dataTable.sLengthMenu": "Per Page _MENU_","js.dataTable.sZeroRecords": "Nothing found - sorry","js.datepicker.dateFormat": "mm/dd/yyyy","js.datepicker.info": "To change year use CTRL + SHIFT + Page Up or Page DOWN keys. To change month use Page Up or Page DOWN keys. To select week-day use UP or DOWN or LEFT or RIGHT keys. To reset to current date use CTRL + SHIFT + HOME. Use F9 again or ESC to close the calendar.","js.datepicker.monthStatus": "Change the month","js.datepicker.nextJumpStatus": "Show the next year     \n Ctrl + Shift + PgDn","js.datepicker.nextStatus": "Show the next month PgDn","js.datepicker.prevJumpStatus": "Show the previous year \n Ctrl + Shift + PgUp","js.datepicker.prevStatus": "Show the previous month PgUp","js.datepicker.selectText": "Select","js.datepicker.tooltipDateFormat": "DD, MMMM d, yyyy","js.datepicker.yearStatus": "Change the year","js.grid.columns.button": "Columns","js.grid.noData": "No data available.","js.grid.recordsFound": "Records: {0}","js.grid.toggleSortBy": "Sort by {0}","js.input.datepicker.dateformatinfo": "Date format is","js.input.datepicker.info": "Press F9 to open/close the calendar","js.input.timepicker.info": "Press F9 to open/close the Timepicker","js.net.hedtech.banner.ajax.continue.button": "Continue","js.net.hedtech.banner.ajax.error.message": "A server call failed with error code '{0}'.","js.net.hedtech.banner.ajax.loading": "Loading","js.net.hedtech.banner.ajax.reload.button": "Reload","js.net.hedtech.banner.ajax.reload.prompt": "You may need to reload the page to continue.","js.net.hedtech.banner.ajax.timeout.message": "The server is not responding.","js.net.hedtech.banner.logout.timeout.acknowledgement": "Sign In","js.net.hedtech.banner.logout.timeout.message": "Session expired.","js.net.hedtech.banner.logout.timeout.promptMessage": "You are no longer using a valid session.  You must log back in.","js.notification.NoChangesToSave": "No Changes To Save","js.notification.countlabel": "{0} Notifications","js.notification.delete.template.success": "Template {0} deleted successfully","js.notification.delete.theme.success": "Theme {0} deleted successfully","js.notification.description": "Short cut key is Alt+N","js.notification.dirtyCheck.cancelActionButton": "Cancel","js.notification.dirtyCheck.doNotSaveActionButton": "No","js.notification.dirtyCheck.message": "Changes have been made.","js.notification.dirtyCheck.promptMessage": "Do you want to save changes?","js.notification.dirtyCheck.saveActionButton": "Yes","js.notification.help": "Use TAB to browse through notifications, ESC to close and ALT+N to open or close the notifications","js.notification.inactivityTimer.keepAliveButton": "No","js.notification.inactivityTimer.logoutButton": "Yes","js.notification.inactivityTimer.message": "You have been inactive.  Your session will be logged out shortly for security reasons.","js.notification.inactivityTimer.promptMessage": "Would you like to logout now?","js.notification.label": "Notifications","js.notification.load.theme.success": "Theme {0} loaded successfully","js.notification.mep.buttons.continue": "Continue","js.notification.mep.buttons.logout": "Logout","js.notification.mep.changed.onLoad": "This session can access only {0} information. You can continue in this session, or logout and login again to change institutions.","js.notification.save.emptyName.error": "Theme name is required to create a new theme","js.notification.savePrompt.doNotSaveActionButton": "No","js.notification.savePrompt.message": "You have unsaved changes. Would you like to save?","js.notification.savePrompt.saveActionButton": "Yes","js.notification.success": "Save Successful","js.notification.title": "Notifications Alt+N","js.notification.upload.error": "Error while saving the file, please contact the administrator","js.notification.upload.nodata": "Uploaded file doesn't contain any data","js.notification.upload.success": "File uploaded successfully","js.notification.upload.type": "Upload file should be either JSON/SCSS format","js.number.decimal": ".","js.timepicker.cancel": "CANCEL","js.timepicker.set": "SET","nameDataTable.column.common.button.label": "Go","nameDataTable.column.common.createDate.heading": "Date Created","nameDataTable.column.common.modifiedDate.heading": "Last Updated","nameDataTable.column.common.nodata": "No Results Found","nameDataTable.column.common.pagination.ofLabel": "of","nameDataTable.column.common.pagination.pageLabel": "Page","nameDataTable.column.common.pagination.perPageLabel": "Per Page","nameDataTable.column.common.pagination.recordsFoundLabel": "Total Results","nameDataTable.column.page.name.heading": "Page Name","nameDataTable.column.stylesheet.name.heading": "Stylesheet Name","nameDataTable.column.virtualDomain.name.heading": "Virtual Domain Name","nameDataTable.popup.page.search.placeholder": "Search By Page Name","nameDataTable.popup.stylesheet.pageheader": "Load Stylesheet","nameDataTable.popup.stylesheet.search.placeholder": "Search By Stylesheet Name","nameDataTable.popup.virtualDomain.pageheader": "Load Virtual Domain","nameDataTable.popup.virtualDomain.search.placeholder": "Search By Virtual Domain Name","net.hedtech.banner.title.shortcut": "{0}&lt;br&gt;{1}","notification.dirtyCheck.beforeUnload.promptMessage": "Changes have been made. Data entered has not been saved.","numeric.currency.value": "Numeric Input","numeric.decimal.value": "Decimal Input","numeric.edit.unavailable": "Edit Unavailable","numeric.percent.value": "Percentage Input","pagination.first.label": "First page","pagination.last.label": "Last page","pagination.next.label": "Next page","pagination.page.aria.label": "Go To Page.","pagination.page.label": "Page","pagination.page.of.label": "of","pagination.page.shortcut.label": "Go To Page","pagination.per.page.label": "Per Page","pagination.previous.label": "Previous page","pagination.record.found": "Results found","pb.template.upload.ok.label": "Finished","pillbox.friday": "Friday","pillbox.friday.abbreviation": "F","pillbox.monday": "Monday","pillbox.monday.abbreviation": "M","pillbox.saturday": "Saturday","pillbox.saturday.abbreviation": "S","pillbox.sunday": "Sunday","pillbox.sunday.abbreviation": "S","pillbox.thursday": "Thursday","pillbox.thursday.abbreviation": "T","pillbox.tuesday": "Tuesday","pillbox.tuesday.abbreviation": "T","pillbox.wednesday": "Wednesday","pillbox.wednesday.abbreviation": "W","platform.shortcut.aria.collapsed": "Collapsed. Use Tab Key to Navigate to Next Section.","platform.shortcut.aria.dialog.description": "This dialog lists all the keyboard shortcuts specific to this application","platform.shortcut.aria.expanded": "Expanded. Use Tab Key to Navigate to Next Section and Down arrow key to navigate to each item in the section","platform.shortcut.aria.focussed": "Use Tab key to navigate to next section or shortcut.","platform.shortcut.aria.instructnavigate": "Use Tab Key to Navigate to Next Section and Down arrow key to navigate to each item in the section","platform.shortcut.aria.sectionheading": "Press Enter to Expand/Collapse the section","screenreader.notification.error": "Error notification","screenreader.notification.flash": "Flash notification","screenreader.notification.warning": "Warning prompt notification","search.aria.label": "Search text field. The short cut is Alt+Y.","search.label": "Search","search.title": "Search (Alt+Y)","securityQA.error": "Please enter Security Question(s) and Answer(s)","securityQA.invaild.pin": "Invalid PIN. Please re-enter PIN","securityQA.invalid.answer": "Answer may not contain the &lt; or &gt; characters","securityQA.invalid.length.answer": "Answer has to be {0} characters or more","securityQA.invalid.length.question": "Question has to be {0} characters or more","securityQA.invalid.number.question": "Each question can be selected or defined, not both. Please choose a question from the drop down or define your own question.","securityQA.invalid.question": "Question may not contain the &lt; or &gt; characters","select2.format.input.too.long.singular": "Please delete 1 character","select2.format.input.too.short.plural": "Please enter {0} more characters","select2.format.input.too.short.singular": "Please enter 1 more character","select2.format.load.more": "Loading more results...","select2.format.loading.failed": "Loading failed","select2.format.multiple.result": "{0} results are available, use up and down arrow keys to navigate.","select2.format.one.result": "One result is available, press enter to select it.","select2.format.searching": "Searching...","select2.format.selection.too.big.singular": "You can only select 1 item","select2.no.matches": "No Matches Found","sspb.css.cssManager.cssName.label": "Select a name for publishing:","sspb.css.cssManager.description.label": "Enter a description:","sspb.css.cssManager.upload.file.label": "Select a file to upload:","sspb.css.cssManager.upload.label": "Upload Stylesheet","sspb.css.cssManager.upload.server.response.label": "Server Response:","sspb.custom.page.default.affirm": "OK","sspb.page.visualbuilder.loadpage.unsaved.changes.message": "All unsaved changes to the current page will be lost. Continue to load page?","sspb.page.visualbuilder.name.invalid.pattern.message": "Name should start with a letter (a-Z) and is followed by letters, digits and underscores","sspb.page.visualbuilder.name.required.message": "Name is Required","sspb.page.visualbuilder.page.cancel.message": "Cancel","sspb.page.visualbuilder.page.continue.message": "Yes","survey.confirm.button.cancel": "Cancel","survey.confirm.button.save": "Save","survey.confirm.title": "View Ethnicity and Race","survey.edit.button.askMeLater": "Ask Me Later","survey.edit.button.continue": "Continue","survey.edit.title": "Update Ethnicity and Race","survey.ethinicity.multiple.selection.invalid": "You may only select one checkbox for Ethnicity.","survey.ethnicity.hispanic": "Hispanic or Latino","survey.ethnicity.nothispanic": "Not Hispanic or Latino","textbox.validation.maxlength": "The maximum Character length should be","textbox.validation.required": "This field is required","timepicker.am.pm.aria.label": "Meridiem list, press up and down arrow keys to change the meridiem and left arrow to move to the minutes list.Press Escape to cancel and Enter to Select Time.","timepicker.error.format.validation": "Invalid time format","timepicker.hour.aria.label": "Hours list, press up and down arrow keys to Change Hours. Press right to move to Minutes section","timepicker.min.aria.24hrs.label": "Minutes list, press up and down arrow keys to change Minutes. Press left arrow key to move to Hours list.","timepicker.min.aria.label": "Minutes list, press up and down arrow keys to change Minutes. Press left arrow key to move to Hours list and Right to Move to meridiem list","timepicker.shortcuts.aria.label": "Press Escape to cancel and Enter to Select Time.","timepicker.textbox.aria.label": "The Time Format is","ui.pillbox.off": "Not on {0}","ui.pillbox.on": "On {0}","ui.pillbox.tooltip.label": "{0}","ui.pillbox.tooltip.separator": ",","uiselect.minimum.input.text": "Please enter {0} or more characters","uiselect.no.results.found.text": "No Result Found!","uiselect.option.selected": "{0}","uiselect.search.disabled.results": "Use up and down arrow keys to navigate","uiselect.search.results": "Searching ... {0} results are available, use up and down arrow keys to navigate.","upload.properties.language.arabic": "Arabic","upload.properties.language.englishau": "English (Australia)","upload.properties.language.englishgb": "English (Great Britain)","upload.properties.language.englishie": "English (Ireland)","upload.properties.language.englishin": "English (India)","upload.properties.language.englishus": "English (United States)","upload.properties.language.fetchFail": "unable to list the properties file","upload.properties.language.frenchca": "French (Canada)","upload.properties.language.frenchfr": "French (France)","upload.properties.language.portuguesebr": "Portuguese (Brazil)","upload.properties.language.primary": "Choose a Primary Locale","upload.properties.language.spanishla": "Spanish (Latin America)","upload.properties.language.uploadFail": "unable to upload the properties file: {0}","userpreference.notification.failure.message": "Unable to change your Language Setting, please try again later.","userpreference.notification.success.message": "Language Setting was successful, please re-login for the preferences to take effect.","userpreference.popup.enhanceExp": "Data Sharing","userpreference.popup.enhanceExp.heading": "Enhance your Experience","userpreference.popup.language.close": "Close","userpreference.popup.language.heading": "Language Setting","userpreference.privacy.setting.section": "Privacy Setting","xe.alert.msg.saved": "Extensions Saved. Please refresh the page to show the extensions applied to the page.","xe.btn.label.cancel": "Cancel","xe.btn.label.submit": "Submit","xe.extension.editor.window.title": "Extension Editor","xe.extensions.json.editor.error": "Error parsing JSON extensions : {0}","xe.js.notification.editextensions.close.cancel": "Cancel","xe.js.notification.editextensions.close.ok": "OK","xe.js.notification.editextensions.close.warningMessage": "Closing this window will discard all changes. Do you wish to continue?","xe.menu.extensibility.SecurityConfiguration": "Security Configuration","xe.menu.extensibility.themeEditor": "Theme Editor","xe.menu.extensibility.uploadProperties": "Upload Properties","xe.menu.extensions.edit": "Edit Extensions","xe.menu.extensions.status": "Show Page Statistics / Status","xe.menu.section.extensibility": "Extensibility","xe.page.errors": "Errors","xe.page.status": "Page Statistics {0}","xe.text.chars.left": "Remaining Characters","xe.text.chars.remaining.aria": "Remaining Characters : {0}","xe.text.limit.over": "Character Limit of {0} has been reached","xe.text.max.chars": "Characters Max"};
+            
+        </script>
+        
+        <script type="text/javascript" src="/BannerExtensibility/assets/lib/jquery/i18n/jquery.ui.datepicker-en-ca.js"></script>
+        <script type="text/javascript" src="/BannerExtensibility/assets/lib/angular/i18n/angular-locale_en-ca.js"></script>
+        <script type="text/javascript" src="/BannerExtensibility/assets/modules/pageBuilderDate-mf.js"></script>
+
+    
+
+
+</div><footer class="banner-footer" role="contentinfo"><div>© <span class="year"></span> <span class="companyName">2013-2024 Ellucian Company L.P. and its affiliates.</span> <span class="otherInfo">All rights reserved.</span></div></footer><span style="display:none" role="region" aria-label="Short cut key is Alt+N" id="screen-reader-label-1" class="screen-reader">Short cut key is Alt+N</span><span role="status" aria-live="polite" class="select2-hidden-accessible"></span><span role="status" aria-live="polite" class="select2-choice-status-hidden-accessible"></span><span style="display:none" role="region" aria-label="Single Select Dropdown Use Arrow Keys To Navigate and Enter to Select " id="screen-reader-label-2" class="screen-reader">Single Select Dropdown Use Arrow Keys To Navigate and Enter to Select </span></body></html>

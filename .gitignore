@@ -1,0 +1,33 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.pyo
+
+# Virtual environments
+.env/
+.venv/
+env/
+venv/
+myenv/
+
+# VSCode settings
+.vscode/
+
+
+# Mac system files
+.DS_Store
+
+# Streamlit config cache
+.streamlit/config.toml
+.streamlit/credentials.toml
+
+# Firefox Selenium stuff (cache folders, logs)
+geckodriver.log
+
+
+# Pip and build files
+*.egg-info/
+dist/
+build/
