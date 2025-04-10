@@ -3,11 +3,10 @@ import pandas as pd
 import plotly.express as px
 
 
-
 # --- Load data ---
 @st.cache_data
 def load_data():
-    df = pd.read_csv("../data/CSCI_full_schedule.csv")
+    df = pd.read_csv("data/CSCI_full_schedule.csv")
     return df
 
 df = load_data()
