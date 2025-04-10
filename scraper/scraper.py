@@ -115,5 +115,5 @@ for page_html in all_html_pages:
 
 # --- SAVE TO CSV ---
 df = pd.DataFrame(all_data)
-df.to_csv("../data/CSCI_full_schedule.csv", index=False)
+df.to_csv("data/CSCI_full_schedule.csv", index=False)
 print(f"✅ Scraped and saved {len(df)} rows to 'CSCI_full_schedule.csv'")
