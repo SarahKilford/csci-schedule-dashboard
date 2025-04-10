@@ -34,3 +34,5 @@ jobs:
           git add data/CSCI_full_schedule.csv
           git commit -m "🔄 Auto-update CSV from scraper" || echo "No changes to commit"
           git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
