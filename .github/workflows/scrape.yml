@@ -2,7 +2,7 @@ name: Scrape CSCI Schedule
 
 on:
   schedule:
-    - cron: '0 6 * * *'  # every day at 6am UTC
+    - cron: '0 6 * * *'  # update at 6am UTC daily
   workflow_dispatch:  # manual run
 
 jobs:
