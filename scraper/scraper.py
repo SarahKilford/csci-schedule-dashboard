@@ -6,9 +6,10 @@ import pandas as pd
 import time
 
 # --- SETUP FIREFOX HEADLESS BROWSER ---
-options = Options()
-options.headless = True
+options = webdriver.FirefoxOptions()
+options.add_argument("--headless")
 driver = webdriver.Firefox(options=options)
+
 
 # --- INITIALIZE ---
 url = "https://dalonline.dal.ca/PROD/fysktime.P_DisplaySchedule?s_term=202610&s_subj=CSCI&s_district=100"
