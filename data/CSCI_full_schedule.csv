@@ -1,10 +1,10 @@
 Course Title,CRN,Type,Days,Time,Location,Current Enrollment,Instructor
 CSCI 1105 Intro to Computer Programming,10718,Lec,"T,R",0835-0955,Studley KENNETH C ROWE MANAGEMENT 1020,72,Poitras E.
 CSCI 1105 Intro to Computer Programming,10719,Lec,"M,W",1435-1555,Studley CHEMISTRY 226,31,Escobedo Bravo L.
-CSCI 1105 Intro to Computer Programming,10720,Lec,"T,R",1605-1725,Studley LSC-COMMON AREA C240,14,MacKay B.
+CSCI 1105 Intro to Computer Programming,10720,Lec,"T,R",1605-1725,Studley LSC-COMMON AREA C240,15,MacKay B.
 CSCI 1105 Intro to Computer Programming,10723,Lab,W,1435-1555,Studley GOLDBERG COMPUTER SCIENCE BLDG 134,19,Staff
 CSCI 1105 Intro to Computer Programming,10724,Lab,T,1135-1255,Studley GOLDBERG COMPUTER SCIENCE BLDG 143,57,Staff
-CSCI 1105 Intro to Computer Programming,10725,Lab,M,1635-1755,Studley GOLDBERG COMPUTER SCIENCE BLDG 134,17,Staff
+CSCI 1105 Intro to Computer Programming,10725,Lab,M,1635-1755,Studley GOLDBERG COMPUTER SCIENCE BLDG 134,18,Staff
 CSCI 1105 Intro to Computer Programming,10727,Lab,R,1435-1555,Studley GOLDBERG COMPUTER SCIENCE BLDG 134,24,Staff
 CSCI 1107 Social Computing,10729,Lec,"M,W",1135-1255,Studley KENNETH C ROWE MANAGEMENT 1009,25,Blustein J.
 CSCI 1107 Social Computing,10731,Tut,R,1435-1525,Studley KENNETH C ROWE MANAGEMENT 1011,25,Staff
@@ -117,8 +117,8 @@ CSCI 4178 Cyber Security & Defense,10874,Lec,"T,R",1305-1425,Studley LSC-COMMON 
 CSCI 4178 Cyber Security & Defense,10875,Lab,M,1005-1125,Studley GOLDBERG COMPUTER SCIENCE BLDG 228,15,Staff
 CSCI 4178 Cyber Security & Defense,10876,Lab,M,0835-0955,Studley GOLDBERG COMPUTER SCIENCE BLDG 228,15,Staff
 CSCI 4192 Directed Studies,10877,Lec,,C/D,Consult Department,1,Arnold D.
-CSCI 4262 Augmented and Virtual Reality,10881,Lec,F,1235-1525,Sexton B BUILDING ADDITION B227,6,Barrera Machuca M.
-CSCI 4262 Augmented and Virtual Reality,10882,Lab,T,1005-1125,Studley GOLDBERG COMPUTER SCIENCE BLDG 134,6,Staff
+CSCI 4262 Augmented and Virtual Reality,10881,Lec,F,1235-1525,Sexton B BUILDING ADDITION B227,7,Barrera Machuca M.
+CSCI 4262 Augmented and Virtual Reality,10882,Lab,T,1005-1125,Studley GOLDBERG COMPUTER SCIENCE BLDG 134,7,Staff
 CSCI 4270 Wireless Technologies for IoT,10883,Lec,"T,R",1435-1555,Studley LSC-COMMON AREA C338,18,Lahoud S.
 CSCI 4691 Advanced ProjectCourse equivalent with,10884,Lec,"M,F",1735-1855,Carleton COLLABORATIVE HEALTH EDUC BLDG C170,21,Aziz K.
 CSCI 5100 Communicating Comp Sci Ideas,13387,Lec,"M,W",1005-1125,Studley GOLDBERG COMPUTER SCIENCE BLDG 134,23,Heggie C.
