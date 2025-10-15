@@ -5,8 +5,8 @@ CSCI 1105 Intro to Computer Programming,10723,Lab,W,1435-1555,Studley GOLDBERG C
 CSCI 1105 Intro to Computer Programming,10724,Lab,T,1135-1255,Studley GOLDBERG COMPUTER SCIENCE BLDG 143,60,Staff
 CSCI 1105 Intro to Computer Programming,10725,Lab,M,1635-1755,Studley GOLDBERG COMPUTER SCIENCE BLDG 134,25,Staff
 CSCI 1105 Intro to Computer Programming,10727,Lab,R,1435-1555,Studley GOLDBERG COMPUTER SCIENCE BLDG 134,39,Staff
-CSCI 1107 Social Computing,10729,Lec,"M,W",1135-1255,Studley KENNETH C ROWE MANAGEMENT 1009,19,Blustein J.
-CSCI 1107 Social Computing,10731,Tut,R,1435-1525,Studley KENNETH C ROWE MANAGEMENT 1011,19,Staff
+CSCI 1107 Social Computing,10729,Lec,"M,W",1135-1255,Studley KENNETH C ROWE MANAGEMENT 1009,18,Blustein J.
+CSCI 1107 Social Computing,10731,Tut,R,1435-1525,Studley KENNETH C ROWE MANAGEMENT 1011,18,Staff
 CSCI 1108 Experimental Robotics,10732,Lec,"W,F",1005-1125,Studley GOLDBERG COMPUTER SCIENCE BLDG 143,34,Sajjad H.
 CSCI 1108 Experimental Robotics,10733,Lab,"W,F",1605-1725,Studley GOLDBERG COMPUTER SCIENCE BLDG 143,34,Staff
 CSCI 1109 Practical Data Science,10735,Lec,"T,R",1005-1125,Studley KENNETH C ROWE MANAGEMENT 1020,48,Marchand Y.
@@ -18,7 +18,7 @@ CSCI 1110 Intro to Computer Science,10742,Lab,R,1305-1425,Studley MONA CAMPBELL 
 CSCI 1110 Intro to Computer Science,10743,Lab,R,1305-1425,Studley GOLDBERG COMPUTER SCIENCE BLDG 134,31,Staff
 CSCI 1110 Intro to Computer Science,10744,Lab,R,1435-1555,Studley GOLDBERG COMPUTER SCIENCE BLDG 143,30,Staff
 CSCI 1110 Intro to Computer Science,10746,Tut,M,1735-1855,Studley MCCAIN ARTS&SS AUD-1,90,Staff
-CSCI 1120 Intro to Computer Systems,10747,Lec,"M,W,F",1335-1425,Studley CHEMISTRY 226,82,Kalyaniwalla N.
+CSCI 1120 Intro to Computer Systems,10747,Lec,"M,W,F",1335-1425,Studley CHEMISTRY 226,81,Kalyaniwalla N.
 CSCI 1120 Intro to Computer Systems,10748,Lec,"M,T,R",1635-1725,Studley GOLDBERG COMPUTER SCIENCE BLDG 127,52,Kalyaniwalla N.
 CSCI 1170 Intro to Web Design & Devel.,10756,Lec,"T,R",1805-1925,Carleton COLLABORATIVE HEALTH EDUC BLDG C170,117,Sampangi R.
 CSCI 1170 Intro to Web Design & Devel.,10759,Lab,T,1435-1555,Studley GOLDBERG COMPUTER SCIENCE BLDG 143,49,Staff
@@ -81,7 +81,7 @@ CSCI 3141 Foundations/Data Science,10845,Lec,"W,F",1005-1125,Studley SIR JAMES D
 CSCI 3151 Foundations  of Machine Learn.,10848,Lec,"T,R",0835-0955,Studley CHEMISTRY 226,79,Kryven M.
 CSCI 3160 Designing User Interfaces,10850,Lec,F,1435-1725,Studley KILLAM LIBRARY 2600,87,MacKay B.
 CSCI 3160 Designing User Interfaces,10851,Lab,T,1735-1925,Studley KILLAM LIBRARY 2600,87,Staff
-CSCI 3161 Intro Comp Graph & Animation,10852,Lec,"T,R",1005-1125,Studley GOLDBERG COMPUTER SCIENCE BLDG 143,60,Brooks S.
+CSCI 3161 Intro Comp Graph & Animation,10852,Lec,"T,R",1005-1125,Studley GOLDBERG COMPUTER SCIENCE BLDG 143,59,Brooks S.
 CSCI 3163 Inclusive Computing,10853,Lec,"M,W",0835-0955,Studley MCCAIN ARTS&SS 1198,33,Sampangi R.
 CSCI 3163 Inclusive Computing,10854,Lab,F,0835-0955,Studley MONA CAMPBELL BUILDING 1201,33,Staff
 CSCI 3171 Network Computing,10855,Lec,"M,F",1435-15551605-1725,Carleton TUPPER BLDG THTR BCarleton TUPPER BLDG THTR B,186,Sampalli S.  (P)Sampalli S.
@@ -92,7 +92,7 @@ CSCI 3172 Web-Centric Computing,10859,Lec,"M,W",0835-0955,Studley KENNETH C ROWE
 CSCI 3172 Web-Centric Computing,10860,Lab,M,1135-1255,Studley GOLDBERG COMPUTER SCIENCE BLDG 134,60,Staff
 CSCI 3172 Web-Centric Computing,10861,Lab,M,1135-1255,Studley GOLDBERG COMPUTER SCIENCE BLDG 143,14,Staff
 CSCI 3691 Intermediate ProjectCourse equivalent with,10862,Lec,"M,F",1735-1855,Carleton COLLABORATIVE HEALTH EDUC BLDG C170,51,Goudreault M.
-CSCI 4102 Product Mgmt for Digital World,10863,Lec,W,0835-1125,Studley KENNETH C ROWE MANAGEMENT 1011,11,Evans R.
+CSCI 4102 Product Mgmt for Digital World,10863,Lec,W,0835-1125,Studley KENNETH C ROWE MANAGEMENT 1011,10,Evans R.
 "CSCI 4113 Dsgn. & Anal. of Algorithms IICourse equivalent withMATH 5130,MATH 4130",10865,Lec,"T,R",0835-0955,Carleton TUPPER BLDG 14B02,6,Zeh N.
 CSCI 4149 Advanced Cloud Architecting,14551,Lec,"M,W",1605-1725,Studley SIR JAMES DUNN BUILDING 101,15,Yang L.
 CSCI 4152 Natural Lang Processing,10868,Lec,"T,R",1435-1555,Studley LSC-PSYCHOLOGY P5260,21,Keselj V.
@@ -131,9 +131,9 @@ CSCI 6704 Adv Topics Computer Networks,13416,Lec,"T,R",1435-1555,Studley MCCAIN 
 CSCI 6706 Network Design and Management,13417,Lec,"T,R",0835-0955,Studley GOLDBERG COMPUTER SCIENCE BLDG 228,6,Zincir-Heywood N.
 CSCI 6712 Wireless Technologies for IoT,13418,Lec,"T,R",1435-1555,Studley LSC-COMMON AREA C208,7,Lahoud S.
 CSCI 6901 Directed Studies,13419,Lec,,C/D,Consult Department,2,McAllister M.
-CSCI 6902 Doctoral Directed Studies,13420,Lec,,C/D,Consult Department,2,McAllister M.
+CSCI 6902 Doctoral Directed Studies,13420,Lec,,C/D,Consult Department,3,McAllister M.
 CSCI 6998 Graduate Research Seminars 1,13421,Lec,"T,R",1135-1255,Studley GOLDBERG COMPUTER SCIENCE BLDG 127,31,McAllister M.
-CSCI 6999 Research Sem Computer Science,13422,Lec,"T,R",1135-1255,Studley GOLDBERG COMPUTER SCIENCE BLDG 127,52,McAllister M.
+CSCI 6999 Research Sem Computer Science,13422,Lec,"T,R",1135-1255,Studley GOLDBERG COMPUTER SCIENCE BLDG 127,50,McAllister M.
 CSCI 7900 Directed Research Project,13423,Lec,,C/D,Consult Department,32,McAllister M.
 CSCI 7901 Doctoral Thesis Proposal,13424,Ths,,C/D,Consult Department,38,McAllister M.
 CSCI 8799 Work Term,14477,WkT,,C/D,Consult Department,16,Heggie C.
@@ -145,6 +145,6 @@ CSCI 8891 Co-op Work Term 1,10890,WkT,,C/D,Consult Department,28,Heggie C.
 CSCI 8892 Co-op Work Term 2,10891,WkT,,C/D,Consult Department,28,Heggie C.
 CSCI 8893 Co-op Work Term 3,10892,WkT,,C/D,Consult Department,32,Heggie C.
 CSCI 8894 Co-op Work Term 4,10893,WkT,,C/D,Consult Department,0,Goudreault M.
-CSCI 9000 Master's Thesis,13425,Ths,,C/D,Consult Department,49,McAllister M.
+CSCI 9000 Master's Thesis,13425,Ths,,C/D,Consult Department,50,McAllister M.
 CSCI 9100 Industrial Internship,13426,Int,,C/D,Consult Department,40,Dey S.
 CSCI 9200 Entrepreneurial Internship,13427,Lec,,C/D,Consult Department,0,Dey S.
