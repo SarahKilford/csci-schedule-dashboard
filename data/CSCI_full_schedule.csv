@@ -61,8 +61,8 @@ CSCI 2201 Introduction to Info Security,10818,Lab,F,0835-0955,Studley KENNETH C 
 CSCI 2202 Intro to Programming w/ applic,10820,Lec,T,1305-1425,Studley CHEMISTRY 226,23,Kalyaniwalla N.
 CSCI 2202 Intro to Programming w/ applic,10821,Lab,"M,W",0835-0955,Studley SIR JAMES DUNN BUILDING 301A,23,Staff
 CSCI 2203 Data Science for Everyone,10822,Lec,"M,W",1305-1425,Studley LSC-PSYCHOLOGY P5260,114,Marchand Y.
-CSCI 2360 Probability & Stats for CS,10823,Lec,"M,W,F",1335-1425,Studley LSC-COMMON AREA C234,22,Trappenberg T.
-CSCI 2360 Probability & Stats for CS,10825,Lab,R,1005-1125,Studley GOLDBERG COMPUTER SCIENCE BLDG 134,22,Staff
+CSCI 2360 Probability & Stats for CS,10823,Lec,"M,W,F",1335-1425,Studley LSC-COMMON AREA C234,21,Trappenberg T.
+CSCI 2360 Probability & Stats for CS,10825,Lab,R,1005-1125,Studley GOLDBERG COMPUTER SCIENCE BLDG 134,21,Staff
 CSCI 2690 Intro to Software Projects,10826,Lec,"T,R",1435-15551435-15551435-1555,*** 02-SEP-2025 - 24-NOV-2025 ***Carleton COLLABORATIVE HEALTH EDUC BLDG C140*** 25-NOV-2025 - 25-NOV-2025 ***Studley KENNETH C ROWE MANAGEMENT 1016*** 26-NOV-2025 - 03-DEC-2025 ***Carleton COLLABORATIVE HEALTH EDUC BLDG C140,57,Goudreault M.
 CSCI 2691 Introductory ProjectCourse equivalent with,10828,Lec,"M,F",1735-1855,Carleton COLLABORATIVE HEALTH EDUC BLDG C170,60,Goudreault M.
 CSCI 3101 Soc/Ethi/Prof Issues in CsciCourse equivalent withPHIL 2490,10830,Lec,"M,W",1605-1725,Carleton TUPPER BLDG THTR B,171,Fortney M.
@@ -78,7 +78,7 @@ CSCI 3130 Intro to Software Engineering,10842,Lab,"T,R",1605-1725,Studley GOLDBE
 CSCI 3130 Intro to Software Engineering,10843,Lab,"T,R",1605-1725,Studley GOLDBERG COMPUTER SCIENCE BLDG 143,43,Staff
 CSCI 3130 Intro to Software Engineering,10844,Tut,R,1835-1955,Carleton DENTISTRY 3156,130,Staff
 CSCI 3141 Foundations/Data Science,10845,Lec,"W,F",1005-1125,Studley SIR JAMES DUNN BUILDING 304,59,Kryven M.
-CSCI 3151 Foundations  of Machine Learn.,10848,Lec,"T,R",0835-0955,Studley CHEMISTRY 226,79,Kryven M.
+CSCI 3151 Foundations  of Machine Learn.,10848,Lec,"T,R",0835-0955,Studley CHEMISTRY 226,78,Kryven M.
 CSCI 3160 Designing User Interfaces,10850,Lec,F,1435-1725,Studley KILLAM LIBRARY 2600,87,MacKay B.
 CSCI 3160 Designing User Interfaces,10851,Lab,T,1735-1925,Studley KILLAM LIBRARY 2600,87,Staff
 CSCI 3161 Intro Comp Graph & Animation,10852,Lec,"T,R",1005-1125,Studley GOLDBERG COMPUTER SCIENCE BLDG 143,56,Brooks S.
