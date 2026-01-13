@@ -12,7 +12,7 @@ driver = webdriver.Firefox(options=options)
 
 
 # --- INITIALIZE ---
-url = "https://dalonline.dal.ca/PROD/fysktime.P_DisplaySchedule?s_term=202610&s_subj=CSCI&s_district=100"
+url = "https://dalonline.dal.ca/PROD/fysktime.P_DisplaySchedule?s_term=202620&s_subj=CSCI&s_district=100"
 driver.get(url)
 time.sleep(2)  # let the JS load
 
