@@ -1,31 +1,31 @@
 Course Title,CRN,Type,Days,Time,Location,Current Enrollment,Instructor
-CSCI 1105 Intro to Computer Programming,20698,Lec,"T,R",1305-1425,Studley KENNETH C ROWE MANAGEMENT 1007,38,Poitras E.
-CSCI 1105 Intro to Computer Programming,20700,Lab,F,1135-1255,Studley MONA CAMPBELL BUILDING 1201,38,Staff
-CSCI 1108 Experimental Robotics,20702,Lec,"W,F",1005-1125,Studley KENNETH C ROWE MANAGEMENT 1014,19,Sajjad H.
-CSCI 1108 Experimental Robotics,20703,Lab,"T,R",1435-1555,Studley GOLDBERG COMPUTER SCIENCE BLDG 134,19,Staff
-CSCI 1109 Practical Data Science,20704,Lec,"M,W",1135-1255,Studley CHEMISTRY 125,23,Marchand Y.
+CSCI 1105 Intro to Computer Programming,20698,Lec,"T,R",1305-1425,Studley KENNETH C ROWE MANAGEMENT 1007,40,Poitras E.
+CSCI 1105 Intro to Computer Programming,20700,Lab,F,1135-1255,Studley MONA CAMPBELL BUILDING 1201,40,Staff
+CSCI 1108 Experimental Robotics,20702,Lec,"W,F",1005-1125,Studley KENNETH C ROWE MANAGEMENT 1014,18,Sajjad H.
+CSCI 1108 Experimental Robotics,20703,Lab,"T,R",1435-1555,Studley GOLDBERG COMPUTER SCIENCE BLDG 134,18,Staff
+CSCI 1109 Practical Data Science,20704,Lec,"M,W",1135-1255,Studley CHEMISTRY 125,24,Marchand Y.
 CSCI 1109 Practical Data Science,20705,Lec,"T,R",0835-0955,Studley LSC-COMMON AREA C208,10,Rudzicz F.
 CSCI 1109 Practical Data Science,20707,Lab,T,1435-1555,Studley MONA CAMPBELL BUILDING 1201,7,Staff
-CSCI 1109 Practical Data Science,20708,Lab,R,1135-1255,Studley MONA CAMPBELL BUILDING 1201,26,Staff
-CSCI 1110 Intro to Computer Science,20711,Lec,"T,R",1305-1425,Studley GOLDBERG COMPUTER SCIENCE BLDG 127,97,Tang Y.
+CSCI 1109 Practical Data Science,20708,Lab,R,1135-1255,Studley MONA CAMPBELL BUILDING 1201,27,Staff
+CSCI 1110 Intro to Computer Science,20711,Lec,"T,R",1305-1425,Studley GOLDBERG COMPUTER SCIENCE BLDG 127,96,Tang Y.
 CSCI 1110 Intro to Computer Science,20712,Lec,"T,R",0835-0955,Studley LSC-COMMON AREA C220,38,Shakeri H.
-CSCI 1110 Intro to Computer Science,20715,Lab,W,1305-1425,Studley GOLDBERG COMPUTER SCIENCE BLDG 134,48,Staff
+CSCI 1110 Intro to Computer Science,20715,Lab,W,1305-1425,Studley GOLDBERG COMPUTER SCIENCE BLDG 134,47,Staff
 CSCI 1110 Intro to Computer Science,20717,Lab,W,1435-1555,Studley GOLDBERG COMPUTER SCIENCE BLDG 134,56,Staff
 CSCI 1110 Intro to Computer Science,20718,Lab,W,1435-1555,Studley GOLDBERG COMPUTER SCIENCE BLDG 143,31,Staff
-CSCI 1120 Intro to Computer Systems,20721,Lec,"M,W,F",0935-1025,Studley LSC-PSYCHOLOGY P5260,112,DeGagne C.
+CSCI 1120 Intro to Computer Systems,20721,Lec,"M,W,F",0935-1025,Studley LSC-PSYCHOLOGY P5260,111,DeGagne C.
 CSCI 1170 Intro to Web Design & Devel.,20724,Lec,"M,W",0835-0955,Studley MCCAIN ARTS&SS 2130,17,Wehbe R.
 CSCI 1170 Intro to Web Design & Devel.,20725,Lec,"M,W",1135-1255,Studley GOLDBERG COMPUTER SCIENCE BLDG 127,72,Yang L.
 CSCI 1170 Intro to Web Design & Devel.,20728,Lab,F,1435-1625,Carleton COLLABORATIVE HEALTH EDUC BLDG C170,68,Staff
 CSCI 1170 Intro to Web Design & Devel.,20729,Lab,M,1735-1925,Studley SIR JAMES DUNN BUILDING 221C,21,Staff
-CSCI 1300 Calculus in Computer Science,20731,Lec,"M,T,R",1035-1125,Studley SIR JAMES DUNN BUILDING 304,28,DeGagne C.
-CSCI 1300 Calculus in Computer Science,20733,Tut,T,1605-1725,Studley GOLDBERG COMPUTER SCIENCE BLDG 134,28,Staff
-CSCI 1315 Discrete Math for CS,20734,Lec,"M,W,F",1335-1425,Carleton DENTISTRY 3156,99,Siegel A.
-CSCI 1315 Discrete Math for CS,20736,Tut,T,1605-1725,Studley GOLDBERG COMPUTER SCIENCE BLDG 143,39,Staff
+CSCI 1300 Calculus in Computer Science,20731,Lec,"M,T,R",1035-1125,Studley SIR JAMES DUNN BUILDING 304,27,DeGagne C.
+CSCI 1300 Calculus in Computer Science,20733,Tut,T,1605-1725,Studley GOLDBERG COMPUTER SCIENCE BLDG 134,27,Staff
+CSCI 1315 Discrete Math for CS,20734,Lec,"M,W,F",1335-1425,Carleton DENTISTRY 3156,100,Siegel A.
+CSCI 1315 Discrete Math for CS,20736,Tut,T,1605-1725,Studley GOLDBERG COMPUTER SCIENCE BLDG 143,40,Staff
 CSCI 1315 Discrete Math for CS,20737,Tut,T,1135-1255,Studley GOLDBERG COMPUTER SCIENCE BLDG 134,60,Staff
 CSCI 1503 Programming for Business,20739,Lec,"M,W",1135-1255,Studley KENNETH C ROWE MANAGEMENT 1014,17,MacKay B.
 CSCI 1503 Programming for Business,20740,Lab,M,1435-1555,Studley GOLDBERG COMPUTER SCIENCE BLDG 143,17,Staff
-CSCI 2100 Workplace Comm for CS,20743,Lec,"T,R",1605-1725,Studley GOLDBERG COMPUTER SCIENCE BLDG 127,82,Goudreault M.
-CSCI 2100 Workplace Comm for CS,20745,Tut,R,1005-1125,Studley GOLDBERG COMPUTER SCIENCE BLDG 134,82,Goudreault M.
+CSCI 2100 Workplace Comm for CS,20743,Lec,"T,R",1605-1725,Studley GOLDBERG COMPUTER SCIENCE BLDG 127,83,Goudreault M.
+CSCI 2100 Workplace Comm for CS,20745,Tut,R,1005-1125,Studley GOLDBERG COMPUTER SCIENCE BLDG 134,83,Goudreault M.
 CSCI 2110 Data Structures and Algorithms,20748,Lec,"M,W,F",1635-1725,Studley GOLDBERG COMPUTER SCIENCE BLDG 127,110,Sampalli S.
 CSCI 2110 Data Structures and Algorithms,20750,Lab,T,1005-1125,Studley GOLDBERG COMPUTER SCIENCE BLDG 143,59,Staff
 CSCI 2110 Data Structures and Algorithms,20751,Lab,W,0835-0955,Studley GOLDBERG COMPUTER SCIENCE BLDG 143,51,Staff
@@ -35,48 +35,48 @@ CSCI 2115 Theory of Computer Science,20755,Tut,M,1435-1555,Studley LSC-COMMON AR
 CSCI 2122 Systems Programming,20756,Lec,"M,W",1135-1255,Studley LSC-PSYCHOLOGY P5260,103,Kalyaniwalla N.
 CSCI 2122 Systems Programming,20761,Lab,W,1005-1125,Studley GOLDBERG COMPUTER SCIENCE BLDG 134,52,Staff
 CSCI 2122 Systems Programming,20762,Lab,M,1305-1425,Studley GOLDBERG COMPUTER SCIENCE BLDG 134,51,Staff
-CSCI 2134 Software Development,20763,Lec,"W,F",1435-1555,Studley CHEMISTRY 125,52,Whidden C.
-CSCI 2134 Software Development,20764,Lec,"T,R",1435-1555,Studley GOLDBERG COMPUTER SCIENCE BLDG 127,68,McAllister M.
+CSCI 2134 Software Development,20763,Lec,"W,F",1435-1555,Studley CHEMISTRY 125,55,Whidden C.
+CSCI 2134 Software Development,20764,Lec,"T,R",1435-1555,Studley GOLDBERG COMPUTER SCIENCE BLDG 127,66,McAllister M.
 CSCI 2134 Software Development,20766,Lab,M,1005-1125,Studley GOLDBERG COMPUTER SCIENCE BLDG 134,49,Staff
-CSCI 2134 Software Development,20767,Lab,M,1005-1125,Studley GOLDBERG COMPUTER SCIENCE BLDG 143,40,Staff
+CSCI 2134 Software Development,20767,Lab,M,1005-1125,Studley GOLDBERG COMPUTER SCIENCE BLDG 143,41,Staff
 CSCI 2134 Software Development,20768,Lab,F,0835-0955,Studley KENNETH C ROWE MANAGEMENT 1020,31,Staff
-CSCI 2141 Intro to Database Systems,20770,Lec,"T,R",1305-1425,Studley KENNETH C ROWE MANAGEMENT 1020,107,Aziz K.
+CSCI 2141 Intro to Database Systems,20770,Lec,"T,R",1305-1425,Studley KENNETH C ROWE MANAGEMENT 1020,104,Aziz K.
 CSCI 2141 Intro to Database Systems,20771,Lec,"T,R",1605-1725,Studley SIR JAMES DUNN BUILDING 101,40,Aziz K.
-CSCI 2141 Intro to Database Systems,20774,Lab,F,1305-1425,Studley MCCAIN ARTS&SS AUD-1,147,Staff
-CSCI 2170 Intro to Server Side Scripting,20777,Lec,"W,F",0835-0955,Studley KENNETH C ROWE MANAGEMENT 1009,79,Sampangi R.
-CSCI 2170 Intro to Server Side Scripting,20779,Tut,M,1435-1555,Carleton DENTISTRY 4116,79,Staff
-CSCI 2201 Introduction to Info Security,20780,Lec,"W,F",1305-1425,Carleton TUPPER BLDG THTR B,88,Haque I.
+CSCI 2141 Intro to Database Systems,20774,Lab,F,1305-1425,Studley MCCAIN ARTS&SS AUD-1,144,Staff
+CSCI 2170 Intro to Server Side Scripting,20777,Lec,"W,F",0835-0955,Studley KENNETH C ROWE MANAGEMENT 1009,80,Sampangi R.
+CSCI 2170 Intro to Server Side Scripting,20779,Tut,M,1435-1555,Carleton DENTISTRY 4116,80,Staff
+CSCI 2201 Introduction to Info Security,20780,Lec,"W,F",1305-1425,Carleton TUPPER BLDG THTR B,87,Haque I.
 CSCI 2201 Introduction to Info Security,20782,Lab,M,1305-1425,Studley GOLDBERG COMPUTER SCIENCE BLDG 143,60,Staff
-CSCI 2201 Introduction to Info Security,20783,Lab,W,1005-1125,Studley GOLDBERG COMPUTER SCIENCE BLDG 143,28,Staff
-CSCI 2202 Intro to Programming w/ applic,20784,Lec,F,1135-1255,Studley GOLDBERG COMPUTER SCIENCE BLDG 127,30,Kalyaniwalla N.
+CSCI 2201 Introduction to Info Security,20783,Lab,W,1005-1125,Studley GOLDBERG COMPUTER SCIENCE BLDG 143,27,Staff
+CSCI 2202 Intro to Programming w/ applic,20784,Lec,F,1135-1255,Studley GOLDBERG COMPUTER SCIENCE BLDG 127,29,Kalyaniwalla N.
 CSCI 2202 Intro to Programming w/ applic,20785,Lab,"M,W",1305-1425,Studley SIR JAMES DUNN BUILDING 301A,12,Staff
-CSCI 2202 Intro to Programming w/ applic,20786,Lab,"M,W",1135-1255,Studley SIR JAMES DUNN BUILDING 301A,18,Staff
-CSCI 2203 Data Science for Everyone,20787,Lec,"T,R",1305-1425,Studley LSC-PSYCHOLOGY P5260,120,Marchand Y.
+CSCI 2202 Intro to Programming w/ applic,20786,Lab,"M,W",1135-1255,Studley SIR JAMES DUNN BUILDING 301A,17,Staff
+CSCI 2203 Data Science for Everyone,20787,Lec,"T,R",1305-1425,Studley LSC-PSYCHOLOGY P5260,119,Marchand Y.
 CSCI 2203 Data Science for Everyone,20788,Lec,"T,R",1605-1725,Studley SIR JAMES DUNN BUILDING 304,55,Marchand Y.
-CSCI 2204 Soc Med & Content for Everyone,20789,Lec,T,1005-1125,Studley GOLDBERG COMPUTER SCIENCE BLDG 134,46,Evans R.
-CSCI 2204 Soc Med & Content for Everyone,20790,Lab,T,1305-1425,Studley MONA CAMPBELL BUILDING 1108,46,Staff
-CSCI 2360 Probability & Stats for CS,20791,Lec,"T,R,F",1435-15251035-1125,Studley LSC-COMMON AREA C332Studley LSC-COMMON AREA C332,16,Arnold D.  (P)Arnold D.
-CSCI 2360 Probability & Stats for CS,20794,Lab,R,1135-1255,Studley GOLDBERG COMPUTER SCIENCE BLDG 143,16,Staff
+CSCI 2204 Soc Med & Content for Everyone,20789,Lec,T,1005-1125,Studley GOLDBERG COMPUTER SCIENCE BLDG 134,47,Evans R.
+CSCI 2204 Soc Med & Content for Everyone,20790,Lab,T,1305-1425,Studley MONA CAMPBELL BUILDING 1108,47,Staff
+CSCI 2360 Probability & Stats for CS,20791,Lec,"T,R,F",1435-15251035-1125,Studley LSC-COMMON AREA C332Studley LSC-COMMON AREA C332,15,Arnold D.  (P)Arnold D.
+CSCI 2360 Probability & Stats for CS,20794,Lab,R,1135-1255,Studley GOLDBERG COMPUTER SCIENCE BLDG 143,15,Staff
 CSCI 2690 Intro to Software Projects,20795,Lec,"T,R",1005-1125,Studley SIR JAMES DUNN BUILDING 101,41,Ralph D.
-CSCI 2691 Introductory ProjectCourse equivalent with,20797,Lec,"W,F",1135-1255,Carleton COLLABORATIVE HEALTH EDUC BLDG C170,68,Dey S.  (P)Wehbe R.
+CSCI 2691 Introductory ProjectCourse equivalent with,20797,Lec,"W,F",1135-1255,Carleton COLLABORATIVE HEALTH EDUC BLDG C170,67,Dey S.  (P)Wehbe R.
 CSCI 3101 Soc/Ethi/Prof Issues in CsciCourse equivalent withPHIL 2490,20799,Lec,"T,R",1435-1555,Studley KILLAM LIBRARY MACME,130,Fortney M.
 CSCI 3103 Law for Computer Scientists,20800,Lec,R,1135-1425,Studley MONA CAMPBELL BUILDING 1107,17,Rosborough A.
-CSCI 3110 Algorithms I,20801,Lec,"T,R",1005-1125,Studley GOLDBERG COMPUTER SCIENCE BLDG 127,81,Wilde N.
-CSCI 3110 Algorithms I,20802,Tut,F,0835-0955,Studley GOLDBERG COMPUTER SCIENCE BLDG 127,81,Staff
+CSCI 3110 Algorithms I,20801,Lec,"T,R",1005-1125,Studley GOLDBERG COMPUTER SCIENCE BLDG 127,82,Wilde N.
+CSCI 3110 Algorithms I,20802,Tut,F,0835-0955,Studley GOLDBERG COMPUTER SCIENCE BLDG 127,82,Staff
 CSCI 3120 Operating Systems,20803,Lec,"T,R",0835-0955,Carleton TUPPER BLDG THTR B,111,Ye Q.
-CSCI 3130 Intro to Software Engineering,20804,Lec,"T,R",1305-1425,Studley KILLAM LIBRARY MACME,141,Rahman M.
-CSCI 3130 Intro to Software Engineering,20805,Lab,"M,W",1605-1725,Studley MONA CAMPBELL BUILDING 1201,45,Staff
-CSCI 3130 Intro to Software Engineering,20806,Lab,"M,W",1605-1725,Studley GOLDBERG COMPUTER SCIENCE BLDG 134,50,Staff
+CSCI 3130 Intro to Software Engineering,20804,Lec,"T,R",1305-1425,Studley KILLAM LIBRARY MACME,142,Rahman M.
+CSCI 3130 Intro to Software Engineering,20805,Lab,"M,W",1605-1725,Studley MONA CAMPBELL BUILDING 1201,47,Staff
+CSCI 3130 Intro to Software Engineering,20806,Lab,"M,W",1605-1725,Studley GOLDBERG COMPUTER SCIENCE BLDG 134,49,Staff
 CSCI 3130 Intro to Software Engineering,20807,Lab,"M,W",1605-1725,Studley GOLDBERG COMPUTER SCIENCE BLDG 143,46,Staff
-CSCI 3130 Intro to Software Engineering,20808,Tut,M,1305-1425,Studley CHEMISTRY 125,141,Staff
-CSCI 3137 Programming Languages,20809,Lec,"T,R",1005-1125,Carleton TUPPER BLDG THTR B,177,Jahan S.
+CSCI 3130 Intro to Software Engineering,20808,Tut,M,1305-1425,Studley CHEMISTRY 125,142,Staff
+CSCI 3137 Programming Languages,20809,Lec,"T,R",1005-1125,Carleton TUPPER BLDG THTR B,178,Jahan S.
 CSCI 3151 Foundations  of Machine Learn.,20810,Lec,"T,R",1005-1125,Studley LSC-COMMON AREA C208,17,Rudzicz F.
 CSCI 3152 Found. of Machine Learn. II,20812,Lec,"T,R",1605-1725,Studley MCCAIN ARTS&SS 2162,8,Rajendran J.
 CSCI 3152 Found. of Machine Learn. II,20813,Tut,F,1305-1425,Studley GOLDBERG COMPUTER SCIENCE BLDG 134,8,Staff
-CSCI 3160 Designing User Interfaces,20814,Lec,M,0835-1125,Studley KILLAM LIBRARY 2600,69,MacKay B.
-CSCI 3160 Designing User Interfaces,20815,Lab,W,0835-1025,Studley KILLAM LIBRARY 2600,69,Staff
-CSCI 3162 Digital Media,20816,Lec,"T,R",0835-0955,Studley MONA CAMPBELL BUILDING 1201,18,Arnold D.
-CSCI 3162 Digital Media,20817,Lab,F,1305-1425,Studley MONA CAMPBELL BUILDING 1201,18,Staff
+CSCI 3160 Designing User Interfaces,20814,Lec,M,0835-1125,Studley KILLAM LIBRARY 2600,68,MacKay B.
+CSCI 3160 Designing User Interfaces,20815,Lab,W,0835-1025,Studley KILLAM LIBRARY 2600,68,Staff
+CSCI 3162 Digital Media,20816,Lec,"T,R",0835-0955,Studley MONA CAMPBELL BUILDING 1201,19,Arnold D.
+CSCI 3162 Digital Media,20817,Lab,F,1305-1425,Studley MONA CAMPBELL BUILDING 1201,19,Staff
 CSCI 3171 Network Computing,20818,Lec,"T,R",0835-0955,Studley GOLDBERG COMPUTER SCIENCE BLDG 127,107,Lahoud S.
 CSCI 3171 Network Computing,20819,Lab,M,1135-1255,Studley GOLDBERG COMPUTER SCIENCE BLDG 143,59,Staff
 CSCI 3171 Network Computing,20820,Lab,M,1135-1255,Studley GOLDBERG COMPUTER SCIENCE BLDG 134,48,Staff
@@ -84,7 +84,7 @@ CSCI 3172 Web-Centric Computing,20821,Lec,"W,F",1435-1555,Carleton DENTISTRY 315
 CSCI 3172 Web-Centric Computing,20822,Lab,M,1435-1555,Studley GOLDBERG COMPUTER SCIENCE BLDG 134,60,Staff
 CSCI 3172 Web-Centric Computing,20823,Lab,M,1735-1855,Studley GOLDBERG COMPUTER SCIENCE BLDG 143,22,Staff
 CSCI 3691 Intermediate ProjectCourse equivalent with,20824,Lec,"W,F",1135-1255,Carleton COLLABORATIVE HEALTH EDUC BLDG C170,43,Dey S.  (P)Wehbe R.
-CSCI 4101 Privacy & Access IT Prof,20825,Lec,"T,R",1605-1725,Carleton TUPPER BLDG THTR C,9,Heggie C.
+CSCI 4101 Privacy & Access IT Prof,20825,Lec,"T,R",1605-1725,Studley MCCAIN ARTS&SS 1170,9,Heggie C.
 CSCI 4115 Topics in Graph TheoryCourse equivalent withMATH 4330,24150,Lec,"M,W,F",1235-1325,Studley LSC-COMMON AREA C220,5,Brown J.
 CSCI 4116 CryptographyCourse equivalent withMATH 4116,20826,Lec,"M,W,F",1035-1125,Studley SIR JAMES DUNN BUILDING 135,18,Dilcher K.
 CSCI 4118 Algorithm Engineering,20827,Lec,"T,R",1605-1725,Studley MCCAIN ARTS&SS 2176,20,Whidden C.
@@ -97,29 +97,29 @@ CSCI 4146 Process of Data Science,24448,Lab,M,1005-1125,Studley KENNETH C ROWE M
 CSCI 4158 NLP with Deep Learning,20838,Lec,T,1005-1255,Studley MONA CAMPBELL BUILDING 1201,21,Sajjad H.
 CSCI 4163 Human-Computer InteractionCourse equivalent with,20839,Lec,W,1435-1725,Studley KENNETH C ROWE MANAGEMENT 1009,67,MacKay B.
 CSCI 4163 Human-Computer InteractionCourse equivalent with,20840,Lab,F,0935-1125,Studley KILLAM LIBRARY 2600,67,Staff
-CSCI 4166 Visualization,20841,Lec,"T,R",1435-1555,Studley MCCAIN ARTS&SS 2162,18,Brooks S.
-CSCI 4169 Usable Security and Privacy,20842,Lec,"T,R",1605-1725,Studley KENNETH C ROWE MANAGEMENT 1007,47,Sampangi R.
-CSCI 4169 Usable Security and Privacy,20843,Lab,M,1305-1425,Studley MONA CAMPBELL BUILDING 1201,47,Staff
+CSCI 4166 Visualization,20841,Lec,"T,R",1435-1555,Studley MCCAIN ARTS&SS 2162,19,Brooks S.
+CSCI 4169 Usable Security and Privacy,20842,Lec,"T,R",1605-1725,Studley KENNETH C ROWE MANAGEMENT 1007,46,Sampangi R.
+CSCI 4169 Usable Security and Privacy,20843,Lab,M,1305-1425,Studley MONA CAMPBELL BUILDING 1201,46,Staff
 CSCI 4174 Network Security,20844,Lec,"M,W,F",1135-1225,Studley SIR JAMES DUNN BUILDING 117,155,Sampalli S.
 CSCI 4176 Mobile Computing,20845,Lec,"M,W",0835-0955,Studley GOLDBERG COMPUTER SCIENCE BLDG 127,59,Shakeri H.
 CSCI 4176 Mobile Computing,20846,Lab,R,1135-1255,Studley GOLDBERG COMPUTER SCIENCE BLDG 134,40,Staff
 CSCI 4176 Mobile Computing,20847,Lab,F,1605-1725,Studley GOLDBERG COMPUTER SCIENCE BLDG 134,19,Staff
-CSCI 4177 Advanced Web Services,20848,Lec,"T,R",1305-1425,Studley GOLDBERG COMPUTER SCIENCE BLDG 143,29,Mosquera M.
-CSCI 4177 Advanced Web Services,20849,Tut,F,1305-1425,Studley GOLDBERG COMPUTER SCIENCE BLDG 143,29,Staff
-CSCI 4179 Intelligent Wireless Networks,20850,Lec,"T,R",1435-1555,Studley HENRY HICKS ACADEMIC ADMIN 212,32,Tang Y.
+CSCI 4177 Advanced Web Services,20848,Lec,"T,R",1305-1425,Studley GOLDBERG COMPUTER SCIENCE BLDG 143,30,Mosquera M.
+CSCI 4177 Advanced Web Services,20849,Tut,F,1305-1425,Studley GOLDBERG COMPUTER SCIENCE BLDG 143,30,Staff
+CSCI 4179 Intelligent Wireless Networks,20850,Lec,"T,R",1435-1555,Studley HENRY HICKS ACADEMIC ADMIN 212,33,Tang Y.
 CSCI 4181 Bioinformatics Algorithms,20851,Lec,"M,W",1435-1555,Studley MCCAIN ARTS&SS 2176,10,Maguire F.
 CSCI 4190 Spec Topics-Computer Science,24487,Lec,M,1735-2025,Studley MCCAIN ARTS&SS 1116,1,Oore S.
-CSCI 4192 Directed Studies,20852,Lec,,C/D,Consult Department,7,Arnold D.
+CSCI 4192 Directed Studies,20852,Lec,,C/D,Consult Department,8,Arnold D.
 CSCI 4193 Technology Innovation,20853,Lec,T,1435-1725,Studley KENNETH C ROWE MANAGEMENT 1014,19,Cochran A.
 CSCI 4194 Spec Topics-Computer Science,24490,Lec,"T,R",0835-0955,Carleton TUPPER BLDG 14B02,1,Oore S.
 CSCI 4194 Spec Topics-Computer Science,24491,Tut,M,1435-1555,Studley MCCAIN ARTS&SS 2017,1,Oore S.
-CSCI 4260 Persuasive Computing Design,24378,Lec,F,1435-1725,Studley MCCAIN ARTS&SS 2116,3,Oyebode O.
-CSCI 4260 Persuasive Computing Design,24379,Lab,R,1005-1125,Studley GOLDBERG COMPUTER SCIENCE BLDG 143,3,Staff
+CSCI 4260 Persuasive Computing Design,24378,Lec,F,1435-1725,Studley MCCAIN ARTS&SS 2116,2,Oyebode O.
+CSCI 4260 Persuasive Computing Design,24379,Lab,R,1005-1125,Studley GOLDBERG COMPUTER SCIENCE BLDG 143,2,Staff
 CSCI 4271 Programmable Net Sys & Sec,24369,Lec,"T,R",0835-0955,Studley MCCAIN ARTS&SS 1170,25,Haque I.
 CSCI 4691 Advanced ProjectCourse equivalent with,20854,Lec,"W,F",1135-1255,Carleton COLLABORATIVE HEALTH EDUC BLDG C170,48,Dey S.  (P)Wehbe R.
-CSCI 5001 Privacy & IT,24108,Lec,"T,R",1605-1725,Carleton TUPPER BLDG THTR C,1,Heggie C.
+CSCI 5001 Privacy & IT,24108,Lec,"T,R",1605-1725,Studley MCCAIN ARTS&SS 1170,1,Heggie C.
 CSCI 5001 Privacy & IT,24109,Tut,F,1135-1255,Studley GOLDBERG COMPUTER SCIENCE BLDG 134,1,Staff
-CSCI 5100 Communicating Comp Sci Ideas,23271,Lec,W,1135-1425,Studley MCCAIN ARTS&SS 2170,8,Cochran A.
+CSCI 5100 Communicating Comp Sci Ideas,23271,Lec,W,1135-1425,Studley MCCAIN ARTS&SS 2170,7,Cochran A.
 CSCI 5193 Technology Innovation,23272,Lec,T,1435-1725,Studley KENNETH C ROWE MANAGEMENT 1014,0,Cochran A.
 CSCI 5308 Adv Topics in Software Develop,23273,Lec,R,1435-1725,Studley GOLDBERG COMPUTER SCIENCE BLDG 143,16,Sharma T.
 CSCI 5308 Adv Topics in Software Develop,23274,Tut,F,1435-1555,Studley GOLDBERG COMPUTER SCIENCE BLDG 134,16,Staff
@@ -138,18 +138,18 @@ CSCI 6105 Algorithm Engineering,23287,Lab,F,1005-1125,Studley MONA CAMPBELL BUIL
 CSCI 6314 Applied ML for SE Applications,23290,Lec,T,1435-1725,Studley MCCAIN ARTS&SS 1198,10,Sharma T.
 CSCI 6314 Applied ML for SE Applications,23291,Tut,M,0835-0955,Studley MCCAIN ARTS&SS 2118,10,Staff
 CSCI 6405 Data Mining & Data Warehousing,23292,Lec,"T,R",1435-1555,Studley LSC-COMMON AREA C242,3,Ye Q.
-CSCI 6406 Visualization,23293,Lec,"T,R",1435-1555,Studley MCCAIN ARTS&SS 2162,6,Brooks S.
+CSCI 6406 Visualization,23293,Lec,"T,R",1435-1555,Studley MCCAIN ARTS&SS 2162,7,Brooks S.
 CSCI 6409 Process of Data Science,24449,Lec,"T,R",1435-1555,Studley SIR JAMES DUNN BUILDING 304,12,Oore S.
 CSCI 6409 Process of Data Science,24450,Lab,M,1005-1125,Studley KENNETH C ROWE MANAGEMENT 1014,12,Staff
 CSCI 6516 Deep Learning,23296,Lec,"T,R",0835-0955,Carleton TUPPER BLDG 14B02,11,Oore S.
 CSCI 6516 Deep Learning,23297,Tut,M,1435-1555,Studley MCCAIN ARTS&SS 2017,11,Oore S.
-CSCI 6519 Computational Cognitive Sci.,23298,Lec,F,1135-1425,Studley MCCAIN ARTS&SS 2130,12,Kryven M.
+CSCI 6519 Computational Cognitive Sci.,23298,Lec,F,1135-1425,Studley MCCAIN ARTS&SS 2130,10,Kryven M.
 CSCI 6520 NLP with Deep Learning,24255,Lec,T,1005-1255,Studley MONA CAMPBELL BUILDING 1201,15,Sajjad H.
 CSCI 6610 Human Computer InteractionCourse equivalent with,23299,Lec,W,1435-1725,Studley KENNETH C ROWE MANAGEMENT 1009,8,MacKay B.
 CSCI 6610 Human Computer InteractionCourse equivalent with,23300,Lab,F,0935-1125,Studley KILLAM LIBRARY 2600,8,Staff
 CSCI 6611 Persuasive Computing Design,24380,Lec,F,1435-1725,Studley MCCAIN ARTS&SS 2116,9,Oyebode O.
 CSCI 6611 Persuasive Computing Design,24381,Lab,R,1005-1125,Studley GOLDBERG COMPUTER SCIENCE BLDG 143,9,Staff
-CSCI 6708 Adv Topics in Network Security,23301,Lec,"M,W,F",1135-1225,Studley SIR JAMES DUNN BUILDING 117,16,Sampalli S.
+CSCI 6708 Adv Topics in Network Security,23301,Lec,"M,W,F",1135-1225,Studley SIR JAMES DUNN BUILDING 117,17,Sampalli S.
 CSCI 6709 Software Defined Networking,23302,Lec,"T,R",0835-0955,Studley MCCAIN ARTS&SS 1170,5,Haque I.
 CSCI 6711 Intelligent Wireless Net & Sys,23303,Lec,"T,R",1435-1555,Studley HENRY HICKS ACADEMIC ADMIN 212,3,Tang Y.
 CSCI 6802 Bioinformatics Algorithms,23304,Lec,"M,W",1435-1555,Studley MCCAIN ARTS&SS 2176,2,Maguire F.
@@ -169,4 +169,4 @@ CSCI 8891 Co-op Work Term 1,20860,WkT,,C/D,Consult Department,40,Heggie C.
 CSCI 8892 Co-op Work Term 2,20861,WkT,,C/D,Consult Department,73,Heggie C.
 CSCI 8893 Co-op Work Term 3,20862,WkT,,C/D,Consult Department,28,Heggie C.
 CSCI 8894 Co-op Work Term 4,20863,WkT,,C/D,Consult Department,2,Goudreault M.
-CSCI 9000 Master's Thesis,23313,Ths,,C/D,Consult Department,35,Heywood M.
+CSCI 9000 Master's Thesis,23313,Ths,,C/D,Consult Department,36,Heywood M.
