@@ -19,9 +19,9 @@ CSCI 1170 Intro to Web Design & Devel.,20728,Lab,F,1435-1625,Carleton COLLABORAT
 CSCI 1170 Intro to Web Design & Devel.,20729,Lab,M,1735-1925,Studley SIR JAMES DUNN BUILDING 221C,20,Staff
 CSCI 1300 Calculus in Computer Science,20731,Lec,"M,T,R",1035-1125,Studley SIR JAMES DUNN BUILDING 304,27,DeGagne C.
 CSCI 1300 Calculus in Computer Science,20733,Tut,T,1605-1725,Studley GOLDBERG COMPUTER SCIENCE BLDG 134,27,Staff
-CSCI 1315 Discrete Math for CS,20734,Lec,"M,W,F",1335-1425,Carleton DENTISTRY 3156,97,Siegel A.
+CSCI 1315 Discrete Math for CS,20734,Lec,"M,W,F",1335-1425,Carleton DENTISTRY 3156,98,Siegel A.
 CSCI 1315 Discrete Math for CS,20736,Tut,T,1605-1725,Studley GOLDBERG COMPUTER SCIENCE BLDG 143,38,Staff
-CSCI 1315 Discrete Math for CS,20737,Tut,T,1135-1255,Studley GOLDBERG COMPUTER SCIENCE BLDG 134,59,Staff
+CSCI 1315 Discrete Math for CS,20737,Tut,T,1135-1255,Studley GOLDBERG COMPUTER SCIENCE BLDG 134,60,Staff
 CSCI 1503 Programming for Business,20739,Lec,"M,W",1135-1255,Studley KENNETH C ROWE MANAGEMENT 1014,18,MacKay B.
 CSCI 1503 Programming for Business,20740,Lab,M,1435-1555,Studley GOLDBERG COMPUTER SCIENCE BLDG 143,18,Staff
 CSCI 2100 Workplace Comm for CS,20743,Lec,"T,R",1605-1725,Studley GOLDBERG COMPUTER SCIENCE BLDG 127,79,Goudreault M.
@@ -64,11 +64,11 @@ CSCI 3103 Law for Computer Scientists,20800,Lec,R,1135-1425,Studley MONA CAMPBEL
 CSCI 3110 Algorithms I,20801,Lec,"T,R",1005-1125,Studley GOLDBERG COMPUTER SCIENCE BLDG 127,79,Wilde N.
 CSCI 3110 Algorithms I,20802,Tut,F,0835-0955,Studley GOLDBERG COMPUTER SCIENCE BLDG 127,79,Staff
 CSCI 3120 Operating Systems,20803,Lec,"T,R",0835-0955,Carleton TUPPER BLDG THTR B,118,Ye Q.
-CSCI 3130 Intro to Software Engineering,20804,Lec,"T,R",1305-1425,Studley KILLAM LIBRARY MACME,138,Rahman M.
+CSCI 3130 Intro to Software Engineering,20804,Lec,"T,R",1305-1425,Studley KILLAM LIBRARY MACME,139,Rahman M.
 CSCI 3130 Intro to Software Engineering,20805,Lab,"M,W",1605-1725,Studley MONA CAMPBELL BUILDING 1201,45,Staff
-CSCI 3130 Intro to Software Engineering,20806,Lab,"M,W",1605-1725,Studley GOLDBERG COMPUTER SCIENCE BLDG 134,47,Staff
+CSCI 3130 Intro to Software Engineering,20806,Lab,"M,W",1605-1725,Studley GOLDBERG COMPUTER SCIENCE BLDG 134,48,Staff
 CSCI 3130 Intro to Software Engineering,20807,Lab,"M,W",1605-1725,Studley GOLDBERG COMPUTER SCIENCE BLDG 143,46,Staff
-CSCI 3130 Intro to Software Engineering,20808,Tut,M,1305-1425,Studley CHEMISTRY 125,138,Staff
+CSCI 3130 Intro to Software Engineering,20808,Tut,M,1305-1425,Studley CHEMISTRY 125,139,Staff
 CSCI 3137 Programming Languages,20809,Lec,"T,R",1005-1125,Carleton TUPPER BLDG THTR B,180,Jahan S.
 CSCI 3151 Foundations  of Machine Learn.,20810,Lec,"T,R",1005-1125,Studley LSC-COMMON AREA C208,17,Rudzicz F.
 CSCI 3152 Found. of Machine Learn. II,20812,Lec,"T,R",1605-1725,Studley MCCAIN ARTS&SS 2162,8,Rajendran J.
@@ -133,8 +133,8 @@ CSCI 5708 Mobile Computing,23282,Lab,R,1135-1255,Studley GOLDBERG COMPUTER SCIEN
 CSCI 5708 Mobile Computing,23283,Lab,F,1605-1725,Studley GOLDBERG COMPUTER SCIENCE BLDG 134,5,Staff
 CSCI 5709 Adv. Topics in Web Development,23284,Lec,"T,R",1305-1425,Studley GOLDBERG COMPUTER SCIENCE BLDG 143,3,Mosquera M.
 CSCI 5709 Adv. Topics in Web Development,23285,Tut,F,1305-1425,Studley GOLDBERG COMPUTER SCIENCE BLDG 143,3,Staff
-CSCI 6105 Algorithm Engineering,23286,Lec,"T,R",1605-1725,Studley MCCAIN ARTS&SS 2176,1,Whidden C.
-CSCI 6105 Algorithm Engineering,23287,Lab,F,1005-1125,Studley MONA CAMPBELL BUILDING 1201,1,Staff
+CSCI 6105 Algorithm Engineering,23286,Lec,"T,R",1605-1725,Studley MCCAIN ARTS&SS 2176,2,Whidden C.
+CSCI 6105 Algorithm Engineering,23287,Lab,F,1005-1125,Studley MONA CAMPBELL BUILDING 1201,2,Staff
 CSCI 6314 Applied ML for SE Applications,23290,Lec,T,1435-1725,Studley MCCAIN ARTS&SS 1198,10,Sharma T.
 CSCI 6314 Applied ML for SE Applications,23291,Tut,M,0835-0955,Studley MCCAIN ARTS&SS 2118,10,Staff
 CSCI 6405 Data Mining & Data Warehousing,23292,Lec,"T,R",1435-1555,Studley LSC-COMMON AREA C242,2,Ye Q.
@@ -157,7 +157,7 @@ CSCI 6901 Directed Studies,23307,Lec,,C/D,Consult Department,0,Heywood M.
 CSCI 6902 Doctoral Directed Studies,23308,Lec,,C/D,Consult Department,6,Heywood M.
 CSCI 6904 Spec Grad Topics in Comp Sci,24488,Lec,M,1735-2025,Studley MCCAIN ARTS&SS 1116,11,Oore S.
 CSCI 6998 Graduate Research Seminars 1,23309,Lec,"T,R",1135-1255,Studley GOLDBERG COMPUTER SCIENCE BLDG 127,25,Heywood M.
-CSCI 6999 Research Sem Computer Science,23310,Lec,"T,R",1135-1255,Studley GOLDBERG COMPUTER SCIENCE BLDG 127,40,Heywood M.
+CSCI 6999 Research Sem Computer Science,23310,Lec,"T,R",1135-1255,Studley GOLDBERG COMPUTER SCIENCE BLDG 127,41,Heywood M.
 CSCI 7900 Directed Research Project,23311,Lec,,C/D,Consult Department,29,Heywood M.
 CSCI 7901 Doctoral Thesis Proposal,23312,Ths,,C/D,Consult Department,30,Heywood M.
 CSCI 8799 Work Term,20855,WkT,,C/D,Consult Department,2,Heggie C.
@@ -165,7 +165,7 @@ CSCI 8873 Honours Seminar,20856,Lec,,C/D,Consult Department,8,Arnold D.
 CSCI 8874 Research Project 1,20857,Lec,,C/D,Consult Department,0,Fleming J.
 CSCI 8875 Research Project 2,20858,Lec,,C/D,Consult Department,0,Fleming J.
 CSCI 8890 Co-op Seminar,20859,Lec,,C/D,Consult Department,0,Staff
-CSCI 8891 Co-op Work Term 1,20860,WkT,,C/D,Consult Department,36,Heggie C.
+CSCI 8891 Co-op Work Term 1,20860,WkT,,C/D,Consult Department,35,Heggie C.
 CSCI 8892 Co-op Work Term 2,20861,WkT,,C/D,Consult Department,71,Heggie C.
 CSCI 8893 Co-op Work Term 3,20862,WkT,,C/D,Consult Department,28,Heggie C.
 CSCI 8894 Co-op Work Term 4,20863,WkT,,C/D,Consult Department,2,Goudreault M.
