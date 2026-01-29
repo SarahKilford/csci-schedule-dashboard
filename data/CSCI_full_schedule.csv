@@ -1,12 +1,12 @@
 Course Title,CRN,Type,Days,Time,Location,Current Enrollment,Instructor
-CSCI 1105 Intro to Computer Programming,20698,Lec,"T,R",1305-1425,Studley KENNETH C ROWE MANAGEMENT 1007,40,Poitras E.
-CSCI 1105 Intro to Computer Programming,20700,Lab,F,1135-1255,Studley MONA CAMPBELL BUILDING 1201,40,Staff
+CSCI 1105 Intro to Computer Programming,20698,Lec,"T,R",1305-1425,Studley KENNETH C ROWE MANAGEMENT 1007,39,Poitras E.
+CSCI 1105 Intro to Computer Programming,20700,Lab,F,1135-1255,Studley MONA CAMPBELL BUILDING 1201,39,Staff
 CSCI 1108 Experimental Robotics,20702,Lec,"W,F",1005-1125,Studley KENNETH C ROWE MANAGEMENT 1014,17,Sajjad H.
 CSCI 1108 Experimental Robotics,20703,Lab,"T,R",1435-1555,Studley GOLDBERG COMPUTER SCIENCE BLDG 134,17,Staff
 CSCI 1109 Practical Data Science,20704,Lec,"M,W",1135-1255,Studley CHEMISTRY 125,23,Marchand Y.
-CSCI 1109 Practical Data Science,20705,Lec,"T,R",0835-0955,Studley LSC-COMMON AREA C208,8,Rudzicz F.
+CSCI 1109 Practical Data Science,20705,Lec,"T,R",0835-0955,Studley LSC-COMMON AREA C208,7,Rudzicz F.
 CSCI 1109 Practical Data Science,20707,Lab,T,1435-1555,Studley MONA CAMPBELL BUILDING 1201,6,Staff
-CSCI 1109 Practical Data Science,20708,Lab,R,1135-1255,Studley MONA CAMPBELL BUILDING 1201,25,Staff
+CSCI 1109 Practical Data Science,20708,Lab,R,1135-1255,Studley MONA CAMPBELL BUILDING 1201,24,Staff
 CSCI 1110 Intro to Computer Science,20711,Lec,"T,R",1305-1425,Studley GOLDBERG COMPUTER SCIENCE BLDG 127,90,Tang Y.
 CSCI 1110 Intro to Computer Science,20712,Lec,"T,R",0835-0955,Studley LSC-COMMON AREA C220,36,Shakeri H.
 CSCI 1110 Intro to Computer Science,20715,Lab,W,1305-1425,Studley GOLDBERG COMPUTER SCIENCE BLDG 134,40,Staff
@@ -43,8 +43,8 @@ CSCI 2134 Software Development,20768,Lab,F,0835-0955,Studley KENNETH C ROWE MANA
 CSCI 2141 Intro to Database Systems,20770,Lec,"T,R",1305-1425,Studley KENNETH C ROWE MANAGEMENT 1020,101,Aziz K.
 CSCI 2141 Intro to Database Systems,20771,Lec,"T,R",1605-1725,Studley SIR JAMES DUNN BUILDING 101,39,Aziz K.
 CSCI 2141 Intro to Database Systems,20774,Lab,F,1305-1425,Studley MCCAIN ARTS&SS AUD-1,140,Staff
-CSCI 2170 Intro to Server Side Scripting,20777,Lec,"W,F",0835-0955,Studley KENNETH C ROWE MANAGEMENT 1009,80,Sampangi R.
-CSCI 2170 Intro to Server Side Scripting,20779,Tut,M,1435-1555,Carleton DENTISTRY 4116,80,Staff
+CSCI 2170 Intro to Server Side Scripting,20777,Lec,"W,F",0835-0955,Studley KENNETH C ROWE MANAGEMENT 1009,79,Sampangi R.
+CSCI 2170 Intro to Server Side Scripting,20779,Tut,M,1435-1555,Carleton DENTISTRY 4116,79,Staff
 CSCI 2201 Introduction to Info Security,20780,Lec,"W,F",1305-1425,Carleton TUPPER BLDG THTR B,89,Haque I.
 CSCI 2201 Introduction to Info Security,20782,Lab,M,1305-1425,Studley GOLDBERG COMPUTER SCIENCE BLDG 143,58,Staff
 CSCI 2201 Introduction to Info Security,20783,Lab,W,1005-1125,Studley GOLDBERG COMPUTER SCIENCE BLDG 143,31,Staff
@@ -91,7 +91,7 @@ CSCI 4118 Algorithm Engineering,20827,Lec,"T,R",1605-1725,Studley MCCAIN ARTS&SS
 CSCI 4118 Algorithm Engineering,20828,Lab,F,1005-1125,Studley MONA CAMPBELL BUILDING 1201,20,Staff
 CSCI 4130 Applied ML for SE Applications,20831,Lec,T,1435-1725,Studley MCCAIN ARTS&SS 1198,3,Sharma T.
 CSCI 4130 Applied ML for SE Applications,20832,Tut,M,0835-0955,Studley MCCAIN ARTS&SS 2118,3,Staff
-CSCI 4144 Data Mining/Warehousing,20835,Lec,"T,R",1435-1555,Studley LSC-COMMON AREA C242,110,Ye Q.
+CSCI 4144 Data Mining/Warehousing,20835,Lec,"T,R",1435-1555,Studley LSC-COMMON AREA C242,109,Ye Q.
 CSCI 4146 Process of Data Science,24447,Lec,"T,R",1435-1555,Studley SIR JAMES DUNN BUILDING 304,2,Oore S.
 CSCI 4146 Process of Data Science,24448,Lab,M,1005-1125,Studley KENNETH C ROWE MANAGEMENT 1014,2,Staff
 CSCI 4158 NLP with Deep Learning,20838,Lec,T,1005-1255,Studley MONA CAMPBELL BUILDING 1201,20,Sajjad H.
@@ -101,8 +101,8 @@ CSCI 4166 Visualization,20841,Lec,"T,R",1435-1555,Studley MCCAIN ARTS&SS 2162,17
 CSCI 4169 Usable Security and Privacy,20842,Lec,"T,R",1605-1725,Studley KENNETH C ROWE MANAGEMENT 1007,48,Sampangi R.
 CSCI 4169 Usable Security and Privacy,20843,Lab,M,1305-1425,Studley MONA CAMPBELL BUILDING 1201,48,Staff
 CSCI 4174 Network Security,20844,Lec,"M,W,F",1135-1225,Studley SIR JAMES DUNN BUILDING 117,157,Sampalli S.
-CSCI 4176 Mobile Computing,20845,Lec,"M,W",0835-0955,Studley GOLDBERG COMPUTER SCIENCE BLDG 127,58,Shakeri H.
-CSCI 4176 Mobile Computing,20846,Lab,R,1135-1255,Studley GOLDBERG COMPUTER SCIENCE BLDG 134,39,Staff
+CSCI 4176 Mobile Computing,20845,Lec,"M,W",0835-0955,Studley GOLDBERG COMPUTER SCIENCE BLDG 127,57,Shakeri H.
+CSCI 4176 Mobile Computing,20846,Lab,R,1135-1255,Studley GOLDBERG COMPUTER SCIENCE BLDG 134,38,Staff
 CSCI 4176 Mobile Computing,20847,Lab,F,1605-1725,Studley GOLDBERG COMPUTER SCIENCE BLDG 134,19,Staff
 CSCI 4177 Advanced Web Services,20848,Lec,"T,R",1305-1425,Studley GOLDBERG COMPUTER SCIENCE BLDG 143,27,Mosquera M.
 CSCI 4177 Advanced Web Services,20849,Tut,F,1305-1425,Studley GOLDBERG COMPUTER SCIENCE BLDG 143,27,Staff
@@ -156,8 +156,8 @@ CSCI 6802 Bioinformatics Algorithms,23304,Lec,"M,W",1435-1555,Studley MCCAIN ART
 CSCI 6901 Directed Studies,23307,Lec,,C/D,Consult Department,0,Heywood M.
 CSCI 6902 Doctoral Directed Studies,23308,Lec,,C/D,Consult Department,6,Heywood M.
 CSCI 6904 Spec Grad Topics in Comp Sci,24488,Lec,M,1735-2025,Studley MCCAIN ARTS&SS 1116,11,Oore S.
-CSCI 6998 Graduate Research Seminars 1,23309,Lec,"T,R",1135-1255,Studley GOLDBERG COMPUTER SCIENCE BLDG 127,25,Heywood M.
-CSCI 6999 Research Sem Computer Science,23310,Lec,"T,R",1135-1255,Studley GOLDBERG COMPUTER SCIENCE BLDG 127,41,Heywood M.
+CSCI 6998 Graduate Research Seminars 1,23309,Lec,"T,R",1135-1255,Studley GOLDBERG COMPUTER SCIENCE BLDG 127,26,Heywood M.
+CSCI 6999 Research Sem Computer Science,23310,Lec,"T,R",1135-1255,Studley GOLDBERG COMPUTER SCIENCE BLDG 127,42,Heywood M.
 CSCI 7900 Directed Research Project,23311,Lec,,C/D,Consult Department,29,Heywood M.
 CSCI 7901 Doctoral Thesis Proposal,23312,Ths,,C/D,Consult Department,30,Heywood M.
 CSCI 8799 Work Term,20855,WkT,,C/D,Consult Department,2,Heggie C.
@@ -169,4 +169,4 @@ CSCI 8891 Co-op Work Term 1,20860,WkT,,C/D,Consult Department,35,Heggie C.
 CSCI 8892 Co-op Work Term 2,20861,WkT,,C/D,Consult Department,71,Heggie C.
 CSCI 8893 Co-op Work Term 3,20862,WkT,,C/D,Consult Department,28,Heggie C.
 CSCI 8894 Co-op Work Term 4,20863,WkT,,C/D,Consult Department,2,Goudreault M.
-CSCI 9000 Master's Thesis,23313,Ths,,C/D,Consult Department,36,Heywood M.
+CSCI 9000 Master's Thesis,23313,Ths,,C/D,Consult Department,37,Heywood M.
